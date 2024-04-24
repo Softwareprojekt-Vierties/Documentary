@@ -336,17 +336,22 @@ Uns ist aufgefallen, dass das Erstellen von Events sehr dezentralisiert stattfin
     * Ja, ein solch zentrales System ist noch nicht vorhanden (nur in dezentralisierter Form und jeder Location Anbieter ist unterschiedlich)
     * Ja, weil diese Plattform die Möglichkeit bietet die Situation vieler verschiedene Akteure zu verbessern
 <br>
+
 * Wie hoch sind Aufwand und erwarteter Nutzen und stehen diese in einem sinnvollen Verhältnis?
     * Der Aufwand für dieses Projekt wird sich höchstwahrscheinlich aus der Struktur der Datenbank ergeben
     * Mit einer gut vorgeplanten Struktur und Vorgehensweise sollte sich diese als komplex, aber dennoch als möglich ergeben
     * Hohe erwartete Nutzerzahlen, weil die Anwendung eine hohe Möglichkeit zur Skalierung bietet
     * Es profitieren viele verschiedene Gruppen von unserer Plattform
+
 <br>
+
 * Verfügen Sie über die notwendigen Kompetenzen? (Umsetzbarkeit)
     * Wir haben alle Erfahrung mit dem Code schreiben
     * Jeder hat, durch das Fach Datenbanken, Erfahrung mit SQL
     * Es könnten Schwierigkeiten bei der Entwicklung der Website und der Android App geben (keine Erfahrungen in der Gruppe vorhanden)
+
 <br>
+
 * Welche Risiken und negativen Nebeneffekte sind zu erwarten?
     * Jüngere und unerfahrene Eventplaner könnten aus Versehen eine öffentliche und große Veranstaltung planen (Fall von Tessa)
     * Data Leaks
