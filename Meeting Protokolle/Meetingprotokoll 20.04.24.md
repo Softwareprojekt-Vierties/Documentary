@@ -15,11 +15,11 @@
  Folgende Ideen liegen bevor:
 
 * **Restaurant Übersicht:**
-    * zentrale Restaurant Übersicht
+    * Zentrale Restaurant Übersicht
     * Was gibt es dort zu essen?
     * Kunden können Rezensionen für das Essen spezifisch erstellen und Fotos hochladen
     * KI empfiehlt das beste Restaurant relativ zu den Speisen die der Benutzer liebt und dort auch gute Rezensionen haben
-    * verwenden von einer Karte (OpenStreetMap)
+    * Verwenden von einer Karte (OpenStreetMap)
     * Akteure:
         * Benutzer
         * Restaurantinhaber
@@ -27,18 +27,18 @@
 * **Sammeltaxi für Kindergarten:**
     * Land NRW möchte “Elterntaxi” verbieten (CO²)
     * Taxi Mutter/Vater haben Ausbildung und bieten ihren Service über eine App
-        * jemand der mit den Kindern arbeitet
-        * mehr Vertrauen für die Eltern
+        * Jemand der mit den Kindern arbeitet
+        * Mehr Vertrauen für die Eltern
     * Tagesmutter /-vater können die Kinder hinbringen, abholen und auch auf die Kinder für eine gewisse Zeit aufpassen
     * Zentraler Ort wo solch ein Service angeboten werden kann
     * Eltern können eine Übersicht (Karte) haben, wo ihr Kind gerade ist
     * Busse können verwendet werden
-    * private Taxiunternehmen die nur Kinder chauffieren
-    * verwenden von einer Karte (OpenStreetMap)
+    * Private Taxiunternehmen die nur Kinder chauffieren
+    * Verwenden von einer Karte (OpenStreetMap)
     * Akteure:
         * Eltern
         * Kindergarten / Grundschulen
-        * private Taxiunternehmen
+        * Private Taxiunternehmen
         * Tagesvater /-mutter
 
 * **How to Water your Plants:** 
@@ -46,21 +46,21 @@
     * Wann muss gedüngt werden?
     * Über eine Datenbank kann man sich eine grafische Übersicht holen
     * Für Bauern? Für Gärtner?
-    * Verwendet mehrere Sensoren
-        * von wenigen (Feuchtigkeit Sensor)
-        * bis hin zu (Bodeninhaltsstoffe)
+    * Verwendet mehrere Sensoren:
+        * Von wenigen (Feuchtigkeit Sensor)
+        * Bis hin zu (Bodeninhaltsstoffe)
     * Verwenden von Daten um herauszufinden, ob die Pflanzen gegossen werden müssen oder lieber auf einen Tag mit Regen warten
-    * verwenden von einer Karte (OpenStreetMap)
+    * Verwenden von einer Karte (OpenStreetMap)
     * Sensoren direkt an den Pflanzen - über App sehen * welche Pflanze wie viel braucht (Kleingärtner)
-    * mit Sensoren kann man eine Karte erstellen und sehen wie die Feuchtigkeitsverteilung ist (Landwirt)
+    * Mit Sensoren kann man eine Karte erstellen und sehen wie die Feuchtigkeitsverteilung ist (Landwirt)
     * Landwirtschaftsgeräte vermieten (zwischen den Bauern)
     * Übersicht von wie viel Verlust/Gewinn ein Feld erstellt
     * Wann ist die beste Zeit zu ernten?
     * Akteure:
         * Landwirt
-        * privater Gärtner
+        * Privater Gärtner
         * Location Finder:
-            * verwenden von einer Karte (OpenStreetMap)
+            * Verwenden von einer Karte (OpenStreetMap)
 
 * **AirBnB für Party Locations**
     * DJs in der Nähe finden
@@ -68,12 +68,12 @@
     * Einkaufsmöglichkeiten (Rewe, Trink Fuchs, Pizzeria)
     * Filtern von Möglichkeiten / Limitierungen  (Rauchen, Tiere werden gestört, etc.)
     * Auflisten von bereits geplanten Parties
-        * in welcher Party spielt bereits der DJ
-    * eine Veranstaltung planen und finden
-    * welche Lieferunternehmen liefern zu welcher Party
-    * für Lieferunternehmen:
+        * In welcher Party spielt bereits der DJ
+    * Eine Veranstaltung planen und finden
+    * Welche Lieferunternehmen liefern zu welcher Party
+    * Für Lieferunternehmen:
         * Übersicht von Ausgaben
-    * für DJ:
+    * Für DJ:
         * Übersicht wo man stattfindet
         * Blog wo man als nächstes stattfindet
     * Akteure:
@@ -106,99 +106,98 @@ Uns ist aufgefallen, dass das Erstellen von Events sehr dezentralisiert stattfin
 
 ### Ziele
 * **Was sind Ziele des Produkts/des Services?**
-    * vereinfachen Veranstaltungen zu finden
+    * Vereinfachen Veranstaltungen zu finden
     * Übersicht von welchen DJs / Bands gerade wo auftreten werden
     * Welche Caterer sind gerade wo unterwegs?
     * Tickets können über der Plattform erworben werden
-    * alle Tickets sind über QR-Codes auf der App verfügbar
+    * Alle Tickets sind über QR-Codes auf der App verfügbar
     * Tickets können über die App direkt validiert werden
-    * sich über Veranstaltungen informieren
-    * welches Essen gibt es / Speisekarte
-    * welche Musik wird gespielt
-    * was sind die Kosten
-    * welcher DJ spielt? Was hat er früher gespielt
-    * wieviel Menschen sind an der Veranstaltung interessiert
-    * man kann sich über den DJ / Band, Caterer und Location selbst informieren, über deren Seiten
-    * selber Veranstaltungen erstellen (private / öffentliche)
-    * auswählen von Restaurants, Partykeller/-räume bis zu Hörsälen
-    * über die Plattform kann man sich mit anderen Menschen anfreunden / “connecten”
+    * Sich über Veranstaltungen informieren
+    * Welche Musik wird gespielt
+    * Was sind die Kosten
+    * Welcher DJ spielt? Was hat er früher gespielt
+    * Wie viel Menschen sind an der Veranstaltung interessiert
+    * Man kann sich über den DJ / Band, Caterer und Location selbst informieren, über deren Seiten
+    * Selber Veranstaltungen erstellen (private / öffentliche)
+    * Auswählen von Restaurants, Partykeller/-räume bis zu Hörsälen
+    * Über die Plattform kann man sich mit anderen Menschen anfreunden / “connecten”
     * Bewertungen von DJs, Eventlocations und Caterer
     * Filtern nach Musikgruppen
     * Übersichtsseite von DJs, Eventlocations und Caterer
-    * für die Veranstaltung muss kein DJ und Caterer angegeben / gebucht werden
+    * Für die Veranstaltung muss kein DJ und Caterer angegeben / gebucht werden
 
 <br>
 
 * **Warum ist das Produkt sinnvoll?**
-    * es liefert alle Informationen und Möglichkeiten an einem Ort
-    * bietet eine gute Übersicht
-    * bietet leichten Anschluss zu Gruppen und neuen Freunden
+    * Es liefert alle Informationen und Möglichkeiten an einem Ort
+    * Bietet eine gute Übersicht
+    * Bietet leichten Anschluss zu Gruppen und neuen Freunden
 
 <br>
 
 * **Was macht dieses Produkt/der Service anders?**
-alles ist Zentralisiert
-Events, Caterer, DJs und mehr können Bewertet werden
-zeigt direkt die Adresse auf einer Karte
-Tickets sind alle auf einer App (QR-Code)
-das Erstellen von Events ist viel reichlich 
-privat / öffentlich
-Zuhause oder Location buchen
-DJ buchen oder selber Musik spielen
-Caterer nötig oder Essen selber bereitstellen
+    * Alles ist Zentralisiert
+    * Events, Caterer, DJs und mehr können Bewertet werden
+    * Zeigt direkt die Adresse auf einer Karte
+    * Tickets sind alle auf einer App (QR-Code)
+    * Das Erstellen von Events ist viel reichlich 
+        * privat / öffentlich
+    * Zuhause oder Location buchen
+    * DJ buchen oder selber Musik spielen
+    *  Caterer nötig oder Essen selber bereitstellen
 
 <br>
 
 * **Was sind die Anwendungsbereiche?**
     * Veranstaltungen besuchen, buchen, organisieren und erstellen
     * Blogs/Kommentare erstellen und Gruppen / Freunde finden
-    * große öffentliche bis hin zu kleinen privaten Veranstaltungen
+    * Große öffentliche bis hin zu kleinen privaten Veranstaltungen
 
 <br>
 
 * **Abgrenzung: Was ist das Softwareprodukt nicht?**
-    * es ist nicht das einfache “googeln” von Caterer
-    * es ist nicht das einfache Booking.com für Veranstalltungen
+    * Es ist nicht das einfache “googeln” von Caterer
+    * Es ist nicht das einfache Booking.com für Veranstalltungen
 
 <br>
 
 * **Welche Alleinstellungsmerkmale hat das Produkt und was macht dieses Produkt anders?**
-    * ganze Veranstaltungs-Ökosystem ist in einer App verfügbar
+    * Ganze Veranstaltungs-Ökosystem ist in einer App verfügbar
 
 <br>
 
 * **Zu welchen anderen Produkten steht das Produkt in Konkurrenz?**
     * Facebook
-        * bietet das erstellen von Veranstaltungen an
-        * bietet das erstellen und finden von Freunden und Gruppen an
+        * Bietet das erstellen von Veranstaltungen an
+        * Bietet das erstellen und finden von Freunden und Gruppen an
     * eventlocations.com
-        * bietet nur die Locations an sich selber an
-        * manche Locations geben frei, welcher Caterer verwendet werden können
+        * Bietet nur die Locations an sich selber an
+        * Manche Locations geben frei, welcher Caterer verwendet werden können
     * https://hochzeits-location.info/
-        * bietet nur Hochzeiten an
+        * Bietet nur Hochzeiten an
     * https://www.locationagent.de/
-        * bietet nur die Locations an sich selber an
+        * Bietet nur die Locations an sich selber an
     * https://location-mieten.de/
-        * bietet nur die Locations an sich selber an
+        * Bietet nur die Locations an sich selber an
 
 <br>
 
 * **Welche alternativen Lösungsideen existieren für den identifizierten Bedarf?**
-    * private Veranstaltungen könnten trotzdem über WhatsApp geführt werden
+    * Private Veranstaltungen könnten trotzdem über WhatsApp geführt werden
     * Eventmanager / Eventagentur suchen (diese sind jedoch teuer)
-    * öffentliche Veranstaltungen können trotzdem über Facebook erstellt werden
-    * kein Ticket System und nicht klar ob das was geplant ist wirklich passiert
+    * Öffentliche Veranstaltungen können trotzdem über Facebook erstellt werden
+    * Kein Ticket System und nicht klar ob das was geplant ist wirklich passiert
 
 <br>
 
 * **Anwendungsbereiche, Motivation, Umfang**
     * Location Anbieter, Caterer und DJs können Geld verdienen und bekannter werden
-    * für DJs bietet sich publiz an
-    * größere Veranstaltungen sind für kleine Veranstaltungsplaner übersichtlicher
-    * schneller Überblick möglich, wo, was, wie, wer
+    * Für DJs bietet sich publiz an
+    * Größere Veranstaltungen sind für kleine Veranstaltungsplaner übersichtlicher
+    * Schneller Überblick möglich, wo, was, wie, wer
     * Freunde leichter einladen
-    * leichter Freunde finden
-    * private / öffentliche Veranstaltungen
+    * Leichter Freunde finden
+    * Private / öffentliche Veranstaltungen
     * Komplettlösung
 
 <br>
@@ -206,15 +205,15 @@ Caterer nötig oder Essen selber bereitstellen
 
 * **Welche Marktanforderungen werden bedient?**
     * Feedback und Bewertungssystem
-    * einfache, schnelle und übersichtliche Bedienung
-    * kompatibilität auf verschiedenen Geräten
+    * Einfache, schnelle und übersichtliche Bedienung
+    * Kompatibilität auf verschiedenen Geräten
     * Datens*chutz
     * Was soll überhaupt angezeigt werden?
     * Benutzerfreundlichkeit (Kunden- & Anwendungssupport)
-    * mehrere Sprachen
+    * Mehrere Sprachen
     * Dark Mode
     * Erklärung von Funktionen
-    * schnelle Einsicht, ob etwas verfügbar ist
+    * Schnelle Einsicht, ob etwas verfügbar ist
     * Outdoor: Wetter Empfehlung
     * Soziale Interaktion mit Nutzern
 
@@ -240,15 +239,15 @@ Caterer nötig oder Essen selber bereitstellen
     <br>
 
 * **Monetarisierung: Wie kann mit dem Produkt Geld verdient werden?**
-Jede Transaktion hat eine kleine %-Satz die an die Anwendung geht
-DJs, Caterer und Location Anbieter können mit Anzahlungen weiter oben auf der Liste für den Nutzer angezeigt werden
+    * Jede Transaktion hat eine kleine %-Satz die an die Anwendung geht
+    * DJs, Caterer und Location Anbieter können mit Anzahlungen weiter oben auf der Liste für den Nutzer angezeigt werden
 
 <br>
 
 ### Extra Ideen
-* beim Planen von Events kann man einen Caterer, Location und DJ auswählen
-* diese müssen zuerst zusagen
-* erst nachdem alle Teilen
+* Beim Planen von Events kann man einen Caterer, Location und DJ auswählen
+* Diese müssen zuerst zusagen
+* Erst nachdem alle Teilen
 
 <br>
 
@@ -271,7 +270,7 @@ DJs, Caterer und Location Anbieter können mit Anzahlungen weiter oben auf der L
         * Publiz
         * Geld verdienen
     * Caterer
-        * bieten Speisen und Getränke für ein Event an
+        * Bieten Speisen und Getränke für ein Event an
         * Wollen Aufträge generieren
         * Publiz
     * Eventplaner
@@ -288,7 +287,7 @@ DJs, Caterer und Location Anbieter können mit Anzahlungen weiter oben auf der L
 <br>
 
 * **Was sind die Bedürfnisse, die das Produkt befriedigt?**
-    * zentrale, einfache und verständnisvolle Übersicht
+    * Zentrale, einfache und verständnisvolle Übersicht
     * Erweiterung der Publiz
     * Vernetzung von verschiedenen Diensten
     * Connecten mit Freunden
@@ -298,18 +297,18 @@ DJs, Caterer und Location Anbieter können mit Anzahlungen weiter oben auf der L
 * **Was ist die Zielbenutzergruppe und deren Merkmale (Bildung, Erfahrung, Sachkenntnis)?** 
     * Endnutzer (Eventteilnehmer)
         * Laien
-        * die andere Menschen kennenlernen wollen
-        * oder auch Menschen, die oft auf Veranstaltungen gehen (Profis)
+        * Die andere Menschen kennenlernen wollen
+        * Oder auch Menschen, die oft auf Veranstaltungen gehen (Profis)
     * Eventplaner
-        * jüngere und unerfahrene Privatpersonen
-        * auch professionelle Eventplaner
+        * Jüngere und unerfahrene Privatpersonen
+        * Auch professionelle Eventplaner
     * Caterer
-        * professionelle Unternehmen, die einen Lieferdienst anbieten
+        * Professionelle Unternehmen, die einen Lieferdienst anbieten
     * Location Anbieter
-       *  kann eine privat Personen sein (Bauer mit Scheune)
-       *  kann ein Gewerbe sein (Hörsaal, Kneipen, etc.)
+       *  Kann eine privat Personen sein (Bauer mit Scheune)
+       *  Kann ein Gewerbe sein (Hörsaal, Kneipen, etc.)
     * DJs und Bands
-       *  wollen mit der Musik nebenbei Geld verdienen
+       *  Wollen mit der Musik nebenbei Geld verdienen
        *  Können aber auch hauptberufliche DJs / Bands sein
 
 <br>
@@ -317,11 +316,11 @@ DJs, Caterer und Location Anbieter können mit Anzahlungen weiter oben auf der L
 * **Warum sollte der Kunde dieses Produkt/den Service „kaufen“ oder nutzen?**
     * Endnutzer (Eventteilnehmer)
         * Übersicht aller Veranstaltungen
-        * kann Ticket direkt in der Anwendung buchen
-        * findet alle Informationen an einem Ort
-*   * Eventplaner
-        * leichte und übersichtliche Planung
-        * kann direkt Musik, Caterer und die Location auswählen
+        * Kann Ticket direkt in der Anwendung buchen
+        * Findet alle Informationen an einem Ort
+   * Eventplaner
+        * Leichte und übersichtliche Planung
+        * Kann direkt Musik, Caterer und die Location auswählen
     * Caterer
         * Publiz und Kundschaft
         * Location Anbieter
@@ -338,17 +337,17 @@ DJs, Caterer und Location Anbieter können mit Anzahlungen weiter oben auf der L
     * Ja, weil diese Plattform die Möglichkeit bietet die Situation vieler verschiedene Akteure zu verbessern
 <br>
 * Wie hoch sind Aufwand und erwarteter Nutzen und stehen diese in einem sinnvollen Verhältnis?
-    * der Aufwand für dieses Projekt wird sich höchstwahrscheinlich aus der Struktur der Datenbank ergeben
-    * mit einer gut vorgeplanten Struktur und Vorgehensweise sollte sich diese als komplex, aber dennoch als möglich ergeben
+    * Der Aufwand für dieses Projekt wird sich höchstwahrscheinlich aus der Struktur der Datenbank ergeben
+    * Mit einer gut vorgeplanten Struktur und Vorgehensweise sollte sich diese als komplex, aber dennoch als möglich ergeben
     * Hohe erwartete Nutzerzahlen, weil die Anwendung eine hohe Möglichkeit zur Skalierung bietet
     * Es profitieren viele verschiedene Gruppen von unserer Plattform
 <br>
 * Verfügen Sie über die notwendigen Kompetenzen? (Umsetzbarkeit)
-    * wir haben alle Erfahrung mit dem Code schreiben
-    * jeder hat, durch das Fach Datenbanken, Erfahrung mit SQL
-    * es könnten Schwierigkeiten bei der Entwicklung der Website und der Android App geben (keine Erfahrungen in der Gruppe vorhanden)
+    * Wir haben alle Erfahrung mit dem Code schreiben
+    * Jeder hat, durch das Fach Datenbanken, Erfahrung mit SQL
+    * Es könnten Schwierigkeiten bei der Entwicklung der Website und der Android App geben (keine Erfahrungen in der Gruppe vorhanden)
 <br>
 * Welche Risiken und negativen Nebeneffekte sind zu erwarten?
-    * jüngere und unerfahrene Eventplaner könnten aus Versehen eine öffentliche und große Veranstaltung planen (Fall von Tessa)
+    * Jüngere und unerfahrene Eventplaner könnten aus Versehen eine öffentliche und große Veranstaltung planen (Fall von Tessa)
     * Data Leaks
     * Sicherheitslücken
