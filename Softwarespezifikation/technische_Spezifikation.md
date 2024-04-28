@@ -74,65 +74,38 @@ wird.
 ## 2.2 Funktionale Anforderungen
 
 * Use Case Diagram - Eventure
-
 ![](media/Usecases.jpg)
 
 * Architektur
-
 ![](media/Structure.jpg)
 
 * ER-Diagram
-
 ![](media/EntityRelations.jpg)
 
 * Kommunikation zwischen Client und Server
-
 ![](media/ClientServerCommunication.jpg)
 
 ---
 
-### 2.2.1 Akteure
+### 2.3 Akteure
 
-* Endnutzer
-  * ist ein Eventteilnehmer und der Haupt-Konsument
-* DJs und Bands
-  * dient seine Dienstleistung an den Eventplaner an
-* Caterer
-  * dient seine Dienstleistung an den Eventplaner an
-* Eventplaner
-  * bietet mithilfe von DJs/Bands, Caterer und Location Anbieter den Endnutzer ein Event an
-* Location Anbieter
-  * dient seine Dienstleistung an den Eventplaner an
+*Endnutzer:*
+
+
+* Akteure sowie andere Begriffe der implementierten Fachdomäne definieren
+* Begriffe konsistent in der Spezifikation verwenden
+* Begriffe im Glossar am Ende des Dokuments darstellen
 
 ---
 
 ## 2.3 Nicht-funktionale Anforderungen
 ### 2.3.1 Rahmenbedingungen
-
-* Standards
-  * Einheitliches Webdesign
-* Hardware
-  * für Endnutzer
-    * Gerät, dass auf das Web zugreifen kann
-  * Server
-    * muss Anfragen möglichst schnell verarbeiten
-    * muss möglichst schnelle Antworten liefern
-    * muss skalierbar sein, um für zukünftigen Wachstum zu kompensieren
-  * Datenbank
-    * hohe Speicherkapazität für
-      * Profilbilder
-      * Hintergrundbilder von Profilen
-      * Medienspeicher
+* Normen, Standards, Protokolle, Hardware, externe Vorgaben
 
 ---
 
 ### 2.3.2 Betriebsbedingungen
-
-Vorgaben des Kunden:
-* Webbrowser Unterstützung:
-  * Google Chrome
-  * Microsoft Edge
-  * Firefox
+* Vorgaben des Kunden (z.B. Web Browser / Betriebssystem Versionen, Programmiersprache)
 
 ---
 
@@ -149,13 +122,13 @@ Vorgaben des Kunden:
   | Richtigkeit                | X        | -   | -      | -              |
   | Konformität                | -        | X   | -      | -              |
   | **Benutzerfreundlichkeit** |          |     |        |                |
-  | Installierbarkeit          | -        | -   | -      | X              |
-  | Verständlichkeit           | -        | X   | -      | -              |
+  | Installierbarkeit          | -        | -   | X      | -              |
+  | Verständlichkeit           | X        | -   | -      | -              |
   | Erlernbarkeit              | -        | X   | -      | -              |
-  | Bedienbarkeit              | X        | -   | -      | -              |
+  | Bedienbarkeit              | -        | X   | -      | -              |
   | **Performance**            |          |     |        |                |
-  | Zeitverhalten              | X        | -   | -      | -              |
-  | Effizienz                  | -        | X   | -      | -              |
+  | Zeitverhalten              | -        | -   | X      | -              |
+  | Effizienz                  | -        | -   | -      | X              |
   | **Sicherheit**             |          |     |        |                |
   | Analysierbarkeit           | X        | -   | -      | -              |
   | Modifizierbarkeit          | -        | -   | -      | X              |
@@ -165,8 +138,13 @@ Vorgaben des Kunden:
 ---
 
 ## 2.4 Graphische Benutzerschnittstelle
-
-Für eine GUI-Mockup, siehe: 
+* GUI-Mockups passend zu User Stories
+* Screens mit Überschrift kennzeichnen, die im Inhaltsverzeichnis zu sehen ist
+* Unter den Screens darstellen (bzw. verlinken), welche User Stories mit dem Screen
+  abgehandelt werden
+* Modellierung der Navigation zwischen den Screens der GUI-Mockups als Zustandsdiagramm
+* Mockups für unterschiedliche Akteure
+* Mockups für unterschiedliche Frontends (Mobil, Web, Desktop)
 
 ---
 
@@ -222,13 +200,26 @@ Für eine GUI-Mockup, siehe:
 ---
 
 ### 3.2.1 Technologieauswahl
+### Framework
+* **vue.js**
+### Technologien
+* **MySQL**
+### Datenformate
+* **JSON**
+* **Web Tooken**
+### Protokolle
+* **HTTP**
+
 Beschreiben Sie hier, welche Frameworks / Technologien / Bibliotheken / Datenformate /
 Protokolle benutzt werden.
 
 ---
 
 ## 3.3 Schnittstellen
-* Schnittstellenbeschreibung (API)
+### Schnittstellenbeschreibung (API)
+* **REST API**
+
+
 * Auflistung der nach außen sichtbaren Schnittstelle der Softwarebausteine
   Hier sollen sämtliche Schnittstellen definiert werden:
 * die externen Schnittstellen nach außen. Über welche Schnittstelle kann z.B. der Client
@@ -247,6 +238,10 @@ Protokolle benutzt werden.
 ---
 
 ## 3.4 Datenmodell
+### ER-Modell der Datenbank
+![](media/EntityRelations.jpg)
+
+
 * Konzeptionelles Analyseklassendiagramm (logische Darstellung der Konzepte der
   Anwendungsdomäne)
 * Modellierung des physikalischen Datenmodells
@@ -255,6 +250,21 @@ Protokolle benutzt werden.
 ---
 
 ## 3.5 Abläufe
+### Use Case Diagramme
+* Location Erstellen:
+![](media/LocationErstellen.jpg)
+* Event Teilnahme:
+![](media/EventTeilnahme.jpg)
+* Event Planung:
+![](media/EventPlanung.jpg)
+* Bänd anlegen:
+![](media/BandAnlegen.jpg)
+* Catering anlegen:
+![](media/CateringAnmelden.jpg)
+
+### Client-Server Kommunikation
+![](media/ClientServerCommunication.jpg)
+
 * Aktivitätsdiagramme für relevante Use Cases
 * Aktivitätsdiagramm für den Ablauf sämtlicher Use Cases
 * Aktivitätsdiagramm mit Swimlanes sind in der Regel hilfreich
@@ -295,6 +305,23 @@ Protokolle benutzt werden.
 
 # 4 Projektorganisation
 ## 4.1 Annahmen
+
+### Framework 
+#### Webentwicklung
+* **vue.js**
+### verwendete Programmiersprachen
+#### Server
+* **Java**
+#### Webentwicklung
+##### Frontend
+* **HTML**
+* **CSS**
+* **JavaScript**
+##### Backend
+* **Java**
+#### Datenbank
+* **SQL**
+
 * Nicht durch den Kunden definierte spezifische Annahmen, Anforderungen und
   Abhängigkeiten
 * Verwendete Technologien (Programmiersprache, Frameworks, etc.)
@@ -351,16 +378,21 @@ Ist für die Repositories und das Deployment verantwortlich.
 ### Rollenzuordnung
 | Name              | Rolle               |
 |-------------------|---------------------|
-| Thomas Mustermann | Frontend-Entwickler |
+| Luca Eberhardt    |  |
+| Angelo Mavridis   |  |
+| Marlon Cadell     |  |
+| Lucas Modesto     | Frontend-Entwickler |
+| Kirill Kuhn       |  |
 
 ---
 
 ## 4.3 Grober Projektplan
-- Meilensteine
+- Webseite fertigsetellen
+- Event Suche und Teilnahme realiesiren
 
 ---
 
-### Meilensteine
+### Deadlines
 * KW 43 (21.10)
 * Abgabe Pflichtenheft
 * KW 44 (28.10) / Projekt aufsetzen
