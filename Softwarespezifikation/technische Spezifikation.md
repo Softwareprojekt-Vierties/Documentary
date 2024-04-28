@@ -74,38 +74,65 @@ wird.
 ## 2.2 Funktionale Anforderungen
 
 * Use Case Diagram - Eventure
+
 ![](media/Usecases.jpg)
 
 * Architektur
+
 ![](media/Structure.jpg)
 
 * ER-Diagram
+
 ![](media/EntityRelations.jpg)
 
 * Kommunikation zwischen Client und Server
+
 ![](media/ClientServerCommunication.jpg)
 
 ---
 
-### 2.3 Akteure
+### 2.2.1 Akteure
 
-*Endnutzer:*
-
-
-* Akteure sowie andere Begriffe der implementierten Fachdomäne definieren
-* Begriffe konsistent in der Spezifikation verwenden
-* Begriffe im Glossar am Ende des Dokuments darstellen
+* Endnutzer
+  * ist ein Eventteilnehmer und der Haupt-Konsument
+* DJs und Bands
+  * dient seine Dienstleistung an den Eventplaner an
+* Caterer
+  * dient seine Dienstleistung an den Eventplaner an
+* Eventplaner
+  * bietet mithilfe von DJs/Bands, Caterer und Location Anbieter den Endnutzer ein Event an
+* Location Anbieter
+  * dient seine Dienstleistung an den Eventplaner an
 
 ---
 
 ## 2.3 Nicht-funktionale Anforderungen
 ### 2.3.1 Rahmenbedingungen
-* Normen, Standards, Protokolle, Hardware, externe Vorgaben
+
+* Standards
+  * Einheitliches Webdesign
+* Hardware
+  * für Endnutzer
+    * Gerät, dass auf das Web zugreifen kann
+  * Server
+    * muss Anfragen möglichst schnell verarbeiten
+    * muss möglichst schnelle Antworten liefern
+    * muss skalierbar sein, um für zukünftigen Wachstum zu kompensieren
+  * Datenbank
+    * hohe Speicherkapazität für
+      * Profilbilder
+      * Hintergrundbilder von Profilen
+      * Medienspeicher
 
 ---
 
 ### 2.3.2 Betriebsbedingungen
-* Vorgaben des Kunden (z.B. Web Browser / Betriebssystem Versionen, Programmiersprache)
+
+Vorgaben des Kunden:
+* Webbrowser Unterstützung:
+  * Google Chrome
+  * Microsoft Edge
+  * Firefox
 
 ---
 
@@ -122,13 +149,13 @@ wird.
   | Richtigkeit                | X        | -   | -      | -              |
   | Konformität                | -        | X   | -      | -              |
   | **Benutzerfreundlichkeit** |          |     |        |                |
-  | Installierbarkeit          | -        | -   | X      | -              |
-  | Verständlichkeit           | X        | -   | -      | -              |
+  | Installierbarkeit          | -        | -   | -      | X              |
+  | Verständlichkeit           | -        | X   | -      | -              |
   | Erlernbarkeit              | -        | X   | -      | -              |
-  | Bedienbarkeit              | -        | X   | -      | -              |
+  | Bedienbarkeit              | X        | -   | -      | -              |
   | **Performance**            |          |     |        |                |
-  | Zeitverhalten              | -        | -   | X      | -              |
-  | Effizienz                  | -        | -   | -      | X              |
+  | Zeitverhalten              | X        | -   | -      | -              |
+  | Effizienz                  | -        | X   | -      | -              |
   | **Sicherheit**             |          |     |        |                |
   | Analysierbarkeit           | X        | -   | -      | -              |
   | Modifizierbarkeit          | -        | -   | -      | X              |
@@ -138,13 +165,8 @@ wird.
 ---
 
 ## 2.4 Graphische Benutzerschnittstelle
-* GUI-Mockups passend zu User Stories
-* Screens mit Überschrift kennzeichnen, die im Inhaltsverzeichnis zu sehen ist
-* Unter den Screens darstellen (bzw. verlinken), welche User Stories mit dem Screen
-  abgehandelt werden
-* Modellierung der Navigation zwischen den Screens der GUI-Mockups als Zustandsdiagramm
-* Mockups für unterschiedliche Akteure
-* Mockups für unterschiedliche Frontends (Mobil, Web, Desktop)
+
+Für eine GUI-Mockup, siehe: 
 
 ---
 
