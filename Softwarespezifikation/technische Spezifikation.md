@@ -58,22 +58,32 @@ wird.
 ---
 
 # 2 Anforderungen
-
 ## 2.1 Stakeholder
 
-| Funktion / Relevanz   | Name            | Kontakt / Verfügbarkeit | Wissen | Interessen / Ziele |
-|-----------------------|-----------------|-------------------------|--------|--------------------|
-|                       | Angelo Mavridis |                         |        |                    |
-| Leitet das Repository | Kirill Kuhn     |                         |        |                    |
-|                       | Luca Eberhardt  |                         |        |                    |
-|                       | Lucas Modesto   |                         |        |                    |
-|                       | Marlon Cadell   |                         |        |                    |
+| Funktion / Relevanz             | Name              | Kontakt / Verfügbarkeit    | Wissen                                    | Interessen / Ziele                                        |
+|---------------------------------|-------------------|----------------------------|-------------------------------------------|-----------------------------------------------------------|
+| Kunde / Konsument des Produktes | Endnutzer         | Unterwegs auf der Platform | -                                         | Events / Veranstaltungen finden und daran teilnehmen      |
+| Kunde / Serviceanbieter         | DJs / Bands       | Verfügbar auf der Platform | Musikalisch                               | Publiz erhalten und Events zum auftreten finden           |
+| Kunde / Serviceanbieter         | Caterer           | Verfügbar auf der Platform | kulinarische Dienstleistungen             | Aufträge generieren und Geschäft ausbauen                 |
+| Kunde / Eventanbieter           | Eventplaner       | Verfügbar auf der Platform | Organisation                              | vereinfachte Eventplanung und leichte Organisation        |
+| Kunde / Location Anbieter       | Location Anbieter | Verfügbar auf der Platform | -                                         | Räumlichkeiten präsentieren und Vermarktung               |
+| Entwickler                      | Plattformanbieter | Verfügbar über GitHub      | Programmieren und Gestaltung der Platform | Platform und ihre Vorteile anbieten, Einkommen generieren |
 
 ---
 
 ## 2.2 Funktionale Anforderungen
-* ggfs. Use-Case Diagramme
-* Strukturierung der Diagramme in funktionale Gruppen
+
+* Use Case Diagram - Eventure
+![](media/Usecases.jpg)
+
+* Architektur
+![](media/Structure.jpg)
+
+* ER-Diagram
+![](media/EntityRelations.jpg)
+
+* Kommunikation zwischen Client und Server
+![](media/ClientServerCommunication.jpg)
 
 ---
 
