@@ -316,7 +316,109 @@ Protokolle benutzt werden.
   * steht für: Hypermedia als Motor der Anwendungszustand
   * Server sendet mit jeder Antwort an den Client auch Links
   * Links liefern andere relevante Ressourcen
-* Code Example siehe hier:
+
+### Request Message Beispiel POST
+```http request
+POST /dinosaur HTTP/1.1
+
+// Headers
+Accept: application/json
+Authorization: <token>
+Connection: keep-alive
+Content-Type: application/json
+Content-Length: <length of body in bytes>
+
+// Body
+{
+ "face": "T-Rex",
+ "color": "brown"
+}
+```
+
+### Response Message Beispiel
+```
+HTTP/1.1 200 OK
+
+// Headers
+Server: nginx
+Age: 2323
+Connection: keep-alive
+Content-Type: application/json
+
+// Body
+{
+ "id": "123",
+ "status": "success"
+}
+```
+
+### Code Example:
+
+```javascript
+const express = require('express'); // Express.js-Framework für Node.js
+const bodyParser = require('body-parser'); // um die JSON-Daten aus den Anfragen zu parsen
+
+const app = express(); 
+const port = 3000; 
+
+// Beispiel-Daten
+let books = [
+    { id: 1, title: 'Python Programming', author: 'John Smith' },
+    { id: 2, title: 'Data Science Handbook', author: 'Jane Doe' }
+];
+
+app.use(bodyParser.json()); // verwendet den bodyParser als Middleware
+
+// GET-Methode, um alle Bücher abzurufen
+app.get('/books', (req, res) => {
+    res.json(books);
+});
+
+// POST-Methode, um ein neues Buch hinzuzufügen
+app.post('/books', (req, res) => {
+    const newBook = req.body;
+    books.push(newBook);
+    res.status(201).json(
+        { message: 'Book added successfully', book: newBook }
+    );
+});
+
+// PUT-Methode, um ein vorhandenes Buch zu aktualisieren
+app.put('/books/:id', (req, res) => {
+    const bookId = parseInt(req.params.id);
+    const updatedBook = req.body;
+
+    books = books.map(book => {
+        if (book.id === bookId) {
+            return { ...book, ...updatedBook };
+        }
+        return book;
+    });
+
+    res.json(
+        { message: 'Book updated successfully', book: updatedBook }
+    );
+});
+
+// DELETE-Methode, um ein Buch zu löschen
+app.delete('/books/:id', (req, res) => {
+    const bookId = parseInt(req.params.id);
+
+    books = books.filter(book => book.id !== bookId);
+
+    res.json(
+        { message: 'Book deleted successfully' }
+    );
+});
+
+// Startet den Server
+app.listen(port, () => {
+    console.log(`Server is listening at http://localhost:${port}`);
+});
+```
+
+req = request <br>
+res = response
 
 ---
 
