@@ -74,23 +74,45 @@ wird.
 ## 2.2 Funktionale Anforderungen
 
 * Use Case Diagram - Eventure
+
 ![](media/Usecases.jpg)
 
+| Wer                                                   | Was                                                                            | Warum                                                                                                                                       | Titel                             |
+|-------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| Eventteilnehmer                                       | kann an Events teilnehmen                                                      | Weil der Eventteilnehmer an den Events teilnehmen möchte, solange diese öffentlich sind oder wenn er eine Einladung bekommen hat            | Eventteilnahme                    |
+| Eventplaner                                           | kann sich die Profile der Caterer, Location Anbieter und DJs / Bands anschauen | Damit er sich besser über diese Dienstleister informieren kann                                                                              | Dienstleister Information         |
+| Eventplaner                                           | kann Events erstellen                                                          | Damit er einen Event starten kann                                                                                                           | Event Erstellung                  |
+| Eventplaner                                           | kann Dienstleister in einen Event eintragen                                    | Damit er angeben kann, welcher Dienstleister vorhanden ist                                                                                  | Dienstleister hinzufügen          |
+| Dienstleister (Bands/DJs, Caterer, Location Anbieter) | kann bei Events als Dienstleister teilnehmen                                   | Damit diese ihre Dienstleistung anbieten und davon profitieren können, solange sie die Einladung als Dienstleister an dem Event akzeptieren | Dienstleistung-Akzeptur           |
+| Dienstleister                                         | können einen Profil erstellen                                                  | Damit sie sich auf der Platform als Dienstleister bekannt machen                                                                            | Dienstleister Profil Erstellung   |
+| Eventteilnehmer                                       | kann einen Profil erstellen                                                    | Damit er bei Events teilnehmen kann und die Daten an eine Person zugeordnet werden können                                                   | Eventteilnehmer Profil Erstellung |
+
 * Architektur
+
 ![](media/Structure.jpg)
 
 * ER-Diagram
+
 ![](media/EntityRelations.jpg)
 
 * Kommunikation zwischen Client und Server
+
 ![](media/ClientServerCommunication.jpg)
 
 ---
 
-### 2.3 Akteure
+### 2.2.1 Akteure
 
-*Endnutzer:*
-
+* Eventteilnehmer
+  * nimmt an Events als Konsument teil
+* Eventplaner
+  * erstellt Events für Eventteilnehmer
+    * kann Dienstleister zu diesem Event beantragen
+* Dienstleister
+  * sind Bands / DJs, Caterer und Location Anbieter
+  * bieten ihre Dienstleistung an einen Event an
+    * erhalten erst eine Einladung, um für einen Event ihre Dienste anzubieten
+    * erst nachdem sie die Einladung akzeptiert haben, sind sie für eine Dienstleistung zuständig
 
 * Akteure sowie andere Begriffe der implementierten Fachdomäne definieren
 * Begriffe konsistent in der Spezifikation verwenden
@@ -102,10 +124,34 @@ wird.
 ### 2.3.1 Rahmenbedingungen
 * Normen, Standards, Protokolle, Hardware, externe Vorgaben
 
+* Standards
+  * Einheitliches Webdesign
+* Hardware
+  * für Endnutzer
+    * Gerät, dass auf das Web zugreifen kann
+  * Server
+    * muss Anfragen möglichst schnell verarbeiten
+    * muss möglichst schnelle Antworten liefern
+    * muss skalierbar sein, um für zukünftigen Wachstum zu kompensieren
+  * Datenbank
+    * hohe Speicherkapazität für
+      * Profilbilder
+      * Hintergrundbilder von Profilen
+      * Medienspeicher
+
 ---
 
 ### 2.3.2 Betriebsbedingungen
 * Vorgaben des Kunden (z.B. Web Browser / Betriebssystem Versionen, Programmiersprache)
+  
+* Web Browser
+  * Google Chrome
+  * Microsoft Edge
+  * Firefox
+* Betriebssystem Versionen
+  * nicht relevant, da Eventure eine Webanwendung ist
+* Programmiersprache
+  * nicht relevant, da Eventure eine Webanwendung ist und keine API
 
 ---
 
@@ -122,16 +168,16 @@ wird.
   | Richtigkeit                | X        | -   | -      | -              |
   | Konformität                | -        | X   | -      | -              |
   | **Benutzerfreundlichkeit** |          |     |        |                |
-  | Installierbarkeit          | -        | -   | X      | -              |
+  | Installierbarkeit          | -        | -   | -      | X              |
   | Verständlichkeit           | X        | -   | -      | -              |
   | Erlernbarkeit              | -        | X   | -      | -              |
   | Bedienbarkeit              | -        | X   | -      | -              |
   | **Performance**            |          |     |        |                |
-  | Zeitverhalten              | -        | -   | X      | -              |
-  | Effizienz                  | -        | -   | -      | X              |
+  | Zeitverhalten              | -        | X   | -      | -              |
+  | Effizienz                  | -        | X   | -      | -              |
   | **Sicherheit**             |          |     |        |                |
   | Analysierbarkeit           | X        | -   | -      | -              |
-  | Modifizierbarkeit          | -        | -   | -      | X              |
+  | Modifizierbarkeit          | -        | -   | X      | -              |
   | Stabilität                 | X        | -   | -      | -              |
   | Prüfbarkeit                | X        | -   | -      | -              |
 
@@ -146,6 +192,8 @@ wird.
 * Mockups für unterschiedliche Akteure
 * Mockups für unterschiedliche Frontends (Mobil, Web, Desktop)
 
+Für eine interaktive GUI-Mockup, siehe folgenden Link: 
+
 ---
 
 ## 2.5 Anforderungen im Detail
@@ -158,6 +206,17 @@ wird.
 | **Als** | **möchte ich** | **so dass** | **Akzeptanz**   |
 |:--------|:---------------|:------------|:----------------|
 | Wer     | Was            | Warum       | Wann akzeptiert |
+
+| Wer                                                   | Was                                                                            | Warum                                                                                     | Akzeptanz                                                                                                                                   |
+|-------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| Eventteilnehmer                                       | kann an Events teilnehmen                                                      | Weil der Eventteilnehmer an den Events teilnehmen möchte                                  | akzeptiert, wenn Event öffentlich ist, genügend Tickets vorhanden sind oder eine Einladung für ein privates Event vorhanden ist             |
+| Eventplaner                                           | kann sich die Profile der Caterer, Location Anbieter und DJs / Bands anschauen | Damit er sich besser über diese Dienstleister informieren kann                            | wenn der Eventplaner auf den Dienstleister-Profil klickt und wenn der Eventplaner ein Profil hat                                            |
+| Eventplaner                                           | kann Events erstellen                                                          | Damit er einen Event starten kann                                                         | wenn der Eventplaner ein Profil hat, mindestens eine Location angegeben ist und wenn alle Dienstleister die Eventeinladung akzeptiert haben |
+| Eventplaner                                           | kann Dienstleister in einen Event eintragen                                    | Damit er angeben kann, welcher Dienstleister vorhanden ist                                | wenn der Eventplaner ein Profil hat                                                                                                         |
+| Dienstleister (Bands/DJs, Caterer, Location Anbieter) | kann bei Events als Dienstleister teilnehmen                                   | Damit diese ihre Dienstleistung anbieten und davon profitieren können                     | wenn der Dienstleister ein Profil hat und eine Einladung zum Event als Dienstleister bekommen hat                                           |
+| Dienstleister                                         | können einen Profil erstellen                                                  | Damit sie sich auf der Platform als Dienstleister bekannt machen                          | wenn der Dienstleister seine Identität als Dienstleister erwiesen hat                                                                       |
+| Eventteilnehmer                                       | kann einen Profil erstellen                                                    | Damit er bei Events teilnehmen kann und die Daten an eine Person zugeordnet werden können | wenn der Eventteilnehmer die AGBs akzeptiert hat                                                                                            |
+
 
 ---
 
@@ -197,6 +256,20 @@ wird.
   Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber
   noch weiter detailliert und in Softwarebausteine aufgeteilt.
 
+### Server
+
+* Webschicht
+* Logik-Schicht
+  * in Java geschrieben
+* Persistenz-Schicht
+
+### Client
+
+* View-Schicht
+* Logik-Schicht
+* Kommunikation-Schicht
+  * HTTP, Web Token, JSON
+
 ---
 
 ### 3.2.1 Technologieauswahl
@@ -206,7 +279,7 @@ wird.
 * **MySQL**
 ### Datenformate
 * **JSON**
-* **Web Tooken**
+* **Web Token**
 ### Protokolle
 * **HTTP**
 
@@ -252,14 +325,23 @@ Protokolle benutzt werden.
 ## 3.5 Abläufe
 ### Use Case Diagramme
 * Location Erstellen:
+
 ![](media/LocationErstellen.jpg)
+
 * Event Teilnahme:
+
 ![](media/EventTeilnahme.jpg)
+
 * Event Planung:
+
 ![](media/EventPlanung.jpg)
+
 * Bänd anlegen:
+
 ![](media/BandAnlegen.jpg)
+
 * Catering anlegen:
+
 ![](media/CateringAnmelden.jpg)
 
 ### Client-Server Kommunikation
@@ -289,17 +371,36 @@ Protokolle benutzt werden.
   Kapitel 3.8 sind fachliche Fehler wie "Kunde nicht gefunden". "Nachricht wurde bereits
   gelöscht" o.ä.
 
+### Mögliche Fehler / Exceptions
+
+* 400 Bad Request
+  * Fehlerhafte Syntax in den Protokollen
+* 403 Forbidden
+  * Eventteilnehmer versucht privaten Event aufzurufen, auf den er keinen Zugriff hat
+* 404 Not Found
+  * Fehlende Events, Dienstleister- / Eventteilnehmer Profile
+* 500 Internal Server Error
+  * Syntax oder Fehler im Code Serverseitig
+* 503 Service Unavailable
+  * Datenbank vom Server nicht erreichbar
+
+* Zahlung nicht möglich
+  * Ticket für ein Event konnte nicht bezahlt werden
+  * Dienstleister konnten nicht angeworben werden
+  * Fehlerhafte Angaben in der Zahlungsmethode
+  * Konto gesperrt / nicht genügend Geld
+
 ---
 
 ## 3.8 Validierung
 * Relevante (Integrations)-Testfälle, die aus den Use Cases abgeleitet werden können
 * Testfälle für
-* Datenmodell
-* API
-* User Interface
+  * Datenmodell
+  * API
+  * User Interface
 * Fokussieren Sie mehr auf Integrationstestfälle als auf Unittests
 * Es bietet sich an, die IDs der Use Cases / User Stories mit den Testfällen zu
-  verbinden, so dass erkennbar ist, ob Sie alle Use Cases getestet haben.
+  verbinden, sodass erkennbar ist, ob Sie alle Use Cases getestet haben.
 
 ---
 
@@ -387,8 +488,21 @@ Ist für die Repositories und das Deployment verantwortlich.
 ---
 
 ## 4.3 Grober Projektplan
-- Webseite fertigsetellen
-- Event Suche und Teilnahme realiesiren
+- Webseite fertigstellen
+- Eventteilnehmer Profile erstellbar
+- Event Suche und Teilnahme realisieren
+- Dienstleister Profile erstellbar
+- Event erstellen können
+- Implementierung von Akzeptur der Dienstleister 
+- Ticket-System realisieren
+
+### Zusätzliche:
+- Bewertungen von Dienstleister
+- DJs / Bands können Playlisten auf ihren Profilen angeben
+- Caterer können Menüs präsentieren
+- Blogs/Chats realisieren
+- Events nach Kriterien filtern
+- Event Empfehlungen
 
 ---
 
@@ -408,6 +522,18 @@ Ist für die Repositories und das Deployment verantwortlich.
 # 5 Anhänge
 ## 5.1 Glossar
 * Definitionen, Abkürzungen, Begriffe
+
+### Akteure
+* Eventteilnehmer
+  * nimmt an Events als Konsument teil
+* Eventplaner
+  * erstellt Events für Eventteilnehmer
+    * kann Dienstleister zu diesem Event beantragen
+* Dienstleister
+  * sind Bands / DJs, Caterer und Location Anbieter
+  * bieten ihre Dienstleistung an einen Event an
+    * erhalten erst eine Einladung, um für einen Event ihre Dienste anzubieten
+    * erst nachdem sie die Einladung akzeptiert haben, sind sie für eine Dienstleistung zuständig
 
 ## 5.2 Referenzen
 * Handbücher, Gesetze
