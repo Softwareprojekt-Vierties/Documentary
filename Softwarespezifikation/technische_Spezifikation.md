@@ -16,6 +16,9 @@ https://github.com/Softwareprojekt-Vierties
 # Inhaltsverzeichnis
 1. Einführung
 2. Anforderungen
+3. Technische Beschreibung
+4. Projektorganisation
+5. Anhänge
 
 ---
 
@@ -290,9 +293,6 @@ Protokolle benutzt werden.
 
 ## 3.3 Schnittstellen
 ### Schnittstellenbeschreibung (API)
-* **REST API**
-
-
 * Auflistung der nach außen sichtbaren Schnittstelle der Softwarebausteine
   Hier sollen sämtliche Schnittstellen definiert werden:
 * die externen Schnittstellen nach außen. Über welche Schnittstelle kann z.B. der Client
@@ -300,8 +300,23 @@ Protokolle benutzt werden.
 * die internen Schnittstellen der unter 3.2 definierten Softwarebausteine
   Es ist sinnvoll, wenn die API von denjenigen definiert werden, die die Anforderungen an
   die API kennen: in einem Client-Server-System haben die Client-Entwickler Anforderungen
-  an die Backend-Entwickler, so dass in diesem Fall die Client-Entwickler die API
+  an die Backend-Entwickler, sodass in diesem Fall die Client-Entwickler die API
   definieren sollten, die dann vom Backend-Entwickler implementiert werden.
+
+### REST.api (RESTful API)
+* erleichtert Interaktion zwischen Client und Server
+* Daten und Funktionalitäten werden als Ressourcen dargestellt
+  * können Bilder oder andere Dateien sein
+* bietet standardisierte HTTP-Methoden an
+  * **GET** (Abrufen von Daten)
+  * **POST** (Erstellen von neuen Daten)
+  * **PUT** (Aktualisieren von Daten)
+  * **DELETE** (Löschen von Daten)
+* HATEOAS
+  * steht für: Hypermedia als Motor der Anwendungszustand
+  * Server sendet mit jeder Antwort an den Client auch Links
+  * Links liefern andere relevante Ressourcen
+* Code Example siehe hier:
 
 ---
 
