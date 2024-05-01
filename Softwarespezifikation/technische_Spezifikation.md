@@ -427,7 +427,7 @@ res = response
   | Login | POST /login |username(string),<br>keyword(string)|status(int),<br>uuid(int)|
   |Register|POST /register|username(string),<br>keyword(string),<br>email(string)|status(int),<br>uuid(int)|
   |Startseite suchen|POST /search|eventSizeMin(int),<br>eventSizeMax(int),<br>ticketpriceMin(int),<br>ticketpriceMax(int),<br>distance(int),<br>ageMin(int),<br>ageMax(int),<br>dateMin(string),<br>dateMax(string),<br>TimeMin(int),<br>TimeMax(int),<br>durationMin(int),<br>durationMax(int),<br>OpenAir(bool)|events(event[])
-  |Postfach|POST /search|GET /postfach/search|?i=<>&s=<>|emails(email[])|
+  |Postfach|GET /postfach/search|?i=<>&s=<>|emails(email[])|
   |Postfach|POST /postfach/accept|accept(bool),<br>emailId(int)|-|
   |Locaiton Profile|GET /location|?i=<>|name(stirng),<br>picture(?),<br>shortDescription(string),<br>capacity(int),<br>description(string),<br>city(string),<br>address(string),<br>price(int),<br>size(int),<br>openAir(bool),<br>reviews(review[]),<br>dates(string[]){date(string)}|
   |Services|GET /service|?i=<>|description(string),<br>shortDescription(string),<br>events(event[]),<br>playlist(song[]),<br>experience(int), <br>price(float), <br>reviews(review[]),<br>shortDescription(string), <br>name(string),<br> picture(?),<br>city(string), <br>category(string)|
