@@ -225,6 +225,7 @@ Für eine interaktive GUI-Mockup, siehe folgenden Link:
 
 # 3 Technische Beschreibung
 ## 3.1 Systemübersicht
+![](media/BoxAndArrow.jpg)
 * Systemarchitekturdiagramm ("Box-And-Arrow" Diagramm)
 * Kommunikationsprotokolle, Datenformate
   Das Diagramm in Kapitel "Systemübersicht" ist statisch und nicht dynamisch und stellt
