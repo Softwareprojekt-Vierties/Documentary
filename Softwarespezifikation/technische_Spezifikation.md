@@ -154,7 +154,7 @@ wird.
 * Betriebssystem Versionen
   * nicht relevant, da Eventure eine Webanwendung ist
 * Programmiersprache
-  * nicht relevant, da Eventure eine Webanwendung ist und keine API
+  * Für Eventure werden Programmiersprachen bevorzugt, die eine Responsible Design für Webapplikationen anbieten. Javascript + Vue.vs
 
 ---
 
@@ -187,39 +187,222 @@ wird.
 ---
 
 ## 2.4 Graphische Benutzerschnittstelle
-* GUI-Mockups passend zu User Stories
-* Screens mit Überschrift kennzeichnen, die im Inhaltsverzeichnis zu sehen ist
-* Unter den Screens darstellen (bzw. verlinken), welche User Stories mit dem Screen
-  abgehandelt werden
-* Modellierung der Navigation zwischen den Screens der GUI-Mockups als Zustandsdiagramm
-* Mockups für unterschiedliche Akteure
-* Mockups für unterschiedliche Frontends (Mobil, Web, Desktop)
 
-Für eine interaktive GUI-Mockup, siehe folgenden Link: 
+
+### Bildschirminhaltsverzeichnis
+
+
+  1) ......................................... Anmeldungsseite 
+  2) ......................................... Registrierungsseite 
+
+      - 2.1 ............................ Privatperson oder Dienstleister auswählen
+      - 2.2 ............................ DJ/Band oder Caterer auswählen
+    
+  3) ..........................................Startseite
+  4) ..........................................Postfachseite 
+  5) ......................................... Eventseite
+  6) ......................................... Ortsanbieterseite
+  7) ......................................... DJ/Bands
+  8) .......................................... Caterer
+  9) .......................................... Profilseite des Privatnutzers
+  10) .......................................... Profilerstellungsseite
+    
+      - 10.1 -  ......................... Endnutzer
+      - 10.2 -..........................    DJ/Bands
+      - 10.3 -  ......................... Caterer
+      - 10.4 -..........................  Event
+      - 10.5 -..........................   Ort
+
+
+<br>
+
+#### 1- Anmeldungsseite
+![](media/Anmeldungsseite.png)
+
+  * **User Stories:** 
+    * Registrierung und Kontoerstellung
+    * Abschluss der Registrierung
+<br>
+
+#### 2- Registrierungsseite
+![](media/Registrierungsseite.png)
+
+  * **User Stories:** 
+    * Kontoerstellung auf Eventure 
+
+
+#### 2.1 - Registrierungsseite - Privatperson oder Dienstleister auswählen
+![](media/Privatperson_oder_Dienstleister.png)
+  * **User Stories:** 
+    * Auswahl des Kontotyps
+
+    <br>
+
+
+#### 2.2-  Registrierungsseite - DJ/Band oder Caterer auswählen
+![](media/DJ_Band_oder_Caterer.png)
+  * **User Stories:** 
+    * Auswahl des Kontotyps
+
+
+<br>
+    <br>
+
+
+#### 3-  Startseite
+![](media/Startseite.png)
+  * **User Stories:** 
+    * Umfassende Suche
+    * Zugang auf E-Mails und Profil
+    * Erstellung von Events
+    * Markierung von Events als Favoriten
+    * Anzeige von Events mit verschiedenen Filteroptionen
+<br>
+
+<br>
+
+
+#### 4- Postfach
+![](media/Postfachseite.png)
+  * **User Stories:** Annahme oder Ablehnung von Dienstleistungsanfragen
+  <br>
+
+<br>
+
+
+#### 5-  Eventseite
+![](media/Eventseite.png)
+
+  * **User Stories:** 
+  * Teilnahme an Events
+  * Anzeige der Termine des Eventerstellers 
+  * Interaktion mit einer Karte zur Anzeige von Standorten
+  <br>
+
+<br>
+
+
+#### 6-  Ortsanbieterseite
+![](media/Ortsanbieterseite.png)
+  * **User Stories:** 
+    * Erstellung von Events
+    * Anzeige der Termine des Ortsanbieters 
+    * Bewertung und Kommentare für Ortsanbieter
+    * Interaktion mit einer Karte zur Anzeige von Standorten
+	
+
+  <br>
+
+<br>
+
+#### 7-  DJ/Band
+![](media/dj_band.png)
+
+  * **User Stories:** 
+    * Buchung eines DJs
+    * Profilansicht der Dienstleister	
+    * Anzeige der Termine des Dienstleisters
+    * Bewertung und Kommentare für Dienstleister
+    <br>
+
+<br>
+
+
+#### 8 - Caterer
+![](media/caterer.png)
+
+  * **User Stories:** 
+    * Buchung eines Caterers
+    * Profilansicht der Dienstleister	
+    * Anzeige der Termine des Dienstleisters 
+    * Bewertung und Kommentare für Dienstleister
+      <br>
+
+<br>
+
+
+
+#### 9 - Profilseite des Privatnutzers
+![](media/Perfilseite.png)
+
+  * **User Stories:** Aktualisierung von Benutzerdaten
+        <br>
+
+<br>
+
+#### 10.1- Profilerstellungsseite - Endnutzer
+![](media/Profilerstellungsseite.png)
+  * **User Stories:** Erstellung eines Benutzerprofils
+<br>
+
+<br>
+
+#### 10.2- Profilerstellungsseite - DJ/Bands
+![](media/dj_und_bands_erstellung.png)
+  * **User Stories:**  Profilerstellung für Dienstleister
+  <br>
+
+<br>
+
+#### 10.3- Profilerstellungsseite - Caterer
+![](media/erstellung_caterer.png)
+  * **User Stories:**  Profilerstellung für Dienstleister
+  <br>
+
+<br>
+
+#### 10.4- Profilerstellungsseite - Event
+![](media/event_erstellung.png)
+  * **User Stories:**  Erstellung von Events
+    <br>
+
+<br>
+
+#### 10.5- Profilerstellungsseite - Ort
+![](media/Ort.png)
+
+  * **User Stories:** Erstellung eines Profils für Veranstaltungsorte
+    <br>
+
+<br>
+
 
 ---
 
 ## 2.5 Anforderungen im Detail
-* User Stories mit Akzeptanzkritierien
-* Optional: Name (oder ID) und Priorität ("Must", "Should", "Could", "Won't")
-* Strukturierung der User Stories in funktionale Gruppen
-* Sicherheit: Misuse-Stories formulieren
 
-### Schablone für User Stories
-| **Als** | **möchte ich** | **so dass** | **Akzeptanz**   |
-|:--------|:---------------|:------------|:----------------|
-| Wer     | Was            | Warum       | Wann akzeptiert |
 
-| Wer                                                   | Was                                                                            | Warum                                                                                     | Akzeptanz                                                                                                                                   |
-|-------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| Eventteilnehmer                                       | kann an Events teilnehmen                                                      | Weil der Eventteilnehmer an den Events teilnehmen möchte                                  | akzeptiert, wenn Event öffentlich ist, genügend Tickets vorhanden sind oder eine Einladung für ein privates Event vorhanden ist             |
-| Eventplaner                                           | kann sich die Profile der Caterer, Location Anbieter und DJs / Bands anschauen | Damit er sich besser über diese Dienstleister informieren kann                            | wenn der Eventplaner auf den Dienstleister-Profil klickt und wenn der Eventplaner ein Profil hat                                            |
-| Eventplaner                                           | kann Events erstellen                                                          | Damit er einen Event starten kann                                                         | wenn der Eventplaner ein Profil hat, mindestens eine Location angegeben ist und wenn alle Dienstleister die Eventeinladung akzeptiert haben |
-| Eventplaner                                           | kann Dienstleister in einen Event eintragen                                    | Damit er angeben kann, welcher Dienstleister vorhanden ist                                | wenn der Eventplaner ein Profil hat                                                                                                         |
-| Dienstleister (Bands/DJs, Caterer, Location Anbieter) | kann bei Events als Dienstleister teilnehmen                                   | Damit diese ihre Dienstleistung anbieten und davon profitieren können                     | wenn der Dienstleister ein Profil hat und eine Einladung zum Event als Dienstleister bekommen hat                                           |
-| Dienstleister                                         | können einen Profil erstellen                                                  | Damit sie sich auf der Platform als Dienstleister bekannt machen                          | wenn der Dienstleister seine Identität als Dienstleister erwiesen hat                                                                       |
-| Eventteilnehmer                                       | kann einen Profil erstellen                                                    | Damit er bei Events teilnehmen kann und die Daten an eine Person zugeordnet werden können | wenn der Eventteilnehmer die AGBs akzeptiert hat                                                                                            |
+### User Stories
 
+| **Als**                                                | **möchte ich**                                                                 | **so dass**                                                                                   | **Titel**                                  | **Akzeptanz**                                                                                                                                   | **Prioridade** |
+|--------------------------------------------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| Eventteilnehmer                                        | kann an Events teilnehmen                                                      | Weil der Eventteilnehmer an den Events teilnehmen möchte                                      | Teilnahme an Events                        | akzeptiert, wenn Event öffentlich ist, genügend Tickets vorhanden sind oder eine Einladung für ein privates Event vorhanden ist                 | Hoch             |
+| Eventplaner                                            | kann sich die Profile der Caterer, Location Anbieter und DJs / Bands anschauen | Damit er sich besser über diese Dienstleister informieren kann                                | Profilansicht der Dienstleister            | wenn der Eventplaner auf den Dienstleister-Profil klickt und wenn der Eventplaner ein Profil hat                                                | Hoch             |
+| Eventplaner                                            | kann Events erstellen                                                          | Damit er einen Event starten kann                                                             | Erstellung von Events                      | wenn der Eventplaner ein Profil hat, mindestens eine Location angegeben ist und wenn alle Dienstleister die Eventeinladung akzeptiert haben     | Hoch             |
+| Eventplaner                                            | kann Dienstleister in einen Event eintragen                                    | Damit er angeben kann, welcher Dienstleister vorhanden ist                                    | Eintrag von Dienstleistern in Events       | wenn der Eventplaner ein Profil hat                                                                                                           | Hoch             |
+| Dienstleister (Bands/DJs, Caterer, Location Anbieter)  | kann bei Events als Dienstleister teilnehmen                                   | Damit diese ihre Dienstleistung anbieten und davon profitieren können                         | Teilnahme als Dienstleister bei Events     | wenn der Dienstleister ein Profil hat und eine Einladung zum Event als Dienstleister bekommen hat                                               | Hoch             |
+| Dienstleister                                          | können einen Profil erstellen                                                  | Damit sie sich auf der Platform als Dienstleister bekannt machen                              | Profilerstellung für Dienstleister         | wenn der Dienstleister seine Identität als Dienstleister erwiesen hat                                                                           |     Hoch         |
+| Eventteilnehmer                                        | kann einen Profil erstellen                                                    | Damit er bei Events teilnehmen kann und die Daten an eine Person zugeordnet werden können     | Profilerstellung für Eventteilnehmer       | wenn der Eventteilnehmer die AGBs akzeptiert hat                                                                                                | Hoch             |
+| Benutzer   | mich registrieren und eine Konto anlegen       | ich die Services der Plattform nutzen kann| Registrierung und Kontoerstellung| wenn der Benutzer einen Benutzernamen und Passwort erstellt und die AGBs akzeptiert hat | Hoch            |
+| Benutzer   | auf 'Weiter' klicken                            | ich meine Registrierung abschließen kann  | Abschluss der Registrierung      | wenn alle erforderlichen Informationen eingegeben wurden und validiert sind  | Hoch             |
+| Neuer Nutzer| ein Konto erstellen, indem ich Benutzername, E-Mail und Passwort eingebe | ich Zugriff auf die Plattform und deren Dienste habe | Kontoerstellung auf Eventure | wenn der Benutzername einzigartig ist, das Passwort den Sicherheitsanforderungen entspricht und die E-Mail gültig ist | Hoch             |
+| Registrierender Nutzer | zwischen einer Privatperson, Dienstleister-Konto wählen,DJ/Band und Caterer | ich das für meine Bedürfnisse passende Konto erstellen kann | Auswahl des Kontotyps  | wenn der Nutzer erfolgreich den gewünschten Kontotyp auswählt und das System diese Auswahl akzeptiert | Hoch             |
+| Benuzter | nach Events, Benutzern, Veranstaltungsorten, Caterers, DJs und Bands suchen und sortieren | ich passende Optionen für meine Bedürfnisse finde oder anbieten kann            | Umfassende Suche          | wenn die Suchergebnisse alle relevanten Einträge basierend auf eingegebenen Suchkriterien präzise anzeigen | Hoch             |
+| Benuzter | auf meine E-Mails  und mein Profil zugreifen | ich wichtige Kommunikationen verfolgen und meine persönlichen Informationen aktualisieren kann | Zugang auf E-Mails und Profil | wenn ich innerhalb der Plattform auf meine E-Mail-Nachrichten zugreifen und mein Profil einsehen und bearbeiten kann | Optional             |
+| Dienstleister| Anfragen für Dienstleistungen in meiner Postfach-Übersicht annehmen oder ablehnen können | ich entscheiden kann, ob ich die angefragten Services für eine Veranstaltung bereitstellen möchte | Annahme oder Ablehnung von Dienstleistungsanfragen | wenn ich eine Anfrage über die Plattform erfolgreich annehmen oder ablehnen kann und dies in meinem Postfach reflektiert wird | Optional             |
+| Benutzer | einen DJ über die Plattform buchen können     | ich die musikalische Unterhaltung für mein Event sichern kann | Buchung eines DJs            | wenn ich über die Plattform einen verfügbaren DJ auswählen und erfolgreich für ein bestimmtes Datum buchen kann | Hoch             |
+| Benutzer | einen Caterer über die Plattform buchen können | ich hochwertige Speisen und Getränke für mein Event anbieten kann | Buchung eines Caterers       | wenn ich über die Plattform einen verfügbaren Caterer auswählen und erfolgreich für ein bestimmtes Datum buchen kann | Hoch             |
+| Benutzer     | meine persönlichen Daten auf meinem Profil aktualisieren können | ich sicherstellen kann, dass meine Informationen stets aktuell und korrekt sind | Aktualisierung von Benutzerdaten | wenn ich meine Informationen wie Beschreibung, Fotos und persönliche Infos bearbeiten und speichern kann, und die Änderungen sofort sichtbar sind | Hoch             |
+| Neuer Benutzer | mein Profil erstellen und meine Hauptdaten eingeben können | ich die Plattform nutzen und mich anderen Nutzern präsentieren kann | Erstellung eines Benutzerprofils | wenn ich ein Profil mit meinen Hauptdaten wie Name, Alter, Geschlecht, Region und Interessen erfolgreich erstellen und speichern kann | Hoch            |
+| Location-Anbieter | mein Profil erstellen und Hauptdaten meines Veranstaltungsortes eingeben können | Veranstalter mich finden und meinen Ort für ihre Events buchen können | Erstellung eines Profils für Veranstaltungsorte | wenn ich ein Profil mit Informationen über die Kapazität, Verfügbarkeit, Standort und besondere Merkmale des Ortes erfolgreich erstellen und speichern kann | Hoch            |
+| Benutzer | die Termine des Dienstleisters oder anderen Nutzer in einem Kalender ansehen | um meine Interaktionen und Dienstleistungen besser planen zu können, basierend auf seiner Verfügbarkeit oder Interessen | Anzeige der Termine und Interesse des Dienstleisters oder Nutzers | wenn  die Termine des Dienstleisters oder Nutzer in seinem Kalender angezeigt werden, um eine bessere Koordination zu ermöglichen | Optional |
+| Benutzer | möchte ich optional Kommentare schreiben und Dienstleister mit Sternen bewerten können | um anderen Benutzern meine Erfahrungen mitzuteilen und Dienstleister entsprechend ihrer Leistung bewerten zu können | Bewertung und Kommentare für Dienstleister | wenn ich optional Kommentare zu Dienstleistern verfassen und sie mit Sternen bewerten kann, um meine Meinung zu teilen und anderen bei ihrer Entscheidung zu helfen | Optional |
+|  Benutzer | möchte ich interaktiv mit einer Karte interagieren können, um Standorte zu visualisieren | um eine visuelle Darstellung der Standorte zu erhalten und geografische Distanzen besser zu verstehen | Interaktion mit einer Karte zur Anzeige von Standorten | wenn ich auf einer Karte interaktiv die Standorte anzeigen lassen kann, um eine bessere Orientierung und Verständnis der geografischen Verteilung zu erhalten | Hoch |
+| Benutzer | möchte ich die Möglichkeit haben, Events mit einem Favoriten-Symbol zu markieren, um sie später leicht wiederfinden zu können | um meine bevorzugten Interessen zu speichern und später darauf zurückzugreifen | Markierung von Events als Favoriten | wenn ich Interessen mit einem Favoriten-Symbol markieren kann, um sie später schnell und einfach wiederzufinden | Hoch |
+| Benutzer | möchte ich die Möglichkeit haben, Events basierend auf verschiedenen Filtern in verschiedenen Reihenfolgen anzuzeigen | um die Events entsprechend meinen Vorlieben und Bedürfnissen sortieren zu können | Anzeige von Events mit verschiedenen Filteroptionen | wenn ich die Events basierend auf Filtern wie Datum, Ort, Kategorie usw. in verschiedenen Reihenfolgen anzeigen lassen kann, um die für mich relevanten Events leicht zu finden | Hoch |
+
+
+![](media/Statechart.png)
 
 ---
 
@@ -653,7 +836,7 @@ Ist für die Repositories und das Deployment verantwortlich.
 |-------------------|---------------------|
 | Luca Eberhardt    | Backend-Entwickler  |
 | Angelo Mavridis   | Server-Entwickler   |
-| Marlon Cadell     | Frontend-Entwickler |
+| Marlon Cadell     | Frontend-Entwickler und DevOps-Engineer |
 | Lucas Modesto     | Frontend-Entwickler |
 | Kirill Kuhn       | Backend-Entwickler  |
 
