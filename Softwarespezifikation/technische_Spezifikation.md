@@ -90,18 +90,6 @@ wird.
 | Dienstleister                                         | können einen Profil erstellen                                                  | Damit sie sich auf der Platform als Dienstleister bekannt machen                                                                            | Dienstleister Profil Erstellung   |
 | Eventteilnehmer                                       | kann einen Profil erstellen                                                    | Damit er bei Events teilnehmen kann und die Daten an eine Person zugeordnet werden können                                                   | Eventteilnehmer Profil Erstellung |
 
-* Architektur
-
-![](media/Structure.jpg)
-
-* ER-Diagram
-
-![](media/EntityRelations.jpg)
-
-* Kommunikation zwischen Client und Server
-
-![](media/ClientServerCommunication.jpg)
-
 ---
 
 ### 2.2.1 Akteure
@@ -133,9 +121,10 @@ wird.
   * für Endnutzer
     * Gerät, dass auf das Web zugreifen kann
   * Server
-    * muss Anfragen möglichst schnell verarbeiten
-    * muss möglichst schnelle Antworten liefern
+    * muss Anfragen möglichst schnell verarbeiten (maximum 2ms)
+    * muss möglichst schnelle Antworten liefern (maximum 2sek)
     * muss skalierbar sein, um für zukünftigen Wachstum zu kompensieren
+    * muss sicher sein (https)
   * Datenbank
     * hohe Speicherkapazität für
       * Profilbilder
@@ -443,6 +432,18 @@ wird.
   Ganzes als ein Softwarebaustein angesehen werden. In der Regel werden die Schichten aber
   noch weiter detailliert und in Softwarebausteine aufgeteilt.
 
+* Architektur
+
+![](media/Structure.jpg)
+
+* ER-Diagram
+
+![](media/EntityRelations.jpg)
+
+* Kommunikation zwischen Client und Server
+
+![](media/ClientServerCommunication.jpg)
+
 ### Server
 
 * Webschicht
@@ -455,7 +456,7 @@ wird.
 * View-Schicht
 * Logik-Schicht
 * Kommunikation-Schicht
-  * HTTP, Web Token, JSON
+  * HTTP(s), Web Token, JSON
 
 ---
 
@@ -678,7 +679,7 @@ dish: {
 ---
 
 ## 3.5 Abläufe
-### Use Case Diagramme
+### Ablauf Diagramme
 * Location Erstellen:
 
 ![](media/LocationErstellen.jpg)
@@ -710,11 +711,6 @@ dish: {
   in einem Sequenz- oder Aktivitätsdiagramm darstellen
 * Modellieren Sie des weiteren die Diagramme, die für das (eigene) Verständnis des
   Softwaresystems hilfreich sind.
-
----
-
-## 3.6 Entwurf
-* Detaillierte UML-Diagramme für relevante Softwarebausteine
 
 ---
 
@@ -834,11 +830,19 @@ Ist für die Repositories und das Deployment verantwortlich.
 ### Rollenzuordnung
 | Name              | Rolle               |
 |-------------------|---------------------|
-| Luca Eberhardt    | Backend-Entwickler  |
-| Angelo Mavridis   | Server-Entwickler   |
+| Luca Eberhardt    | Frontend-Entwickler  |
+| Angelo Mavridis   | Backend-Entwickler   |
 | Marlon Cadell     | Frontend-Entwickler und DevOps-Engineer |
 | Lucas Modesto     | Frontend-Entwickler |
 | Kirill Kuhn       | Backend-Entwickler  |
+
+Backend:
+* Datenbank
+* Server
+
+Frontend:
+* HTML Webseite
+* CSS
 
 ---
 
@@ -862,15 +866,9 @@ Ist für die Repositories und das Deployment verantwortlich.
 ---
 
 ### Deadlines
-* KW 43 (21.10)
-* Abgabe Pflichtenheft
-* KW 44 (28.10) / Projekt aufsetzen
-* Repository Struktur
-* KW 45 (4.11) / Implementierung
-* Implementierung #3 (Final)
-* KW 48 (18.12) / Abnahmetests
-* manuelle Abnahmetests
-* Präsentation / Software-Demo
+* 23.05 MVP (Datenbank, Server, Webseite)
+* 04.06 LATEST DATE für MVP
+* KW 27/28 Präsentation des gesamten Projektes
 
 ---
 
