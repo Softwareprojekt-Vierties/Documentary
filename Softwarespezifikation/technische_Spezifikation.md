@@ -117,6 +117,7 @@ wird.
 
 * Standards
   * Einheitliches Webdesign
+  * HTTPS
 * Hardware
   * für Endnutzer
     * Gerät, dass auf das Web zugreifen kann
@@ -178,182 +179,10 @@ wird.
 ## 2.4 Graphische Benutzerschnittstelle
 
 
-### Bildschirminhaltsverzeichnis
-
-
-  1) ......................................... Anmeldungsseite 
-  2) ......................................... Registrierungsseite 
-
-      - 2.1 ............................ Privatperson oder Dienstleister auswählen
-      - 2.2 ............................ DJ/Band oder Caterer auswählen
-    
-  3) ..........................................Startseite
-  4) ..........................................Postfachseite 
-  5) ......................................... Eventseite
-  6) ......................................... Ortsanbieterseite
-  7) ......................................... DJ/Bands
-  8) .......................................... Caterer
-  9) .......................................... Profilseite des Privatnutzers
-  10) .......................................... Profilerstellungsseite
-    
-      - 10.1 -  ......................... Endnutzer
-      - 10.2 -..........................    DJ/Bands
-      - 10.3 -  ......................... Caterer
-      - 10.4 -..........................  Event
-      - 10.5 -..........................   Ort
-
-
-<br>
-
-#### 1- Anmeldungsseite
-![](media/Anmeldungsseite.png)
-
-  * **User Stories:** 
-    * Registrierung und Kontoerstellung
-    * Abschluss der Registrierung
-<br>
-
-#### 2- Registrierungsseite
-![](media/Registrierungsseite.png)
-
-  * **User Stories:** 
-    * Kontoerstellung auf Eventure 
-
-
-#### 2.1 - Registrierungsseite - Privatperson oder Dienstleister auswählen
-![](media/Privatperson_oder_Dienstleister.png)
-  * **User Stories:** 
-    * Auswahl des Kontotyps
-
-    <br>
-
-
-#### 2.2-  Registrierungsseite - DJ/Band oder Caterer auswählen
-![](media/DJ_Band_oder_Caterer.png)
-  * **User Stories:** 
-    * Auswahl des Kontotyps
-
-
-<br>
-    <br>
-
-
-#### 3-  Startseite
-![](media/Startseite.png)
-  * **User Stories:** 
-    * Umfassende Suche
-    * Zugang auf E-Mails und Profil
-    * Erstellung von Events
-    * Markierung von Events als Favoriten
-    * Anzeige von Events mit verschiedenen Filteroptionen
-<br>
-
-<br>
-
-
-#### 4- Postfach
-![](media/Postfachseite.png)
-  * **User Stories:** Annahme oder Ablehnung von Dienstleistungsanfragen
-  <br>
-
-<br>
-
-
-#### 5-  Eventseite
-![](media/Eventseite.png)
-
-  * **User Stories:** 
-  * Teilnahme an Events
-  * Anzeige der Termine des Eventerstellers 
-  * Interaktion mit einer Karte zur Anzeige von Standorten
-  <br>
-
-<br>
-
-
-#### 6-  Ortsanbieterseite
-![](media/Ortsanbieterseite.png)
-  * **User Stories:** 
-    * Erstellung von Events
-    * Anzeige der Termine des Ortsanbieters 
-    * Bewertung und Kommentare für Ortsanbieter
-    * Interaktion mit einer Karte zur Anzeige von Standorten
-	
-
-  <br>
-
-<br>
-
-#### 7-  DJ/Band
-![](media/dj_band.png)
-
-  * **User Stories:** 
-    * Buchung eines DJs
-    * Profilansicht der Dienstleister	
-    * Anzeige der Termine des Dienstleisters
-    * Bewertung und Kommentare für Dienstleister
-    <br>
-
-<br>
-
-
-#### 8 - Caterer
-![](media/caterer.png)
-
-  * **User Stories:** 
-    * Buchung eines Caterers
-    * Profilansicht der Dienstleister	
-    * Anzeige der Termine des Dienstleisters 
-    * Bewertung und Kommentare für Dienstleister
-      <br>
-
-<br>
-
-
-
-#### 9 - Profilseite des Privatnutzers
-![](media/Perfilseite.png)
-
-  * **User Stories:** Aktualisierung von Benutzerdaten
-        <br>
-
-<br>
-
-#### 10.1- Profilerstellungsseite - Endnutzer
-![](media/Profilerstellungsseite.png)
-  * **User Stories:** Erstellung eines Benutzerprofils
-<br>
-
-<br>
-
-#### 10.2- Profilerstellungsseite - DJ/Bands
-![](media/dj_und_bands_erstellung.png)
-  * **User Stories:**  Profilerstellung für Dienstleister
-  <br>
-
-<br>
-
-#### 10.3- Profilerstellungsseite - Caterer
-![](media/erstellung_caterer.png)
-  * **User Stories:**  Profilerstellung für Dienstleister
-  <br>
-
-<br>
-
-#### 10.4- Profilerstellungsseite - Event
-![](media/event_erstellung.png)
-  * **User Stories:**  Erstellung von Events
-    <br>
-
-<br>
-
-#### 10.5- Profilerstellungsseite - Ort
-![](media/Ort.png)
-
-  * **User Stories:** Erstellung eines Profils für Veranstaltungsorte
-    <br>
-
-<br>
+* [Desktop Website PDF](../GUI-Mockups/Eventure.pdf)
+* [Desktop Website PowerPoint](../GUI-Mockups/Eventure.pptx)
+* [Mobile Website PDF](../GUI-Mockups/EventureMobile.pdf)
+* [Moblie Website PowerPoint](../GUI-Mockups/EventureMobile.pptx)
 
 
 ---
@@ -661,11 +490,6 @@ dish: {
 
 ---
 
-## 3.3.1 Ereignisse
-* In Event-gesteuerten Systemen: Definition der Ereignisse und deren Attribute
-
----
-
 ## 3.4 Datenmodell
 ### ER-Modell der Datenbank
 ![](media/EntityRelations.jpg)
@@ -760,17 +584,17 @@ dish: {
 
 ### Framework 
 #### Webentwicklung
-* **vue.js**
+* **vue.js** 5.0.8
 ### verwendete Programmiersprachen
 #### Server
-* **Java**
+* **JavaScript**
 #### Webentwicklung
 ##### Frontend
-* **HTML**
+* **HTML5**
 * **CSS**
 * **JavaScript**
 ##### Backend
-* **Java**
+* **JavaScript**
 #### Datenbank
 * **SQL**
 
