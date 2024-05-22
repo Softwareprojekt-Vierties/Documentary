@@ -656,7 +656,7 @@ Ist für die Repositories und das Deployment verantwortlich.
 |-------------------|---------------------|
 | Luca Eberhardt    | Frontend-Entwickler  |
 | Angelo Mavridis   | Backend-Entwickler   |
-| Marlon Cadell     | Frontend-Entwickler und DevOps-Engineer |
+| Marlon Cadell     | Frontend-Entwickler, DevOps-Engineer und Scrum-Master|
 | Lucas Modesto     | Frontend-Entwickler |
 | Kirill Kuhn       | Backend-Entwickler  |
 
