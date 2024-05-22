@@ -267,7 +267,7 @@ wird.
 
 * ER-Diagram
 
-![](media/EntityRelations.jpg)
+![](media/EntityRelations.png)
 
 * Kommunikation zwischen Client und Server
 
