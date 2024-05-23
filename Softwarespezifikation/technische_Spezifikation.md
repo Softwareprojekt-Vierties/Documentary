@@ -226,7 +226,7 @@ wird.
 
 # 3 Technische Beschreibung
 ## 3.1 Systemübersicht
-![](media/BoxAndArrow.jpg)
+![](media/BoxAndArrowNew.jpg)
 * Systemarchitekturdiagramm ("Box-And-Arrow" Diagramm)
 * Kommunikationsprotokolle, Datenformate
   Das Diagramm in Kapitel "Systemübersicht" ist statisch und nicht dynamisch und stellt
@@ -596,7 +596,7 @@ dish: {
 ##### Backend
 * **JavaScript**
 #### Datenbank
-* **SQL**
+* **PostgreSQL**
 
 * Nicht durch den Kunden definierte spezifische Annahmen, Anforderungen und
   Abhängigkeiten
