@@ -4,7 +4,7 @@
 **Dauer:** 12:00 - 16:00 Uhr
 
 
-**Teilnehmer** : 
+**Teilnehmer**: 
 * Kirill Kuhn
 * Angelo Mavridis 
 * Marlon Cadell
@@ -18,14 +18,14 @@
     * Zentrale Restaurant Übersicht
     * Was gibt es dort zu essen?
     * Kunden können Rezensionen für das Essen spezifisch erstellen und Fotos hochladen
-    * KI empfiehlt das beste Restaurant relativ zu den Speisen die der Benutzer liebt und dort auch gute Rezensionen haben
+    * KI empfiehlt das beste Restaurant relativ zu den Speisen, die der Benutzer liebt und dort auch gute Rezensionen haben
     * Verwenden von einer Karte (OpenStreetMap)
     * Akteure:
         * Benutzer
         * Restaurantinhaber
 
 * **Sammeltaxi für Kindergarten:**
-    * Land NRW möchte “Elterntaxi” verbieten (CO²)
+    * Land NRW möchte „Elterntaxi“ verbieten (CO₂)
     * Taxi Mutter/Vater haben Ausbildung und bieten ihren Service über eine App
         * Jemand der mit den Kindern arbeitet
         * Mehr Vertrauen für die Eltern
@@ -66,7 +66,7 @@
     * DJs in der Nähe finden
     * Locations nach Preis und Fläche filtern
     * Einkaufsmöglichkeiten (Rewe, Trink Fuchs, Pizzeria)
-    * Filtern von Möglichkeiten / Limitierungen  (Rauchen, Tiere werden gestört, etc.)
+    * Filtern von Möglichkeiten / Limitierungen (Rauchen, Tiere werden gestört, etc.)
     * Auflisten von bereits geplanten Parties
         * In welcher Party spielt bereits der DJ
     * Eine Veranstaltung planen und finden
