@@ -1,7 +1,7 @@
 # Meeting Protokoll 
 
 **Datum:** 11.06.24
-**Dauer:** 18:00 -  Uhr
+**Dauer:** 18:00 - 19:00 Uhr
 
 **Teilnehmer**: 
 * Kirill Kuhn
@@ -37,3 +37,5 @@
        * Kategorie
        * Erfahrung
   4. Informationen an den Server senden
+  
+![](../Softwarespezifikation/media/FlowChart-CreateAccount.png)
