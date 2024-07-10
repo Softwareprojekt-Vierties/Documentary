@@ -443,11 +443,11 @@ Unsere internen Qualitätsanforderungen umfassen verschiedene Softwarequalitäts
 
 ## 4.2 Verantwortlichkeiten
 
-| Softwarebaustein | Person(en)                                   |
+| Softwarebaustein | Person(en), GitHub-Namen                     |
 |------------------|----------------------------------------------|
-| Datenbank        | Kirill Kuhn                                  |
-| Server           | Angelo Mavridis                              |
-| Frontend         | Luca Eberhardt, Lucas Modesto, Marlon Cadell |
+| Datenbank        | Kirill Kuhn (JustCallMeKK)                   |
+| Server           | Angelo Mavridis (Angelo98M)                  |
+| Frontend         | Luca Eberhardt (user8193), Lucas Modesto (Lucas), Marlon Cadell (M1r12on, Marlon Cadell) |
 
 ---
 
