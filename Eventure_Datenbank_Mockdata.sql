@@ -179,7 +179,7 @@ values ('apos', 'DJ Apos', 'apos@is.gd', '#italiano #hiphop', 'Mix von italienis
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
 values ('djClassy', 'DJ Classy', 'djClassy@blogtalkradio.com', '#classic #hiphop', 'Ich bin DJ Classy! Ich bringe euch meinen Mix von klassischen Songs in neuer Form!', 'Forster Str. 5, 10999 Berlin', 23, 0, 23);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('deeJiggy', 'Jiggy Dee', 'deeJiggy@er24.de', 'Rising in the #Charts', 'Mit meiner Musik wirst du dich fühlen wie Biggie Cheese!', 'Köpenicker Ch 33, 10317 Berlin', 24, 0, 24);
+values ('deeJiggy', 'Jiggy Dee', 'deeJiggy@er24.de', 'Rising in the #Charts', 'Mit meiner Musik wirst du dich fühlen wie Biggie Cheese! https://www.youtube.com/watch?v=f80-5MWnfIA', 'Köpenicker Ch 33, 10317 Berlin', 24, 0, 24);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
 values ('rnp', 'RnP', 'rnp@jigsy.com', '#Charts', 'Wir sind Ricky und Phillip. Wir bringen euch die Hits die ihr im Radio hört!', 'Paul-Lincke-Ufer 8E, 10999 Berlin', 25, 0, 25);
 
@@ -207,72 +207,72 @@ insert into lied (ownerid, name, laenge, erscheinung) values (7 , 'Morgen Grauen
 
 -- app_user (CATERER)
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('dclailz', 'rdumphreysz', 'ddiamondz@livejournal.com', 'Other disorders of penis', 'Burn [any degree] involving less than 10 percent of body surface with third degree burn, less than 10 percent or unspecified', 'PO Box 86780', 26, 0, 26);
+values ('hyatt', 'Hyatt Catering Berlin', 'hyatt@livejournal.com', 'All about Sweets!', 'Wir spezialisieren uns auf alles was mit Gebäck und süße Gerichte zu tun hat!', 'Marlene-Dietrich-Platz 2, 10785 Berlin', 26, 0, 26);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('nandree10', 'eroslen10', 'bbertot10@vk.com', 'Exostosis of right orbit', 'Alveolitis of jaw', 'Apt 360', 27, 0, 27);
+values ('blTRCatering', 'Bleibtreu Catering GmbH', 'blTRCatering@vk.com', 'Fancy dining', 'Wir bieten eine vielseitige Gericht Auswahl an, von asiatisch bis hin zu american style food!', 'Uhlandstraße 195, 10623 Berlin', 27, 0, 27);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('mwaddam11', 'abonafant11', 'jdjekovic11@cyberchimps.com', 'Poisoning by centr-acting/adren-neurn-block agnt, acc, init', 'Cortex (cerebral) laceration without mention of open intracranial wound, with loss of consciousness of unspecified duration', 'Room 653', 28, 0, 28);
+values ('becBrln', 'Bio und Event Catering Berlin', 'becBrln@cyberchimps.com', 'Essen mit Acht auf Konsum', 'Wir bei Bio und Event Catering Berlin legen Wert darauf, dass die Gerichte für alle Konsumenten ist! Von Fleisch und Vegan bis Vegetarisch', 'Auerstraße 28, 10249 Berlin', 28, 0, 28);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('ttohill12', 'mrablan12', 'lkabsch12@printfriendly.com', 'Unspecified physeal fracture of phalanx of right toe, init', 'Pre-operative respiratory examination', 'PO Box 76831', 29, 0, 29);
+values ('spreeküche', 'Spreeküche GmbH', 'spreeküche@printfriendly.com', 'Spreeküche', 'Bei uns könnt ihr uns auch als Lieferdienst anstellen. In unserer Küche haben wir alles was mach braucht, das erleichtert euch beim aussuchen von Locations!', 'Gustav-Holzmann-Straße 10, 10317 Berlin', 29, 0, 29);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('pwharby13', 'mmaldin13', 'astowe13@chronoengine.com', 'Bennett''s fracture, left hand, init encntr for open fracture', 'Air embolism', 'Suite 21', 30, 0, 30);
+values ('culievento', 'CULIVENTO CATERING in Berlin', 'culievento@chronoengine.com', 'Nur Lieferung', 'Wir bieten euch 24/7 Catering Services an! Jedoch können Gerichte nur geliefert oder abgeholt werden!', 'Rudolf-Schwarz-Straße 25, 10407 Berlin', 30, 0, 30);
 
 -- CATERER
-insert into caterer (emailfk, preis, kategorie, erfahrung)
-values ('baudry0@e-recht24.de', '€1490,37', 'Geburtstagsfeiern', 20);
-insert into caterer (emailfk, preis, kategorie, erfahrung)
-values ('imacgillespie1@nbcnews.com', '€1292,37', 'Weihnachtsfeiern', 60);
-insert into caterer (emailfk, preis, kategorie, erfahrung)
-values ('tcorkell2@nasa.gov', '€1602,91', 'Themenpartys', 62);
-insert into caterer (emailfk, preis, kategorie, erfahrung)
-values ('blambal3@bing.com', '€1394,10', 'Picknicks', 95);
-insert into caterer (emailfk, preis, kategorie, erfahrung)
-values ('hsoitoux4@indiegogo.com', '€1929,74', 'Messe-Catering', 74);
+insert into caterer (emailfk, preis, kategorie, erfahrung) values ('hyatt@livejournal.com'          , '€1490,37', 'Geburtstagsfeiern'   , '20 Jahre');
+insert into caterer (emailfk, preis, kategorie, erfahrung) values ('blTRCatering@vk.com'            , '€1292,37', 'Weihnachtsfeiern'    , '60 Jahre');
+insert into caterer (emailfk, preis, kategorie, erfahrung) values ('becBrln@cyberchimps.com'        , '€1602,91', 'Themenpartys'        , '62 Jahre');
+insert into caterer (emailfk, preis, kategorie, erfahrung) values ('spreeküche@printfriendly.com'   , '€1394,10', 'Picknicks'           , '95 Jahre');
+insert into caterer (emailfk, preis, kategorie, erfahrung) values ('culievento@chronoengine.com'    , '€1929,74', 'Messe-Catering'      , '74 Jahre');
 
 -- GERICHTE
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (1, 'Cereopsis novaehollandiae', 'Fetal distress, affecting management of mother, unspecified as to episode of care or not applicable', 1);
+values (1, 'Schwarzwälder Kirschtorte'  , 'Eine klassische deutsche Torte mit Schichten von dunklem Schokoladenbiskuit, Sahne und Kirschen, oft mit Kirschlikör getränkt.'                                                              , 31);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (2, 'Manouria emys', 'Screening examination for venereal disease', 2);
+values (1, 'Éclair'                     , 'Ein französisches Gebäck aus luftigem Brandteig, gefüllt mit einer Creme, oft Schokolade oder Vanille, und glasiert mit Schokolade.'                                                         , 32);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (3, 'Butorides striatus', 'Acquired absence of teeth, unspecified', 3);
+values (1, 'Churros'                    , 'Ursprünglich aus Spanien stammend, sind Churros frittierte Teigstangen, die mit Zucker bestreut und mit Schokoladensoße zum Dippen serviert werden.'                                         , 33);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (4, 'Tetracerus quadricornis', 'Acute venous embolism and thrombosis of deep veins of upper extremity', 4);
+values (2, 'Sushi'                      , 'Ein japanisches Gericht, bestehend aus gewürztem Reis und rohem Fisch, oft in Algenblätter gerollt und in Stücke geschnitten serviert.'                                                      , 34);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (5, 'Egretta thula', 'Obstetrical air embolism, delivered, with mention of postpartum complication', 5);
+values (2, 'Pad Thai'                   , 'Ein thailändisches Nudelgericht, das mit gebratenen Reisnudeln, Tofu oder Hühnchen, Erdnüssen, Eiern und einer würzigen Sauce zubereitet wird.'                                              , 35);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (6, 'Eumetopias jubatus', 'Chondrocalcinosis, due to dicalcium phosphate crystals, other specified sites', 6);
+values (2, 'Hamburger'                  , 'Ein klassisches amerikanisches Sandwich, bestehend aus einem gegrillten Rindfleisch-Patty, das in einem Brötchen mit verschiedenen Belägen wie Salat, Tomaten und Käse serviert wird.'       , 36);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (7, 'Felis serval', 'Deep necrosis of underlying tissues [deep third degree] without mention of loss of a body part of scalp [any part]', 7);
+values (3, 'Ratatouille'                , 'Ein provenzalisches Gemüsegericht aus Auberginen, Zucchini, Paprika, Tomaten und Kräutern, geschmort in Olivenöl.'                                                                           , 37);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (8, 'Leprocaulinus vipera', 'Toxic effect of organic lead compounds', 8);
+values (3, 'Falafel'                    , 'Ursprünglich aus dem Nahen Osten, sind Falafel frittierte Bällchen aus Kichererbsen oder Bohnen, oft mit Salat, Hummus und Tahini in Pita-Brot serviert.'                                    , 38);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (9, 'Butorides striatus', 'Malignant neoplasm of lip, unspecified, inner aspect', 9);
+values (3, 'Caprese-Salat'              , 'Ein italienischer Salat aus Tomaten, Mozzarella und Basilikum, gewürzt mit Olivenöl, Salz und Pfeffer, oft als Vorspeise oder Beilage serviert.'                                             , 39);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (10, 'Spizaetus coronatus', 'Other and unspecified cerebral laceration and contusion, without mention of open intracranial wound, with prolonged [more than 24 hours] loss of consciousness and return to pre- existing conscious level', 10);
+values (4, 'Paella'                     , 'Ein spanisches Gericht aus Reis, mit Safran gewürzt und mit Meeresfrüchten, Hühnchen oder Gemüse wie Paprika und Erbsen zubereitet.'                                                         , 40);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (11, 'Phalacrocorax carbo', 'Lipotropic drugs causing adverse effects in therapeutic use', 11);
+values (4, 'Moussaka'                   , 'Ein griechisches Gericht mit geschichteten Auberginen, Hackfleisch (oder Linsen für eine vegetarische Version), Kartoffeln und einer Bechamelsauce, gebacken bis zur Perfektion.'            , 41);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (12, 'Vulpes vulpes', 'Broad ligament laceration syndrome', 12);
+values (4, 'Sauerbraten'                , 'Ein deutsches Gericht, bei dem mariniertes Rindfleisch langsam geschmort und mit einer süß-sauren Sauce serviert wird, oft begleitet von Kartoffelklößen und Rotkohl.'                       , 42);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (13, 'Psittacula krameri', 'Tuberculous abscess of spinal cord, bacteriological or histological examination not done', 13);
+values (5, 'Ceviche'                    , 'Ein lateinamerikanisches Gericht aus rohem Fisch oder Meeresfrüchten, mariniert in Zitronen- oder Limettensaft, oft mit Zwiebeln, Chili und Koriander gewürzt.'                              , 43);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (14, 'Arctogalidia trivirgata', 'Subacute dyskinesia due to drugs', 14);
+values (5, 'Kimchi'                     , 'Ein koreanisches Gericht aus fermentiertem Gemüse, hauptsächlich Kohl und Rettich, gewürzt mit Chili, Knoblauch und Ingwer, als Beilage serviert oder in Hauptgerichten verwendet.'          , 44);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (15, 'Phoca vitulina', 'Open fracture of shaft of fibula alone', 15);
+values (5, 'Tagine'                     , 'Ein nordafrikanisches Gericht, das in einer traditionellen Tontopf-Tajine zubereitet wird, oft mit Fleisch (wie Lamm oder Huhn), Gemüse, Trockenfrüchten und Gewürzen wie Safran und Zimt.'  , 45);
 
 
 -- LOCATIONS
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
-values ('Crescent Oaks', 'Lemke and Sons', 'Tuberculosis of other male genital organs, bacteriological or histological examination unknown (at present)', 1, false, 'TB male gen NEC-ex unkn', '€217,29', false, 74, 58, 0, 30);
+values ('Königin-Elisabeth-Straße 45, 14059 Berlin', 'Queens 45 BC', 'Ein feines Establishment perfekt für Hochzeiten, mit einer Atmosphere aus den Königlichen Leben.',
+        3, false, 'historischer Ballsaal', '€217,29 pro Stunde', false, '220 m²', 410, 0, 46);
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
-values ('Superior', 'Deckow-Padberg', 'Mild stage glaucoma', 2, false, 'Mild stage glaucoma', '€360,12', true, 15, 123, 0, 30);
+values ('Aroser Allee 80, 13407 Berlin', 'Victor’s Eventlocation', 'Außen altehrwürdiger Industriebau der Jahrhundertwende, innen moderne Veranstaltungsräume mit außergewöhnlicher Atmosphäre, eleganten Cocoon-Lampen und stylishen Designer-Möbeln. Die Kombination aus Alt und Neu schafft einen besonderen Charme, der das denkmalgeschützte Kesselhaus aus dem Jahre 1908 in eine einzigartige Event-Location verwandelt – das ist The Mix.',
+        3, false, 'The Mix Victor’s Eventlocation Berlin', '€360,12 pro Stunde', true, '341 m²', 539, 0, 47);
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
-values ('Mcguire', 'Bernhard, Little and Stroman', 'Hypospadias', 3, false, 'Hypospadias', '€139,63', true, 61, 124, 0, 30);
+values ('Revaler Str. 99, 10245 Berlin', 'TREEHOUSE Berlin', 'HIER, WO... Einheimische und Fabelwesen tanzen, wo Touristen zu Treejanern werden, wo sich Blätter in Konfetti verwandeln und die Baumkrone jedem verliehen wird – im Treehouse wacht unser Stammesälteste über alles und jeden.',
+        10, false, '', '€139,63 pro Stunde', true, '700 m²', 558, 0, 48);
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
-values ('Morrow', 'Keeling, Abshire and Kessler', 'Borderline personality disorder', 4, true, 'Borderline personality', '€77,43', false, 62, 34, 0, 30);
+values ('Mehringdamm 55, 10961 Berlin', 'Schmelzwerk', 'Herzlich willkommen im Schmelzwerk - der Event-Location im Herzen von Berlin-Kreuzberg! Entdecken Sie einen Ort mit Geschichte, denn wo die legendäre Schokoladen-Manufaktur Sarotti vor mehr als 150 Jahren noch ihre bekannten Kakao-Spezialitäten fertigte, befindet sich heute unser Schmelzwerk: eine moderne Eventlocation für bis zu 199 Personen mit historischem Hintergrund und stilvollem Interieur.',
+        11, false, 'Event-Location im Herzen von Berlin-Kreuzberg', '€77,43 pro Stunde', true, '201 m²', 400, 0, 49);
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
-values ('Oriole', 'Toy-Schneider', 'Poisoning by other sedatives and hypnotics', 5, false, 'Pois-sedative/hypnot NEC', '€310,24', true, 66, 169, 0, 30);
+values ('Am Flutgraben 2, 12435 Berlin', 'Oberhafenkantine Berlin', 'Für all die, die noch auf der Suche nach einem außergewöhnlichen Ort für eine Hochzeitsfeier, einer Agenturparty, einem Sommerfest oder einem Firmenworkshop sind - es gibt noch attraktive, freie Tage!',
+        11, false, 'AHOI PARTY!', '€110,24 pro Stunde', true, '500 m²', 450, 0, 50);
 
 
 -- EVENTS
