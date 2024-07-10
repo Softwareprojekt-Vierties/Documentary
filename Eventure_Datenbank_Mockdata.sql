@@ -1,6 +1,6 @@
 -- //////////////////// MOCK DATEN ////////////////////
 
--- PASSWÖRTER
+-- PASSWÖRTER 30
 insert into password (hash) values
     (' $2b$12$oL2xAuLlhIEwkSwUuaT8KOHmZ6BQIQKU2vw0mYzIEH0iswmI1a9we '),
     (' $2b$12$hsfShzvp8.rd8/7uXs444OiY9mMTn9pEuJUWbew1PUuqEXYXo8PS2 '),
@@ -110,134 +110,99 @@ insert into bild (data) values
 
 -- app_user (ENDNUTZER) 18
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('borthmann0', 'nsuerz0', 'moldmeadow0@toplist.cz', 'Other specified disorders of synovium, right wrist', 'Major depressive affective disorder, recurrent episode, severe, without mention of psychotic behavior', '4th Floor', 1, 0, 1);
+values ('borthmann0', 'Mr. Borthmann', 'borthmann0@toplist.cz', 'I love broth!', 'I got my name from my first blackout. I am a king in drinking lots of alcohol and not puking by drinking lots of broth! Fear me!', 'Gütersloher Str. 84, 33378 Rheda-Wiedenbrück', 1, 0, 1);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('cfogt1', 'pdumini1', 'adeverale1@usa.gov', 'Unsp fracture of upper end of unspecified tibia, sequela', 'Other primary progressive tuberculosis, tubercle bacilli found (in sputum) by microscopy', 'Suite 80', 2, 0, 2);
+values ('cfogt1', 'Александр', 'cfogt1@gmail.com', 'У моей бабушки есть АК-47!', 'Мы с моим другом Сергеем любим заниматься паркуром в Метро!', 'Paradnyy Proyezd 4a, Russland, 142116', 2, 0, 2);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('jeilhertsen2', 'dmatzen2', 'tkryszka2@jalbum.net', 'Unspecified episcleritis', 'Infertility, female, associated with anovulation', 'PO Box 11044', 3, 0, 3);
+values ('jeilhertsen2', 'Jolina', 'jeilhertsen2@jalbum.net', '...', '...', 'Cottbuser Str. 42, 15711 Königs Wusterhausen', 3, 0, 3);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('emanifold3', 'blauks3', 'epickworth3@people.com.cn', 'Burn due to water-skis on fire', 'Motor vehicle traffic accident involving collision with train injuring other specified person', 'Suite 98', 4, 0, 4);
+values ('emanifold3', 'Emma', 'emanifold3@people.com.cn', 'Keep Calm and Party!', 'Ich liebe meine Freunde, slay! 💅 ', 'Cottbuser Str. 42b, 15711 Königs Wusterhausen', 4, 0, 4);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('khick4', 'kboyn4', 'lhaggett4@ycombinator.com', 'Complete loss of teeth, unspecified cause, class I', 'Poisoning by cocaine', '9th Floor', 5, 0, 5);
+values ('khick4', 'kboyn4', 'khick4@ycombinator.com', 'I do not like to party', 'As a 19-year-old guy, I hate alcohol for several reasons. First, I have seen how it can ruin lives, from health problems to broken relationships. Watching friends and family struggle with addiction and its consequences has been tough. Second, it is expensive. I would rather spend my money on things that make me happy and productive, like hobbies or saving for future goals. Lastly, I enjoy being in control of my actions and making clear-headed decisions. Alcohol often leads to reckless behavior and regrets, and that is just not something I want in my life.', 'Hallberger Zeile 25, 12437 Berlin', 5, 0, 5);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('bleidl5', 'cokennavain5', 'rfautley5@dyndns.org', 'Unspecified focal traumatic brain injury', 'Other retroperitoneal abscess', 'Room 1848', 6, 0, 6);
+values ('bleidl5', 'Bleid', 'bleidl5@dyndns.org', 'Lebe aktiv, feiere ausgelassen!', 'Ich nutze Eventure, weil es mir ermöglicht, die besten Partys und Events in meiner Stadt zu finden und zu planen. Die Webseite bietet eine Vielzahl von Optionen, um herauszufinden, was gerade los ist und wo ich meine Freunde treffen kann, um gemeinsam eine gute Zeit zu haben. Außerdem habe ich hier schon viele neue Leute kennengelernt, die ähnliche Interessen teilen, sei es im Sport oder einfach nur im Feiern. Eventure ist für mich eine tolle Plattform, um mein aktives und soziales Leben weiter auszubauen und neue Freundschaften zu knüpfen.', 'Kol.Marienglück Rosenweg 85, 12101 Berlin', 6, 0, 6);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('lsames6', 'lpoundsford6', 'ldussy6@rambler.ru', 'Progressive external ophthalmoplegia, left eye', 'Submucous leiomyoma of uterus', 'Room 792', 7, 0, 7);
+values ('lsames6', 'LelalusuSame', 'lsames6@rambler.ru', 'FCB AUF DIE EINS!', 'Habe diese Webseite durch einen Freund, den ich auf einer Party kennengelernt habe, gefunden. Echt geil hier!', 'Nelkenallee 60, 12109 Berlin', 7, 0, 7);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('dwhife7', 'bmenary7', 'slello7@bravesites.com', 'Legal intervnt involving unsp sharp objects, suspect injured', 'Closed fractures involving skull or face with other bones, with cerebral laceration and contusion, with moderate [1-24 hours] loss of consciousness', 'PO Box 84809', 8, 0, 8);
+values ('dwhife7', 'Dwhite07', 'dwhife7@bravesites.com', 'White like snow', 'Ich habe nichts zu sagen', 'Kolonie Sorgenfrei Ostweg 33, 12347 Berlin', 8, 0, 8);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('dchalfant8', 'lpinnington8', 'tjuan8@gov.uk', 'Legal intervnt w injury by tear gas, bystand injured, init', 'Other chronic postoperative pain', 'PO Box 90690', 9, 0, 9);
+values ('dchalfant8', 'Elefanture', 'dchalfant8@gov.uk', 'Long life the queen!', 'I come from London, but Berlin is also a nice city', 'Didostraße 2A, 12109 Berlin', 9, 0, 9);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('asauven9', 'avales9', 'anast9@nsw.gov.au', 'Displ oth extrartic fx r calcaneus, subs for fx w routn heal', 'Multiple and unspecified open wound of lower limb, without mention of complication', 'Apt 1254', 10, 0, 10);
+values ('asauven9', 'Raven09', 'asauven9@nsw.gov.au', 'Ravenblack', '... 🐦‍⬛', 'Rixdorfer Str. 153, 12109 Berlin', 10, 0, 10);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('breboula', 'fflasbya', 'agerltsa@mediafire.com', 'Neonatal coma', 'Lens replaced by other means', 'PO Box 5747', 11, 0, 11);
+values ('breboula', 'BabaraRabara', 'breboula@mediafire.com', 'Live, love, life', 'Ich liebe alles was grün ist.', 'Mohriner Allee 112K, 12347 Berlin', 11, 0, 11);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('bmcconwayb', 'skuschekb', 'tcraigsb@umich.edu', 'Milt op w indirect blast effect of nuclear weapon, milt', 'Abdominal rigidity, right upper quadrant', 'Room 989', 12, 0, 12);
+values ('bmcconwayb', 'BMCC-Black', 'bmcconwayb@umich.edu', 'TEAM BMCC!', 'TEAM BMCC ON TOP OF BERLIN!', 'Petunienweg 5A, 12357 Berlin', 12, 0, 12);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('dbrufordc', 'edybbec', 'khixleyc@csmonitor.com', 'Oth fracture of lower end of left femur, init for clos fx', 'Squamous cell carcinoma of skin of lower limb, including hip', 'Room 540', 13, 0, 13);
+values ('dbrufordc', 'RubberDuckiDuck', 'dbrufordc@csmonitor.com', 'Quack', 'Ich habe das Glück neben Enten zu leben!', 'Wendenschloßstraße 373, 12557 Berlin', 13, 0, 13);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('rmctagued', 'ldanilovicd', 'hledurd@ucsd.edu', 'Acute maxillary sinusitis, unspecified', 'Closed fracture of third cervical vertebra', 'PO Box 70051', 14, 0, 14);
+values ('rasmodeus01', 'Rasmodeus', 'rasmodeus01@ucsd.edu', 'I LOVE STARDEW', 'Ich heiße nicht Rasmodeus. Mein fav. Game Character heißt Asmodeus. Ich bin einfach originaler!', 'Bohnsdorfer Str. 10, 12527 Berlin', 14, 0, 14);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('hsandse', 'jgonete', 'hcawthrye@infoseek.co.jp', 'Cystic meniscus, other lateral meniscus, right knee', 'Open wound of upper arm, complicated', 'Room 1002', 15, 0, 15);
+values ('hsandse', 'HS und SE', 'hsandse@infoseek.co.jp', 'Wir sind zwei', 'Wir sind siamesische Zwillinge.', 'Staudenweg 2, 12487 Berlin', 15, 0, 15);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('sjerromf', 'frowlerf', 'dtollowf@fda.gov', 'Labor and delivery complicated by short cord, other fetus', 'Cortex (cerebral) laceration without mention of open intracranial wound, with no loss of consciousness', '5th Floor', 16, 0, 16);
+values ('olafW', 'Olaf', 'olafW@fda.gov', 'Rush B', 'Ich bin Schwede und ich spiele gerne CS2!', 'Kottmeierstraße 74, 12459 Berlin', 16, 0, 16);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('hbraggg', 'gjohnstong', 'rwrighthamg@360.cn', 'Therapeutic and rehab ob/gyn devices assoc w incdt', 'Kaschin-Beck disease, upper arm', 'Room 544', 17, 0, 17);
+values ('hbraggg', 'HammDance', 'hbraggg@360.cn', 'I love hamm and bacon', 'Wenn du keinen Bacon magst, dann verlierst du das beste am Leben!', 'Fennstraße 18, 12439 Berlin', 17, 0, 17);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('wgallyh', 'chaillh', 'nflighth@fastcompany.com', 'Unspecified optic atrophy', 'Spontaneous abortion, complicated by metabolic disorder, unspecified', 'Apt 136', 18, 0, 18);
+values ('wgallyh', 'Wolly', 'wgallyh@fastcompany.com', 'Cuby World', 'I develop games. Check out Cube World ;)', 'Sterndamm 24, 12487 Berlin', 18, 0, 18);
 
 -- ENDNUTZER
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('cgiovannacci0@nationalgeographic.com', 28, 'Fundamental content-based service-desk', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Squirrel glider');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('lgannan1@jiathis.com', 37, 'Stand-alone national middleware', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Magpie, black-backed');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('ochater2@foxnews.com', 24, 'Front-line client-driven contingency', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Netted rock dragon');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('sellard3@instagram.com', 40, 'Horizontal zero administration benchmark', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Ibex');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('jelsworth4@narod.ru', 26, 'Universal real-time throughput', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Grey mouse lemur');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('agilman5@sun.com', 38, 'Stand-alone composite success', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Paca');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('dhamilton6@so-net.ne.jp', 37, 'Re-engineered well-modulated project', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Greylag goose');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('agoakes7@mtv.com', 26, 'Proactive interactive neural-net', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'African bush squirrel');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('scaurah8@canalblog.com', 34, 'Focused fault-tolerant forecast', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Oystercatcher, blackish');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('akingh9@delicious.com', 44, 'Future-proofed high-level paradigm', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Anteater, australian spiny');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('tboolsa@dmoz.org', 21, 'Enterprise-wide explicit utilisation', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Hoary marmot');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('fhannumb@ftc.gov', 18, 'Optimized optimizing utilisation', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Dusky gull');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('kpaulettic@angelfire.com', 42, 'Ameliorated impactful matrix', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Waved albatross');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('cloeberd@dot.gov', 45, 'Object-based leading edge process improvement', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'White spoonbill');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('ogreenhalfe@flickr.com', 36, 'Down-sized user-facing emulation', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Plains zebra');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('psharkf@hao123.com', 38, 'Ameliorated disintermediate open system', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Gull, lava');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('nputtong@wix.com', 28, 'Virtual composite frame', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Legaan, ground');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('psyphush@skyrock.com', 28, 'Right-sized 4th generation standardization', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Cat, cape wild');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('borthmann0@toplist.cz', 28, 'Techno', 'nothing', 'Trout Soup');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('cfogt1@gmail.com', 37, 'дискотеку', 'Она решила сдаться', 'пельмени');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('jeilhertsen2@jalbum.net', 24, '...', '...', '...');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('emanifold3@people.com.cn', 40, 'Club', 'von Party zu Party', 'Ibex');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('khick4@ycombinator.com', 26, 'Universal', 'Bohemian Rhapsody', 'Schokoladen-Kuchen');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('bleidl5@dyndns.org', 38, 'Disko', '...', '...');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('lsames6@rambler.ru', 37, 'Alle', 'Shape of You', 'grüne Äpfel');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('dwhife7@bravesites.com', 26, 'Indoor Festivals', 'zu viele', 'Trüffel');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('dchalfant8@gov.uk', 34, 'Small', 'everything from Queen', 'Beef Wellington');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('asauven9@nsw.gov.au', 44, 'Club', '...', '...');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('breboula@mediafire.com', 21, 'Outdoors Festivals', 'Stairway to Heaven', 'Brokkoli');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('bmcconwayb@umich.edu', 18, 'Club', '...', 'Jägermeister');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('dbrufordc@csmonitor.com', 42, 'Verrückte Locations', '...', 'Waved albatross');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('rasmodeus01@ucsd.edu', 45, 'Festivals', 'Summer (Natures Crescendo)', 'Pomegrannit');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('hsandse@infoseek.co.jp', 36, 'Konzerte', 'Rolling in the Deep', 'Krokodil');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('olafW@fda.gov', 38, 'Club', 'Purple Haze', 'Surströmming');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('hbraggg@360.cn', 28, '...', '...', 'Bacon');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('wgallyh@fastcompany.com', 28, '...', '...', '...');
 
 
--- app_user (ARTIST)
+-- app_user (ARTIST) 7
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('hbirtwelln', 'asantoron', 'apictonn@comsenz.com', 'Partial traum amp at level betw unsp hip and knee, sequela', 'Cortex (cerebral) contusion with open intracranial wound, unspecified state of consciousness', 'PO Box 68904', 19, 0, 19);
+values ('DJ$horty', 'DJ Shorty', 'djShorty@comsenz.com', 'We Ballin!', 'All Hip and everything Pop! We gonna be fire in the charts!', 'Schlesische Str. 38, 10997 Berlin', 19, 0, 19);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('vphillcocko', 'shawkshawo', 'mdankso@nydailynews.com', 'Inj extn musc/fasc/tend at forearm level, right arm, sequela', 'Acute peptic ulcer of unspecified site without mention of hemorrhage and perforation, with obstruction', 'Suite 60', 20, 0, 20);
+values ('teekay', 'DJ Teekay', 'teekay@nydailynews.com', 'In den Charts!', 'Beste Musik in Berlin! Beste Musik in den Charts! Auf die Nummer eins!', 'Schlesische Str. 38, 10997 Berlin', 20, 0, 20);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('lfawthorpep', 'ssenyardp', 'mschwantp@walmart.com', 'Benign lipomatous neoplasm of other genitourinary organ', 'Unspecified tuberculosis of central nervous system, tubercle bacilli found (in sputum) by microscopy', 'PO Box 60098', 21, 0, 21);
+values ('ozzyBROWN', 'Ozzy Brown', 'ozzyBROWN@walmart.com', 'HipHop', 'Ozzy Brown hier! Bekannt in ganz Berlin seit 2014!', 'Schlesische Str. 29-30, 10997 Berlin', 21, 0, 21);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('briseamq', 'sfolbigq', 'gpollittq@is.gd', 'Acquired absence of unspecified leg below knee', 'Traumatic shock', 'PO Box 59019', 22, 0, 22);
+values ('apos', 'DJ Apos', 'apos@is.gd', '#italiano #hiphop', 'Mix von italienischer klassischen Musik und Hip Hop.', 'Wiesenweg 5-9, 10365 Berlin', 22, 0, 22);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('ddayborner', 'hmussaredr', 'awittonr@blogtalkradio.com', 'Minor laceration of femoral artery, unsp leg, init encntr', 'Unspecified disorders of arteries and arterioles', '7th Floor', 23, 0, 23);
+values ('djClassy', 'DJ Classy', 'djClassy@blogtalkradio.com', '#classic #hiphop', 'Ich bin DJ Classy! Ich bringe euch meinen Mix von klassischen Songs in neuer Form!', 'Forster Str. 5, 10999 Berlin', 23, 0, 23);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('cgrowys', 'apatinkins', 'ecavaliers@e-recht24.de', 'Disp fx of proximal phalanx of right index finger, init', 'Varicose veins of vulva and perineum complicating pregnancy and the puerperium, delivered, with mention of postpartum complication', 'Room 1668', 24, 0, 24);
+values ('deeJiggy', 'Jiggy Dee', 'deeJiggy@er24.de', 'Rising in the #Charts', 'Mit meiner Musik wirst du dich fühlen wie Biggie Cheese!', 'Köpenicker Ch 33, 10317 Berlin', 24, 0, 24);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('bquinceyt', 'aechaliet', 'skarolewskit@jigsy.com', 'Inj unsp musc/fasc/tend at thigh level, right thigh, init', 'Longitudinal deficiency, combined, involving humerus, radius, and ulna (complete or incomplete)', 'Suite 23', 25, 0, 25);
+values ('rnp', 'RnP', 'rnp@jigsy.com', '#Charts', 'Wir sind Ricky und Phillip. Wir bringen euch die Hits die ihr im Radio hört!', 'Paul-Lincke-Ufer 8E, 10999 Berlin', 25, 0, 25);
 
 -- ARTIST
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('eferryn0@usgs.gov', 845, '', 34);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('sfabler1@moonfruit.com', 31, '', 14);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('npeaseman2@businessinsider.com', 647, '', 44);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('lfiridolfi3@digg.com', 394, '', 15);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('awinscom4@mapy.cz', 468, '', 15);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('bplum5@tripadvisor.com', 666, '', 18);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('caskey6@mlb.com', 810, '', 6);
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('djShorty@comsenz.com'      , '845€ pro Event'  , 'HipHop'              , '13 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('teekay@nydailynews.com'    , '31€ pro Event'   , 'Charts'              , '14 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('ozzyBROWN@walmart.com'     , '647€ pro Event'  , 'HipHop'              , '10 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('apos@is.gd'                , '394€ pro Event'  , 'italienisch HipHop'  , '15 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('djClassy@blogtalkradio.com', '468€ pro Event'  , 'Klassik HipHop'      , '15 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('deeJiggy@er24.de'          , '666€ pro Event'  , 'Charts'              , '18 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('rnp@jigsy.com'             , '810€ pro Event'  , 'Charts'              , '6 Jahre');
 
 -- LIEDER
-insert into lied (ownerid, name, laenge, erscheinung)
-values (1, 'Sonair', 341.27, '2024-06-05');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (2, 'Trippledex', 232.35, '2006-03-09');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (3, 'Y-Solowarm', 214.87, '2021-10-23');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (4, 'Bytecard', 2.41, '2017-08-19');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (5, 'Subin', 122.99, '2022-10-15');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (6, 'Holdlamis', 353.51, '2022-03-14');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (7, 'Kanlam', 375.48, '2019-10-31');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (8, 'Vagram', 145.32, '2017-05-04');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (9, 'Duobam', 397.4, '2022-02-07');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (10, 'Viva', 10.48, '2022-05-10');
+insert into lied (ownerid, name, laenge, erscheinung) values (1 , 'Hip in the Club'     , 3.27  , '2024-06-05');
+insert into lied (ownerid, name, laenge, erscheinung) values (1 , 'Party in Berlin'     , 2.35  , '2006-03-09');
+insert into lied (ownerid, name, laenge, erscheinung) values (2 , 'Meine Gang'          , 2.27  , '2021-10-23');
+insert into lied (ownerid, name, laenge, erscheinung) values (2 , 'Abend Gang'          , 2.41  , '2017-08-19');
+insert into lied (ownerid, name, laenge, erscheinung) values (3 , 'Hier bin Ich'        , 3.29  , '2022-10-15');
+insert into lied (ownerid, name, laenge, erscheinung) values (3 , 'Nacht Leben'         , 3.51  , '2022-03-14');
+insert into lied (ownerid, name, laenge, erscheinung) values (4 , 'Me no americano!'    , 3.48  , '2019-10-31');
+insert into lied (ownerid, name, laenge, erscheinung) values (5 , 'Klassip'             , 2.32  , '2017-05-04');
+insert into lied (ownerid, name, laenge, erscheinung) values (6 , 'Mr Boombastic'       , 3.44  , '2022-02-07');
+insert into lied (ownerid, name, laenge, erscheinung) values (7 , 'Morgen Grauen'       , 3.48  , '2022-05-10');
 
 
 -- app_user (CATERER)
