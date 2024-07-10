@@ -1,6 +1,6 @@
 -- //////////////////// MOCK DATEN ////////////////////
 
--- PASSWÖRTER
+-- PASSWÖRTER 30
 insert into password (hash) values
     (' $2b$12$oL2xAuLlhIEwkSwUuaT8KOHmZ6BQIQKU2vw0mYzIEH0iswmI1a9we '),
     (' $2b$12$hsfShzvp8.rd8/7uXs444OiY9mMTn9pEuJUWbew1PUuqEXYXo8PS2 '),
@@ -187,57 +187,40 @@ values ('wgallyh@fastcompany.com', 28, '...', '...', '...');
 
 -- app_user (ARTIST)
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('hbirtwelln', 'asantoron', 'apictonn@comsenz.com', 'Partial traum amp at level betw unsp hip and knee, sequela', 'Cortex (cerebral) contusion with open intracranial wound, unspecified state of consciousness', 'PO Box 68904', 19, 0, 19);
+values ('DJ$horty', 'DJ Shorty', 'djShorty@comsenz.com', 'We Ballin!', 'All Hip and everything Pop! We gonna be fire in the charts!', 'Schlesische Str. 38, 10997 Berlin', 19, 0, 19);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('vphillcocko', 'shawkshawo', 'mdankso@nydailynews.com', 'Inj extn musc/fasc/tend at forearm level, right arm, sequela', 'Acute peptic ulcer of unspecified site without mention of hemorrhage and perforation, with obstruction', 'Suite 60', 20, 0, 20);
+values ('teekay', 'DJ Teekay', 'teekay@nydailynews.com', 'In den Charts!', 'Beste Musik in Berlin! Beste Musik in den Charts! Auf die Nummer eins!', 'Schlesische Str. 38, 10997 Berlin', 20, 0, 20);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('lfawthorpep', 'ssenyardp', 'mschwantp@walmart.com', 'Benign lipomatous neoplasm of other genitourinary organ', 'Unspecified tuberculosis of central nervous system, tubercle bacilli found (in sputum) by microscopy', 'PO Box 60098', 21, 0, 21);
+values ('ozzyBROWN', 'Ozzy Brown', 'ozzyBROWN@walmart.com', 'HipHop', 'Ozzy Brown hier! Bekannt in ganz Berlin seit 2014!', 'Schlesische Str. 29-30, 10997 Berlin', 21, 0, 21);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('briseamq', 'sfolbigq', 'gpollittq@is.gd', 'Acquired absence of unspecified leg below knee', 'Traumatic shock', 'PO Box 59019', 22, 0, 22);
+values ('apos', 'DJ Apos', 'apos@is.gd', '#italiano #hiphop', 'Mix von italienischer klassischen Musik und Hip Hop.', 'Wiesenweg 5-9, 10365 Berlin', 22, 0, 22);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('ddayborner', 'hmussaredr', 'awittonr@blogtalkradio.com', 'Minor laceration of femoral artery, unsp leg, init encntr', 'Unspecified disorders of arteries and arterioles', '7th Floor', 23, 0, 23);
+values ('djClassy', 'DJ Classy', 'djClassy@blogtalkradio.com', '#classic #hiphop', 'Ich bin DJ Classy! Ich bringe euch meinen Mix von klassischen Songs in neuer Form!', 'Forster Str. 5, 10999 Berlin', 23, 0, 23);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('cgrowys', 'apatinkins', 'ecavaliers@e-recht24.de', 'Disp fx of proximal phalanx of right index finger, init', 'Varicose veins of vulva and perineum complicating pregnancy and the puerperium, delivered, with mention of postpartum complication', 'Room 1668', 24, 0, 24);
+values ('deeJiggy', 'Jiggy Dee', 'deeJiggy@er24.de', 'Rising in the #Charts', 'Mit meiner Musik wirst du dich fühlen wie Biggie Cheese!', 'Köpenicker Ch 33, 10317 Berlin', 24, 0, 24);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('bquinceyt', 'aechaliet', 'skarolewskit@jigsy.com', 'Inj unsp musc/fasc/tend at thigh level, right thigh, init', 'Longitudinal deficiency, combined, involving humerus, radius, and ulna (complete or incomplete)', 'Suite 23', 25, 0, 25);
+values ('rnp', 'RnP', 'rnp@jigsy.com', '#Charts', 'Wir sind Ricky und Phillip. Wir bringen euch die Hits die ihr im Radio hört!', 'Paul-Lincke-Ufer 8E, 10999 Berlin', 25, 0, 25);
 
 -- ARTIST
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('eferryn0@usgs.gov', 845, '', 34);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('sfabler1@moonfruit.com', 31, '', 14);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('npeaseman2@businessinsider.com', 647, '', 44);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('lfiridolfi3@digg.com', 394, '', 15);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('awinscom4@mapy.cz', 468, '', 15);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('bplum5@tripadvisor.com', 666, '', 18);
-insert into artist (emailfk, preis, kategorie, erfahrung)
-values ('caskey6@mlb.com', 810, '', 6);
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('eferryn0@usgs.gov', 845, '', 34);
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('sfabler1@moonfruit.com', 31, '', 14);
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('npeaseman2@businessinsider.com', 647, '', 44);
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('lfiridolfi3@digg.com', 394, '', 15);
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('awinscom4@mapy.cz', 468, '', 15);
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('bplum5@tripadvisor.com', 666, '', 18);
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('caskey6@mlb.com', 810, '', 6);
 
 -- LIEDER
-insert into lied (ownerid, name, laenge, erscheinung)
-values (1, 'Sonair', 341.27, '2024-06-05');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (2, 'Trippledex', 232.35, '2006-03-09');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (3, 'Y-Solowarm', 214.87, '2021-10-23');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (4, 'Bytecard', 2.41, '2017-08-19');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (5, 'Subin', 122.99, '2022-10-15');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (6, 'Holdlamis', 353.51, '2022-03-14');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (7, 'Kanlam', 375.48, '2019-10-31');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (8, 'Vagram', 145.32, '2017-05-04');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (9, 'Duobam', 397.4, '2022-02-07');
-insert into lied (ownerid, name, laenge, erscheinung)
-values (10, 'Viva', 10.48, '2022-05-10');
+insert into lied (ownerid, name, laenge, erscheinung) values (1, 'Sonair', 341.27, '2024-06-05');
+insert into lied (ownerid, name, laenge, erscheinung) values (2, 'Trippledex', 232.35, '2006-03-09');
+insert into lied (ownerid, name, laenge, erscheinung) values (3, 'Y-Solowarm', 214.87, '2021-10-23');
+insert into lied (ownerid, name, laenge, erscheinung) values (4, 'Bytecard', 2.41, '2017-08-19');
+insert into lied (ownerid, name, laenge, erscheinung) values (5, 'Subin', 122.99, '2022-10-15');
+insert into lied (ownerid, name, laenge, erscheinung) values (6, 'Holdlamis', 353.51, '2022-03-14');
+insert into lied (ownerid, name, laenge, erscheinung) values (7, 'Kanlam', 375.48, '2019-10-31');
+insert into lied (ownerid, name, laenge, erscheinung) values (8, 'Vagram', 145.32, '2017-05-04');
+insert into lied (ownerid, name, laenge, erscheinung) values (9, 'Duobam', 397.4, '2022-02-07');
+insert into lied (ownerid, name, laenge, erscheinung) values (10, 'Viva', 10.48, '2022-05-10');
 
 
 -- app_user (CATERER)
