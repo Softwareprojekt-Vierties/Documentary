@@ -16,9 +16,31 @@ https://github.com/Softwareprojekt-Vierties
 # Inhaltsverzeichnis
 1. Einführung
 2. Anforderungen
+    1. Stakeholder
+    2. Funktionale Anforderungen
+    3. Nicht-funktionale Anforderungen
+        1. Rahmenbedingungen
+        2. Externe Vorgaben
+        3. Betriebsbedingungen
+        4. Qualitätsmerkmale
+    4. Graphische Benutzerschnittstelle
+    5. Anforderungen im Detail
 3. Technische Beschreibung
+    1. Systemübersicht
+    2. Softwarearchitektur
+        1. Technologieauswahl
+    3. Schnittstellen
+    4. Datenmodell
+    5. Abläufe
+    6. Fehlerbehandlung
+    7. Validierung
 4. Projektorganisation
+    1. Annahmen
+    2. Verantwortlichkeiten
+    3. Grober Projektplan nach Wichtigkeit sortiert
+    4. Deadlines
 5. Anhänge
+    1. Glossar
 
 ---
 
@@ -432,7 +454,7 @@ Unsere internen Qualitätsanforderungen umfassen verschiedene Softwarequalitäts
 ### Rollen
 
 #### Softwarearchitekt
-In unserem Projekt haben wir zwei Softwarearchitekten: einen für das Backend (Kirill) und einen für das Frontend (Marlon). Der Frontend-Architekt stellt die Anforderungen an das Backend, um sicherzustellen, dass die Schnittstellen und Datenflüsse optimal aufeinander abgestimmt sind.
+Unser Projekt hat zwei Softwarearchitekten: einen für das Backend (Kirill) und einen für das Frontend (Marlon). Der Frontend-Architekt stellt die Anforderungen an das Backend, um sicherzustellen, dass die Schnittstellen und Datenflüsse optimal aufeinander abgestimmt sind.
 
 #### Frontend-Entwickler
 Wir haben drei Frontend-Entwickler. Zwei davon, Lucas und Luca, sind für die Einbindung der Daten verantwortlich. Der dritte Entwickler, Marlon, ist für das komplette Design der Anwendung sowohl für mobile als auch für Desktopgeräte zuständig und implementiert die Bewegungsfunktionen mit JavaScript.
