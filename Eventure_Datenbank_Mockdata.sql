@@ -110,41 +110,41 @@ insert into bild (data) values
 
 -- app_user (ENDNUTZER) 18
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('borthmann0', 'nsuerz0', 'moldmeadow0@toplist.cz', 'Other specified disorders of synovium, right wrist', 'Major depressive affective disorder, recurrent episode, severe, without mention of psychotic behavior', '4th Floor', 1, 0, 1);
+values ('borthmann0', 'Mr. Borthmann', 'borthmann0@toplist.cz', 'I love broth!', 'I got my name from my first blackout. I am a king in drinking lots of alcohol and not puking by drinking lots of broth! Fear me!', 'Gütersloher Str. 84, 33378 Rheda-Wiedenbrück', 1, 0, 1);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('cfogt1', 'pdumini1', 'adeverale1@usa.gov', 'Unsp fracture of upper end of unspecified tibia, sequela', 'Other primary progressive tuberculosis, tubercle bacilli found (in sputum) by microscopy', 'Suite 80', 2, 0, 2);
+values ('cfogt1', 'Александр', 'cfogt1@gmail.com', 'У моей бабушки есть АК-47!', 'Мы с моим другом Сергеем любим заниматься паркуром в Метро!', 'Paradnyy Proyezd 4a, Russland, 142116', 2, 0, 2);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('jeilhertsen2', 'dmatzen2', 'tkryszka2@jalbum.net', 'Unspecified episcleritis', 'Infertility, female, associated with anovulation', 'PO Box 11044', 3, 0, 3);
+values ('jeilhertsen2', 'Jolina', 'jeilhertsen2@jalbum.net', '...', '...', 'Cottbuser Str. 42, 15711 Königs Wusterhausen', 3, 0, 3);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('emanifold3', 'blauks3', 'epickworth3@people.com.cn', 'Burn due to water-skis on fire', 'Motor vehicle traffic accident involving collision with train injuring other specified person', 'Suite 98', 4, 0, 4);
+values ('emanifold3', 'Emma', 'emanifold3@people.com.cn', 'Keep Calm and Party!', 'Ich liebe meine Freunde, slay! 💅 ', 'Cottbuser Str. 42b, 15711 Königs Wusterhausen', 4, 0, 4);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('khick4', 'kboyn4', 'lhaggett4@ycombinator.com', 'Complete loss of teeth, unspecified cause, class I', 'Poisoning by cocaine', '9th Floor', 5, 0, 5);
+values ('khick4', 'kboyn4', 'khick4@ycombinator.com', 'I do not like to party', 'As a 19-year-old guy, I hate alcohol for several reasons. First, I have seen how it can ruin lives, from health problems to broken relationships. Watching friends and family struggle with addiction and its consequences has been tough. Second, it is expensive. I would rather spend my money on things that make me happy and productive, like hobbies or saving for future goals. Lastly, I enjoy being in control of my actions and making clear-headed decisions. Alcohol often leads to reckless behavior and regrets, and that is just not something I want in my life.', 'Hallberger Zeile 25, 12437 Berlin', 5, 0, 5);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('bleidl5', 'cokennavain5', 'rfautley5@dyndns.org', 'Unspecified focal traumatic brain injury', 'Other retroperitoneal abscess', 'Room 1848', 6, 0, 6);
+values ('bleidl5', 'Bleid', 'bleidl5@dyndns.org', 'Lebe aktiv, feiere ausgelassen!', 'Ich nutze Eventure, weil es mir ermöglicht, die besten Partys und Events in meiner Stadt zu finden und zu planen. Die Webseite bietet eine Vielzahl von Optionen, um herauszufinden, was gerade los ist und wo ich meine Freunde treffen kann, um gemeinsam eine gute Zeit zu haben. Außerdem habe ich hier schon viele neue Leute kennengelernt, die ähnliche Interessen teilen, sei es im Sport oder einfach nur im Feiern. Eventure ist für mich eine tolle Plattform, um mein aktives und soziales Leben weiter auszubauen und neue Freundschaften zu knüpfen.', 'Kol.Marienglück Rosenweg 85, 12101 Berlin', 6, 0, 6);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('lsames6', 'lpoundsford6', 'ldussy6@rambler.ru', 'Progressive external ophthalmoplegia, left eye', 'Submucous leiomyoma of uterus', 'Room 792', 7, 0, 7);
+values ('lsames6', 'LelalusuSame', 'lsames6@rambler.ru', 'FCB AUF DIE EINS!', 'Habe diese Webseite durch einen Freund, den ich auf einer Party kennengelernt habe, gefunden. Echt geil hier!', 'Nelkenallee 60, 12109 Berlin', 7, 0, 7);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('dwhife7', 'bmenary7', 'slello7@bravesites.com', 'Legal intervnt involving unsp sharp objects, suspect injured', 'Closed fractures involving skull or face with other bones, with cerebral laceration and contusion, with moderate [1-24 hours] loss of consciousness', 'PO Box 84809', 8, 0, 8);
+values ('dwhife7', 'Dwhite07', 'dwhife7@bravesites.com', 'White like snow', 'Ich habe nichts zu sagen', 'Kolonie Sorgenfrei Ostweg 33, 12347 Berlin', 8, 0, 8);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('dchalfant8', 'lpinnington8', 'tjuan8@gov.uk', 'Legal intervnt w injury by tear gas, bystand injured, init', 'Other chronic postoperative pain', 'PO Box 90690', 9, 0, 9);
+values ('dchalfant8', 'Elefanture', 'dchalfant8@gov.uk', 'Long life the queen!', 'I come from London, but Berlin is also a nice city', 'Didostraße 2A, 12109 Berlin', 9, 0, 9);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('asauven9', 'avales9', 'anast9@nsw.gov.au', 'Displ oth extrartic fx r calcaneus, subs for fx w routn heal', 'Multiple and unspecified open wound of lower limb, without mention of complication', 'Apt 1254', 10, 0, 10);
+values ('asauven9', 'Raven09', 'asauven9@nsw.gov.au', 'Ravenblack', '... 🐦‍⬛', 'Rixdorfer Str. 153, 12109 Berlin', 10, 0, 10);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('breboula', 'fflasbya', 'agerltsa@mediafire.com', 'Neonatal coma', 'Lens replaced by other means', 'PO Box 5747', 11, 0, 11);
+values ('breboula', 'BabaraRabara', 'breboula@mediafire.com', 'Live, love, life', 'Ich liebe alles was grün ist.', 'Mohriner Allee 112K, 12347 Berlin', 11, 0, 11);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('bmcconwayb', 'skuschekb', 'tcraigsb@umich.edu', 'Milt op w indirect blast effect of nuclear weapon, milt', 'Abdominal rigidity, right upper quadrant', 'Room 989', 12, 0, 12);
+values ('bmcconwayb', 'BMCC-Black', 'bmcconwayb@umich.edu', 'TEAM BMCC!', 'TEAM BMCC ON TOP OF BERLIN!', 'Petunienweg 5A, 12357 Berlin', 12, 0, 12);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('dbrufordc', 'edybbec', 'khixleyc@csmonitor.com', 'Oth fracture of lower end of left femur, init for clos fx', 'Squamous cell carcinoma of skin of lower limb, including hip', 'Room 540', 13, 0, 13);
+values ('dbrufordc', 'RubberDuckiDuck', 'dbrufordc@csmonitor.com', 'Quack', 'Ich habe das Glück neben Enten zu leben!', 'Wendenschloßstraße 373, 12557 Berlin', 13, 0, 13);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('rmctagued', 'ldanilovicd', 'hledurd@ucsd.edu', 'Acute maxillary sinusitis, unspecified', 'Closed fracture of third cervical vertebra', 'PO Box 70051', 14, 0, 14);
+values ('rasmodeus01', 'Rasmodeus', 'rasmodeus01@ucsd.edu', 'I LOVE STARDEW', 'Ich heiße nicht Rasmodeus. Mein fav. Game Character heißt Asmodeus. Ich bin einfach originaler!', 'Bohnsdorfer Str. 10, 12527 Berlin', 14, 0, 14);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('hsandse', 'jgonete', 'hcawthrye@infoseek.co.jp', 'Cystic meniscus, other lateral meniscus, right knee', 'Open wound of upper arm, complicated', 'Room 1002', 15, 0, 15);
+values ('hsandse', 'HS und SE', 'hsandse@infoseek.co.jp', 'Wir sind zwei', 'Wir sind siamesische Zwillinge.', 'Staudenweg 2, 12487 Berlin', 15, 0, 15);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('sjerromf', 'frowlerf', 'dtollowf@fda.gov', 'Labor and delivery complicated by short cord, other fetus', 'Cortex (cerebral) laceration without mention of open intracranial wound, with no loss of consciousness', '5th Floor', 16, 0, 16);
+values ('olafW', 'Olaf', 'olafW@fda.gov', 'Rush B', 'Ich bin Schwede und ich spiele gerne CS2!', 'Kottmeierstraße 74, 12459 Berlin', 16, 0, 16);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('hbraggg', 'gjohnstong', 'rwrighthamg@360.cn', 'Therapeutic and rehab ob/gyn devices assoc w incdt', 'Kaschin-Beck disease, upper arm', 'Room 544', 17, 0, 17);
+values ('hbraggg', 'HammDance', 'hbraggg@360.cn', 'I love hamm and bacon', 'Wenn du keinen Bacon magst, dann verlierst du das beste am Leben!', 'Fennstraße 18, 12439 Berlin', 17, 0, 17);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('wgallyh', 'chaillh', 'nflighth@fastcompany.com', 'Unspecified optic atrophy', 'Spontaneous abortion, complicated by metabolic disorder, unspecified', 'Apt 136', 18, 0, 18);
+values ('wgallyh', 'Wolly', 'wgallyh@fastcompany.com', 'Cuby World', 'I develop games. Check out Cube World ;)', 'Sterndamm 24, 12487 Berlin', 18, 0, 18);
 
 -- ENDNUTZER
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
