@@ -147,45 +147,27 @@ insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschre
 values ('wgallyh', 'Wolly', 'wgallyh@fastcompany.com', 'Cuby World', 'I develop games. Check out Cube World ;)', 'Sterndamm 24, 12487 Berlin', 18, 0, 18);
 
 -- ENDNUTZER
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('borthmann0@toplist.cz', 28, 'Techno', 'nothing', 'Trout Soup');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('cfogt1@gmail.com', 37, 'дискотеку', 'Она решила сдаться', 'пельмени');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('jeilhertsen2@jalbum.net', 24, '...', '...', '...');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('emanifold3@people.com.cn', 40, 'Club', 'von Party zu Party', 'Ibex');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('khick4@ycombinator.com', 26, 'Universal', 'Bohemian Rhapsody', 'Schokoladen-Kuchen');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('bleidl5@dyndns.org', 38, 'Disko', '...', '...');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('lsames6@rambler.ru', 37, 'Alle', 'Shape of You', 'grüne Äpfel');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('dwhife7@bravesites.com', 26, 'Indoor Festivals', 'zu viele', 'Trüffel');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('dchalfant8@gov.uk', 34, 'Small', 'everything from Queen', 'Beef Wellington');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('asauven9@nsw.gov.au', 44, 'Club', '...', '...');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('breboula@mediafire.com', 21, 'Outdoors Festivals', 'Stairway to Heaven', 'Brokkoli');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('bmcconwayb@umich.edu', 18, 'Club', '...', 'Jägermeister');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('dbrufordc@csmonitor.com', 42, 'Verrückte Locations', '...', 'Waved albatross');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('rasmodeus01@ucsd.edu', 45, 'Festivals', 'Summer (Natures Crescendo)', 'Pomegrannit');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('hsandse@infoseek.co.jp', 36, 'Konzerte', 'Rolling in the Deep', 'Krokodil');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('olafW@fda.gov', 38, 'Club', 'Purple Haze', 'Surströmming');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('hbraggg@360.cn', 28, '...', '...', 'Bacon');
-insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('wgallyh@fastcompany.com', 28, '...', '...', '...');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('borthmann0@toplist.cz', 28, 'Techno', 'nothing', 'Trout Soup');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('cfogt1@gmail.com', 37, 'дискотеку', 'Она решила сдаться', 'пельмени');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('jeilhertsen2@jalbum.net', 24, '...', '...', '...');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('emanifold3@people.com.cn', 40, 'Club', 'von Party zu Party', 'Ibex');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('khick4@ycombinator.com', 26, 'Universal', 'Bohemian Rhapsody', 'Schokoladen-Kuchen');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('bleidl5@dyndns.org', 38, 'Disko', '...', '...');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('lsames6@rambler.ru', 37, 'Alle', 'Shape of You', 'grüne Äpfel');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('dwhife7@bravesites.com', 26, 'Indoor Festivals', 'zu viele', 'Trüffel');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('dchalfant8@gov.uk', 34, 'Small', 'everything from Queen', 'Beef Wellington');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('asauven9@nsw.gov.au', 44, 'Club', '...', '...');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('breboula@mediafire.com', 21, 'Outdoors Festivals', 'Stairway to Heaven', 'Brokkoli');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('bmcconwayb@umich.edu', 18, 'Club', '...', 'Jägermeister');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('dbrufordc@csmonitor.com', 42, 'Verrückte Locations', '...', 'Waved albatross');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('rasmodeus01@ucsd.edu', 45, 'Festivals', 'Summer (Natures Crescendo)', 'Pomegrannit');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('hsandse@infoseek.co.jp', 36, 'Konzerte', 'Rolling in the Deep', 'Krokodil');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('olafW@fda.gov', 38, 'Club', 'Purple Haze', 'Surströmming');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('hbraggg@360.cn', 28, '...', '...', 'Bacon');
+insert into endnutzer (emailfk, alter, arten, lied, gericht) values ('wgallyh@fastcompany.com', 28, '...', '...', '...');
 
 
--- app_user (ARTIST)
+-- app_user (ARTIST) 7
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
 values ('DJ$horty', 'DJ Shorty', 'djShorty@comsenz.com', 'We Ballin!', 'All Hip and everything Pop! We gonna be fire in the charts!', 'Schlesische Str. 38, 10997 Berlin', 19, 0, 19);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
@@ -202,25 +184,25 @@ insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschre
 values ('rnp', 'RnP', 'rnp@jigsy.com', '#Charts', 'Wir sind Ricky und Phillip. Wir bringen euch die Hits die ihr im Radio hört!', 'Paul-Lincke-Ufer 8E, 10999 Berlin', 25, 0, 25);
 
 -- ARTIST
-insert into artist (emailfk, preis, kategorie, erfahrung) values ('eferryn0@usgs.gov', 845, '', 34);
-insert into artist (emailfk, preis, kategorie, erfahrung) values ('sfabler1@moonfruit.com', 31, '', 14);
-insert into artist (emailfk, preis, kategorie, erfahrung) values ('npeaseman2@businessinsider.com', 647, '', 44);
-insert into artist (emailfk, preis, kategorie, erfahrung) values ('lfiridolfi3@digg.com', 394, '', 15);
-insert into artist (emailfk, preis, kategorie, erfahrung) values ('awinscom4@mapy.cz', 468, '', 15);
-insert into artist (emailfk, preis, kategorie, erfahrung) values ('bplum5@tripadvisor.com', 666, '', 18);
-insert into artist (emailfk, preis, kategorie, erfahrung) values ('caskey6@mlb.com', 810, '', 6);
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('djShorty@comsenz.com'      , '845€ pro Event'  , 'HipHop'              , '13 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('teekay@nydailynews.com'    , '31€ pro Event'   , 'Charts'              , '14 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('ozzyBROWN@walmart.com'     , '647€ pro Event'  , 'HipHop'              , '10 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('apos@is.gd'                , '394€ pro Event'  , 'italienisch HipHop'  , '15 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('djClassy@blogtalkradio.com', '468€ pro Event'  , 'Klassik HipHop'      , '15 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('deeJiggy@er24.de'          , '666€ pro Event'  , 'Charts'              , '18 Jahre');
+insert into artist (emailfk, preis, kategorie, erfahrung) values ('rnp@jigsy.com'             , '810€ pro Event'  , 'Charts'              , '6 Jahre');
 
 -- LIEDER
-insert into lied (ownerid, name, laenge, erscheinung) values (1, 'Sonair', 341.27, '2024-06-05');
-insert into lied (ownerid, name, laenge, erscheinung) values (2, 'Trippledex', 232.35, '2006-03-09');
-insert into lied (ownerid, name, laenge, erscheinung) values (3, 'Y-Solowarm', 214.87, '2021-10-23');
-insert into lied (ownerid, name, laenge, erscheinung) values (4, 'Bytecard', 2.41, '2017-08-19');
-insert into lied (ownerid, name, laenge, erscheinung) values (5, 'Subin', 122.99, '2022-10-15');
-insert into lied (ownerid, name, laenge, erscheinung) values (6, 'Holdlamis', 353.51, '2022-03-14');
-insert into lied (ownerid, name, laenge, erscheinung) values (7, 'Kanlam', 375.48, '2019-10-31');
-insert into lied (ownerid, name, laenge, erscheinung) values (8, 'Vagram', 145.32, '2017-05-04');
-insert into lied (ownerid, name, laenge, erscheinung) values (9, 'Duobam', 397.4, '2022-02-07');
-insert into lied (ownerid, name, laenge, erscheinung) values (10, 'Viva', 10.48, '2022-05-10');
+insert into lied (ownerid, name, laenge, erscheinung) values (1 , 'Hip in the Club'     , 3.27  , '2024-06-05');
+insert into lied (ownerid, name, laenge, erscheinung) values (1 , 'Party in Berlin'     , 2.35  , '2006-03-09');
+insert into lied (ownerid, name, laenge, erscheinung) values (2 , 'Meine Gang'          , 2.27  , '2021-10-23');
+insert into lied (ownerid, name, laenge, erscheinung) values (2 , 'Abend Gang'          , 2.41  , '2017-08-19');
+insert into lied (ownerid, name, laenge, erscheinung) values (3 , 'Hier bin Ich'        , 3.29  , '2022-10-15');
+insert into lied (ownerid, name, laenge, erscheinung) values (3 , 'Nacht Leben'         , 3.51  , '2022-03-14');
+insert into lied (ownerid, name, laenge, erscheinung) values (4 , 'Me no americano!'    , 3.48  , '2019-10-31');
+insert into lied (ownerid, name, laenge, erscheinung) values (5 , 'Klassip'             , 2.32  , '2017-05-04');
+insert into lied (ownerid, name, laenge, erscheinung) values (6 , 'Mr Boombastic'       , 3.44  , '2022-02-07');
+insert into lied (ownerid, name, laenge, erscheinung) values (7 , 'Morgen Grauen'       , 3.48  , '2022-05-10');
 
 
 -- app_user (CATERER)
