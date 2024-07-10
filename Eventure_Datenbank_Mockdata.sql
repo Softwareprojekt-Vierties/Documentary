@@ -1,5 +1,6 @@
 -- //////////////////// MOCK DATEN ////////////////////
 
+-- PASSWÖRTER
 insert into password (hash) values
     (' $2b$12$oL2xAuLlhIEwkSwUuaT8KOHmZ6BQIQKU2vw0mYzIEH0iswmI1a9we '),
     (' $2b$12$hsfShzvp8.rd8/7uXs444OiY9mMTn9pEuJUWbew1PUuqEXYXo8PS2 '),
@@ -33,6 +34,7 @@ insert into password (hash) values
     (' $2b$12$NaNakz30plak3dk3EMxu3eC.rFi1tAbMWwEw74IcaB8tZ6K4GW0AC ');
 
 
+-- BILDER
 insert into bild (data) values
     -- profilbilder
     ('Mock Daten 1'),
@@ -65,21 +67,48 @@ insert into bild (data) values
     ('Mock Daten 28'),
     ('Mock Daten 29'),
     ('Mock Daten 30'),
+    -- gerichte bilder
+    ('Mock Daten 1'),
+    ('Mock Daten 2'),
+    ('Mock Daten 3'),
+    ('Mock Daten 4'),
+    ('Mock Daten 5'),
+    ('Mock Daten 6'),
+    ('Mock Daten 7'),
+    ('Mock Daten 8'),
+    ('Mock Daten 9'),
+    ('Mock Daten 10'),
+    ('Mock Daten 11'),
+    ('Mock Daten 12'),
+    ('Mock Daten 13'),
+    ('Mock Daten 14'),
+    ('Mock Daten 15'),
     -- location bilder
     ('Mock Daten 31'),
     ('Mock Daten 32'),
     ('Mock Daten 33'),
     ('Mock Daten 34'),
-    ('Mock Daten 35');
+    ('Mock Daten 35'),
+    -- event bilder
+    ('Mock Daten 1'),
+    ('Mock Daten 2'),
+    ('Mock Daten 3'),
+    ('Mock Daten 4'),
+    ('Mock Daten 5'),
+    ('Mock Daten 6'),
+    ('Mock Daten 7'),
+    ('Mock Daten 8'),
+    ('Mock Daten 9'),
+    ('Mock Daten 10');
 
 
--- app_user (endnutzer)
+-- app_user (ENDNUTZER)
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('jeilhertsen2', 'dmatzen2', 'tkryszka2@jalbum.net', 'Unspecified episcleritis', 'Infertility, female, associated with anovulation', 'PO Box 11044', 3, 0, 3);
+values ('borthmann0', 'nsuerz0', 'moldmeadow0@toplist.cz', 'Other specified disorders of synovium, right wrist', 'Major depressive affective disorder, recurrent episode, severe, without mention of psychotic behavior', '4th Floor', 1, 0, 1);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
 values ('cfogt1', 'pdumini1', 'adeverale1@usa.gov', 'Unsp fracture of upper end of unspecified tibia, sequela', 'Other primary progressive tuberculosis, tubercle bacilli found (in sputum) by microscopy', 'Suite 80', 2, 0, 2);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('borthmann0', 'nsuerz0', 'moldmeadow0@toplist.cz', 'Other specified disorders of synovium, right wrist', 'Major depressive affective disorder, recurrent episode, severe, without mention of psychotic behavior', '4th Floor', 1, 0, 1);
+values ('jeilhertsen2', 'dmatzen2', 'tkryszka2@jalbum.net', 'Unspecified episcleritis', 'Infertility, female, associated with anovulation', 'PO Box 11044', 3, 0, 3);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
 values ('emanifold3', 'blauks3', 'epickworth3@people.com.cn', 'Burn due to water-skis on fire', 'Motor vehicle traffic accident involving collision with train injuring other specified person', 'Suite 98', 4, 0, 4);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
@@ -111,7 +140,7 @@ values ('hbraggg', 'gjohnstong', 'rwrighthamg@360.cn', 'Therapeutic and rehab ob
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
 values ('wgallyh', 'chaillh', 'nflighth@fastcompany.com', 'Unspecified optic atrophy', 'Spontaneous abortion, complicated by metabolic disorder, unspecified', 'Apt 136', 18, 0, 18);
 
--- endnutzer
+-- ENDNUTZER
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
 values ('cgiovannacci0@nationalgeographic.com', 28, 'Fundamental content-based service-desk', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Squirrel glider');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
@@ -182,7 +211,7 @@ values ('bplum5@tripadvisor.com', 666, '', 18);
 insert into artist (emailfk, preis, kategorie, erfahrung)
 values ('caskey6@mlb.com', 810, '', 6);
 
--- lied
+-- LIEDER
 insert into lied (ownerid, name, laenge, erscheinung)
 values (1, 'Sonair', 341.27, '2024-06-05');
 insert into lied (ownerid, name, laenge, erscheinung)
@@ -217,7 +246,7 @@ values ('ttohill12', 'mrablan12', 'lkabsch12@printfriendly.com', 'Unspecified ph
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
 values ('pwharby13', 'mmaldin13', 'astowe13@chronoengine.com', 'Bennett''s fracture, left hand, init encntr for open fracture', 'Air embolism', 'Suite 21', 30, 0, 30);
 
--- caterer
+-- CATERER
 insert into caterer (emailfk, preis, kategorie, erfahrung)
 values ('baudry0@e-recht24.de', '€1490,37', 'Geburtstagsfeiern', 20);
 insert into caterer (emailfk, preis, kategorie, erfahrung)
@@ -229,8 +258,40 @@ values ('blambal3@bing.com', '€1394,10', 'Picknicks', 95);
 insert into caterer (emailfk, preis, kategorie, erfahrung)
 values ('hsoitoux4@indiegogo.com', '€1929,74', 'Messe-Catering', 74);
 
+-- GERICHTE
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (1, 'Cereopsis novaehollandiae', 'Fetal distress, affecting management of mother, unspecified as to episode of care or not applicable', 1);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (2, 'Manouria emys', 'Screening examination for venereal disease', 2);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (3, 'Butorides striatus', 'Acquired absence of teeth, unspecified', 3);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (4, 'Tetracerus quadricornis', 'Acute venous embolism and thrombosis of deep veins of upper extremity', 4);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (5, 'Egretta thula', 'Obstetrical air embolism, delivered, with mention of postpartum complication', 5);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (6, 'Eumetopias jubatus', 'Chondrocalcinosis, due to dicalcium phosphate crystals, other specified sites', 6);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (7, 'Felis serval', 'Deep necrosis of underlying tissues [deep third degree] without mention of loss of a body part of scalp [any part]', 7);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (8, 'Leprocaulinus vipera', 'Toxic effect of organic lead compounds', 8);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (9, 'Butorides striatus', 'Malignant neoplasm of lip, unspecified, inner aspect', 9);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (10, 'Spizaetus coronatus', 'Other and unspecified cerebral laceration and contusion, without mention of open intracranial wound, with prolonged [more than 24 hours] loss of consciousness and return to pre- existing conscious level', 10);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (11, 'Phalacrocorax carbo', 'Lipotropic drugs causing adverse effects in therapeutic use', 11);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (12, 'Vulpes vulpes', 'Broad ligament laceration syndrome', 12);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (13, 'Psittacula krameri', 'Tuberculous abscess of spinal cord, bacteriological or histological examination not done', 13);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (14, 'Arctogalidia trivirgata', 'Subacute dyskinesia due to drugs', 14);
+insert into gericht (ownerid, name, beschreibung, bildid)
+values (15, 'Phoca vitulina', 'Open fracture of shaft of fibula alone', 15);
 
--- LOCATION
+
+-- LOCATIONS
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
 values ('Crescent Oaks', 'Lemke and Sons', 'Tuberculosis of other male genital organs, bacteriological or histological examination unknown (at present)', 1, false, 'TB male gen NEC-ex unkn', '€217,29', false, 74, 58, 0, 30);
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
@@ -241,3 +302,106 @@ insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschrei
 values ('Morrow', 'Keeling, Abshire and Kessler', 'Borderline personality disorder', 4, true, 'Borderline personality', '€77,43', false, 62, 34, 0, 30);
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
 values ('Oriole', 'Toy-Schneider', 'Poisoning by other sedatives and hypnotics', 5, false, 'Pois-sedative/hypnot NEC', '€310,24', true, 66, 169, 0, 30);
+
+
+-- EVENTS
+insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
+values ('error: Illegal quoting in line 1.', '2025-02-15', 20, 0, 84, '£93.73', 16, true, 'Mycobacterial dis NEC', 'Salter-Harris Type I physeal fracture of lower end of unspecified femur, subsequent encounter for fracture with malunion', 9, 1, 0, 0, '7:26', '18:01', 23.89, true);
+insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
+values ('error: Illegal quoting in line 1.', '2023-12-12', 119, 0, 102, '£96.88', 19, true, 'Orthoptic training', 'Injury of peripheral nerves of neck, initial encounter', 1, 3, 0, 0, '14:09', '19:55', 13.95, false);
+insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
+values ('error: Illegal quoting in line 1.', '2024-10-04', 184, 0, 30, '£73.44', 19, true, 'Acc poison-gas/vapor NEC', 'Unspecified fracture of sternum, initial encounter for closed fracture', 12, 1, 0, 0, '0:19', '4:01', 11.68, false);
+insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
+values ('error: Illegal quoting in line 1.', '2024-11-28', 38, 0, 26, '£80.52', 17, false, 'Hmplg mgrn w ntrc w st', 'Other traumatic nondisplaced spondylolisthesis of second cervical vertebra, subsequent encounter for fracture with nonunion', 6, 2, 0, 0, '21:31', '10:45', 1.36, true);
+insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
+values ('error: Illegal quoting in line 1.', '2024-06-21', 44, 0, 183, '£144.34', 20, true, 'Bone injury NEC at birth', 'Other soft tissue disorders related to use, overuse and pressure, unspecified ankle and foot', 18, 1, 0, 0, '14:55', '16:24', 0.3, false);
+insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
+values ('error: Illegal quoting in line 1.', '2024-03-17', 168, 0, 82, '£125.85', 15, true, 'Injury-jump fm residence', 'Military operations involving explosion of guided missile', 10, 1, 0, 0, '22:16', '2:46', 13.76, false);
+insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
+values ('error: Illegal quoting in line 1.', '2024-10-20', 69, 0, 166, '£13.05', 17, true, 'Fem genital fistula NEC', 'Balloon explosion injuring occupant', 1, 5, 0, 0, '1:03', '1:05', 7.69, false);
+insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
+values ('error: Illegal quoting in line 1.', '2024-02-29', 37, 0, 89, '£12.33', 16, true, 'Cyst of prostate', 'Traumatic rupture of other ligament of right wrist, sequela', 16, 2, 0, 0, '11:30', '12:45', 12.83, false);
+insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
+values ('error: Illegal quoting in line 1.', '2023-08-03', 61, 0, 143, '£106.80', 19, false, 'Fall on/from train-empl', 'Infantile idiopathic scoliosis', 18, 1, 0, 0, '14:19', '6:30', 6.97, true);
+insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
+values ('error: Illegal quoting in line 1.', '2023-09-07', 37, 0, 22, '£138.24', 20, true, 'Attem abor w metabol dis', 'Displaced osteochondral fracture of left patella, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing', 11, 3, 0, 0, '9:12', '9:10', 9.65, true);
+
+-- REVIEWS
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Extirpation of Matter from Right Thumb Phalanx, Percutaneous Endoscopic Approach', 2, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Excision of Radial Nerve, Percutaneous Approach', 3, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Insertion of Ring External Fixation Device into Left Humeral Shaft, Open Approach', 3, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Drainage of Left Internal Iliac Artery, Percutaneous Approach', 5, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Release Right Pleura, Open Approach', 5, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Excision of Pancreas, Open Approach, Diagnostic', 2, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Beam Radiation of Urethra using Photons >10 MeV', 1, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Extirpation of Matter from Left Humeral Head, Percutaneous Approach', 3, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Removal of Synthetic Substitute from Left Toe Phalangeal Joint, Percutaneous Endoscopic Approach', 5, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Reposition Left Metatarsal-Phalangeal Joint, Open Approach', 5, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Revision of Stimulator Lead in Bladder, Percutaneous Approach', 4, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Revision of Intraluminal Device in Lower Artery, Percutaneous Endoscopic Approach', 1, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Excision of Para-aortic Body, Percutaneous Approach, Diagnostic', 4, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Removal of Infusion Device from Spleen, Open Approach', 3, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Introduction of Monoclonal Antibody into Peritoneal Cavity, Via Natural or Artificial Opening', 1, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Reposition Right Finger Phalangeal Joint with External Fixation Device, Percutaneous Endoscopic Approach', 5, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Imaging, Upper Arteries, Computerized Tomography (CT Scan)', 3, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Occlusion of Right Subclavian Vein, Percutaneous Endoscopic Approach', 2, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Extirpation of Matter from Left Frontal Sinus, Percutaneous Endoscopic Approach', 2, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
+values ('Supplement Left Shoulder Tendon with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach', 5, 0, 0, 0, 0);
+
+
+-- tickets
+insert into tickets (userid, eventid, data)
+values (8, 9, 'z3Y7P1v0Q4rN8mK5x9W');
+insert into tickets (userid, eventid, data)
+values (15, 5, 'M1c7X0jP9l2V4wR6z8Y');
+insert into tickets (userid, eventid, data)
+values (3, 9, 'a8e9B0lK5N3zQ4rP2V7x');
+insert into tickets (userid, eventid, data)
+values (16, 1, 'N4l7X3jB0w2V9r8T5Q1');
+insert into tickets (userid, eventid, data)
+values (16, 8, 'k4J9w2T1nB8X6Q5r0mL');
+
+
+-- serviceartist
+
+
+-- servicecaterer
+
+
+-- favorit_location
+
+
+-- favorit_user
+
+
+-- favorit_event
+
+
+-- mail
+
+
+
+-- partybilder
+
+
+-- friend
