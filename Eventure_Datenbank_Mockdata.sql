@@ -99,10 +99,16 @@ insert into bild (data) values
     ('Mock Daten 7'),
     ('Mock Daten 8'),
     ('Mock Daten 9'),
-    ('Mock Daten 10');
+    ('Mock Daten 10'),
+    -- partybilder
+    ('Mock Daten 31'),
+    ('Mock Daten 32'),
+    ('Mock Daten 33'),
+    ('Mock Daten 34'),
+    ('Mock Daten 35');
 
 
--- app_user (ENDNUTZER)
+-- app_user (ENDNUTZER) 18
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
 values ('borthmann0', 'nsuerz0', 'moldmeadow0@toplist.cz', 'Other specified disorders of synovium, right wrist', 'Major depressive affective disorder, recurrent episode, severe, without mention of psychotic behavior', '4th Floor', 1, 0, 1);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
@@ -370,38 +376,97 @@ values ('Supplement Left Shoulder Tendon with Nonautologous Tissue Substitute, P
 
 
 -- tickets
-insert into tickets (userid, eventid, data)
-values (8, 9, 'z3Y7P1v0Q4rN8mK5x9W');
-insert into tickets (userid, eventid, data)
-values (15, 5, 'M1c7X0jP9l2V4wR6z8Y');
-insert into tickets (userid, eventid, data)
-values (3, 9, 'a8e9B0lK5N3zQ4rP2V7x');
-insert into tickets (userid, eventid, data)
-values (16, 1, 'N4l7X3jB0w2V9r8T5Q1');
-insert into tickets (userid, eventid, data)
-values (16, 8, 'k4J9w2T1nB8X6Q5r0mL');
+insert into tickets (userid, eventid, data) values (8, 9, 'z3Y7P1v0Q4rN8mK5x9W');
+insert into tickets (userid, eventid, data) values (15, 5, 'M1c7X0jP9l2V4wR6z8Y');
+insert into tickets (userid, eventid, data) values (3, 9, 'a8e9B0lK5N3zQ4rP2V7x');
+insert into tickets (userid, eventid, data) values (16, 1, 'N4l7X3jB0w2V9r8T5Q1');
+insert into tickets (userid, eventid, data) values (16, 8, 'k4J9w2T1nB8X6Q5r0mL');
 
 
 -- serviceartist
+insert into serviceartist (eventid, artistid, accepted) values (6, 4, false);
+insert into serviceartist (eventid, artistid, accepted) values (4, 4, false);
+insert into serviceartist (eventid, artistid, accepted) values (6, 1, true);
+insert into serviceartist (eventid, artistid, accepted) values (10, 2, true);
+insert into serviceartist (eventid, artistid, accepted) values (9, 3, true);
 
 
 -- servicecaterer
+insert into servicecaterer (eventid, catererid, accepted) values (6, 3, true);
+insert into servicecaterer (eventid, catererid, accepted) values (2, 2, false);
+insert into servicecaterer (eventid, catererid, accepted) values (6, 1, true);
+insert into servicecaterer (eventid, catererid, accepted) values (9, 3, false);
+insert into servicecaterer (eventid, catererid, accepted) values (7, 2, true);
 
 
 -- favorit_location
+insert into favorit_location (userid, locationid) values (14, 1);
+insert into favorit_location (userid, locationid) values (13, 3);
+insert into favorit_location (userid, locationid) values (10, 3);
+insert into favorit_location (userid, locationid) values (5, 1);
+insert into favorit_location (userid, locationid) values (2, 1);
 
 
 -- favorit_user
+insert into favorit_user (userid, enduserid, artistid, catereid) values (8, null, null, 5);
+insert into favorit_user (userid, enduserid, artistid, catereid) values (10, 11, 4, 2);
+insert into favorit_user (userid, enduserid, artistid, catereid) values (1, 15, null, 3);
+insert into favorit_user (userid, enduserid, artistid, catereid) values (13, 15, 3, 2);
+insert into favorit_user (userid, enduserid, artistid, catereid) values (14, 4, null, 3);
 
 
 -- favorit_event
+insert into favorit_event (userid, eventid) values (9, 9);
+insert into favorit_event (userid, eventid) values (18, 5);
+insert into favorit_event (userid, eventid) values (14, 3);
+insert into favorit_event (userid, eventid) values (8, 2);
+insert into favorit_event (userid, eventid) values (11, 6);
 
 
 -- mail
-
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (8, 27, null, null, false, 'ticket', null);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (6, 15, true, null, null, 'freundschaft', 4);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (5, 11, null, null, null, 'info', null);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (10, 8, null, null, false, 'info', 1);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (16, 26, true, null, null, 'service', null);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (5, 8, null, null, false, 'freundschaft', 5);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (6, 15, null, null, true, 'freundschaft', null);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (9, 4, true, null, null, 'info', null);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (13, 4, null, null, true, 'freundschaft', null);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (14, 16, true, 5, true, 'ticket', null);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (18, 30, null, 5, null, 'info', 3);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (6, 12, null, 10, false, 'ticket', 3);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (16, 22, null, 8, null, 'location', null);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (16, 24, true, null, true, 'service', null);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
+values (12, 2, null, null, true, 'info', 3);
 
 
 -- partybilder
+insert into partybilder (userid, bildid) values (9, 62);
+insert into partybilder (userid, bildid) values (15, 61);
+insert into partybilder (userid, bildid) values (1, 60);
+insert into partybilder (userid, bildid) values (5, 62);
+insert into partybilder (userid, bildid) values (3, 62);
 
 
 -- friend
+insert into friend (user1, user2) values (16, 25);
+insert into friend (user1, user2) values (30, 13);
+insert into friend (user1, user2) values (17, 2);
+insert into friend (user1, user2) values (12, 26);
+insert into friend (user1, user2) values (24, 23);
