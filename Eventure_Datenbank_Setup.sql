@@ -4,7 +4,6 @@ create table password
 (
     id   integer generated always as identity
         primary key,
-    salt text not null,
     hash text not null
 );
 
