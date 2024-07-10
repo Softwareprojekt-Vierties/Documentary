@@ -148,41 +148,41 @@ values ('wgallyh', 'Wolly', 'wgallyh@fastcompany.com', 'Cuby World', 'I develop 
 
 -- ENDNUTZER
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('cgiovannacci0@nationalgeographic.com', 28, 'Fundamental content-based service-desk', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Squirrel glider');
+values ('borthmann0@toplist.cz', 28, 'Techno', 'nothing', 'Trout Soup');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('lgannan1@jiathis.com', 37, 'Stand-alone national middleware', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Magpie, black-backed');
+values ('cfogt1@gmail.com', 37, 'дискотеку', 'Она решила сдаться', 'пельмени');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('ochater2@foxnews.com', 24, 'Front-line client-driven contingency', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Netted rock dragon');
+values ('jeilhertsen2@jalbum.net', 24, '...', '...', '...');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('sellard3@instagram.com', 40, 'Horizontal zero administration benchmark', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Ibex');
+values ('emanifold3@people.com.cn', 40, 'Club', 'von Party zu Party', 'Ibex');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('jelsworth4@narod.ru', 26, 'Universal real-time throughput', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Grey mouse lemur');
+values ('khick4@ycombinator.com', 26, 'Universal', 'Bohemian Rhapsody', 'Schokoladen-Kuchen');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('agilman5@sun.com', 38, 'Stand-alone composite success', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Paca');
+values ('bleidl5@dyndns.org', 38, 'Disko', '...', '...');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('dhamilton6@so-net.ne.jp', 37, 'Re-engineered well-modulated project', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Greylag goose');
+values ('lsames6@rambler.ru', 37, 'Alle', 'Shape of You', 'grüne Äpfel');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('agoakes7@mtv.com', 26, 'Proactive interactive neural-net', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'African bush squirrel');
+values ('dwhife7@bravesites.com', 26, 'Indoor Festivals', 'zu viele', 'Trüffel');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('scaurah8@canalblog.com', 34, 'Focused fault-tolerant forecast', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Oystercatcher, blackish');
+values ('dchalfant8@gov.uk', 34, 'Small', 'everything from Queen', 'Beef Wellington');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('akingh9@delicious.com', 44, 'Future-proofed high-level paradigm', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Anteater, australian spiny');
+values ('asauven9@nsw.gov.au', 44, 'Club', '...', '...');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('tboolsa@dmoz.org', 21, 'Enterprise-wide explicit utilisation', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Hoary marmot');
+values ('breboula@mediafire.com', 21, 'Outdoors Festivals', 'Stairway to Heaven', 'Brokkoli');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('fhannumb@ftc.gov', 18, 'Optimized optimizing utilisation', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Dusky gull');
+values ('bmcconwayb@umich.edu', 18, 'Club', '...', 'Jägermeister');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('kpaulettic@angelfire.com', 42, 'Ameliorated impactful matrix', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Waved albatross');
+values ('dbrufordc@csmonitor.com', 42, 'Verrückte Locations', '...', 'Waved albatross');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('cloeberd@dot.gov', 45, 'Object-based leading edge process improvement', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'White spoonbill');
+values ('rasmodeus01@ucsd.edu', 45, 'Festivals', 'Summer (Natures Crescendo)', 'Pomegrannit');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('ogreenhalfe@flickr.com', 36, 'Down-sized user-facing emulation', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Plains zebra');
+values ('hsandse@infoseek.co.jp', 36, 'Konzerte', 'Rolling in the Deep', 'Krokodil');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('psharkf@hao123.com', 38, 'Ameliorated disintermediate open system', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Gull, lava');
+values ('olafW@fda.gov', 38, 'Club', 'Purple Haze', 'Surströmming');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('nputtong@wix.com', 28, 'Virtual composite frame', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Legaan, ground');
+values ('hbraggg@360.cn', 28, '...', '...', 'Bacon');
 insert into endnutzer (emailfk, alter, arten, lied, gericht)
-values ('psyphush@skyrock.com', 28, 'Right-sized 4th generation standardization', '{Bohemian Rhapsody}, {Stairway to Heaven}, {Shape of You}, {Billie Jean}, {Smells Like Teen Spirit}, {Hotel California}, {Hey Jude}, {Imagine}, {Rolling in the Deep}, {Purple Haze}', 'Cat, cape wild');
+values ('wgallyh@fastcompany.com', 28, '...', '...', '...');
 
 
 -- app_user (ARTIST)
