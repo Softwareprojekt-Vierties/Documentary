@@ -1,41 +1,11 @@
 # Meeting Protokoll 
 
-**Datum:** 11.06.24
-**Dauer:** 18:00 - 19:00 Uhr
+Am 11.06.2024 fand ein Meeting von 18:00 Uhr bis 19:00 Uhr statt, an dem Kirill Kuhn, Angelo Mavridis, Marlon Cadell, Luca Eberhardt und Lucas Modesto teilnahmen. Im Mittelpunkt des Treffens stand die detaillierte Festlegung der Reihenfolge, in der ein Nutzer in der Anwendung angelegt wird, um einen reibungslosen und vollständigen Registrierungsprozess sicherzustellen.
 
-**Teilnehmer**: 
-* Kirill Kuhn
-* Angelo Mavridis 
-* Marlon Cadell
-* Luca Eberhardt
-* Lucas Modesto
+Die Teilnehmer einigten sich auf einen klar strukturierten Ablauf zur Nutzererstellung. Zunächst erfolgt die Registrierung, bei der der Nutzer seinen gewünschten Benutzernamen, seine E-Mail-Adresse und ein sicheres Passwort eingibt. Im nächsten Schritt wählt der Nutzer den Nutzertyp aus, wobei er sich zwischen Endnutzer, Caterer oder Artist entscheiden kann.
 
-# Was wurde gemacht:
-* in welcher Reihenfolge wird ein Nutzer angelegt?
-  1. Register:
-     * Benutzername
-     * Email
-     * Password
-  2. Nutzertyp auswählen:
-     * Endnutzer
-     * Caterer
-     * Artist
-  3. Profil bearbeiten:
-     * Profilname
-     * Bild
-     * Beschreibung
-     * kurzBeschreibung
-     * Region
-     * Endnutzer:
-       * Alter
-       * Eventarten
-       * Lieblingslied
-       * Lieblingsgericht
-       * Geschlecht
-     * Artist/Caterer:
-       * Preis
-       * Kategorie
-       * Erfahrung
-  4. Informationen an den Server senden
-  
-![](../Softwarespezifikation/media/FlowChart-CreateAccount.png)
+Nachdem der Nutzertyp ausgewählt wurde, folgt die Bearbeitung des Profils. Der Nutzer gibt einen Profilnamen an, lädt ein Profilbild hoch und fügt eine ausführliche Beschreibung sowie eine kurze Beschreibung hinzu. Zudem gibt der Nutzer seine Region an. Je nach gewähltem Nutzertyp werden spezifische Informationen benötigt. Ein Endnutzer gibt beispielsweise sein Alter, seine bevorzugten Eventarten, sein Lieblingslied, sein Lieblingsgericht und sein Geschlecht an. Ein Artist oder Caterer hingegen gibt seine Preisspanne, die Kategorie (z.B. Musiker, Koch) und seine Erfahrung an.
+
+Abschließend werden alle gesammelten Informationen an den Server gesendet, um das Benutzerprofil zu erstellen und zu speichern. Dieser Prozess stellt sicher, dass alle notwendigen Informationen strukturiert erfasst und verarbeitet werden, um ein vollständiges und konsistentes Benutzerprofil zu gewährleisten.
+
+Insgesamt war das Meeting am 11.06.2024 entscheidend für die Definition des Nutzerregistrierungsprozesses. Durch die detaillierte Festlegung der Schritte von der Registrierung bis zum Speichern der Informationen auf dem Server wurde eine klare Struktur geschaffen, die die Benutzerfreundlichkeit und Vollständigkeit der Profilanlegung sicherstellt. Diese klare Reihenfolge soll zukünftige Implementierungen und die Nutzung der Anwendung erleichtern.

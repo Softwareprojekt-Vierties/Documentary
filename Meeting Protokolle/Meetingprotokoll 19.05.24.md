@@ -1,19 +1,9 @@
 # Meeting Protokoll 
 
-**Datum:** 19.05.24
-**Dauer:** 17:00 - 17:45 Uhr
+Am 19.05.2024 fand ein Meeting von 17:00 Uhr bis 17:45 Uhr statt, an dem Kirill Kuhn, Angelo Mavridis, Marlon Cadell, Luca Eberhardt und Lucas Modesto teilnahmen. Im Mittelpunkt des Treffens stand der Austausch über den aktuellen Projektstand sowie die Festlegung der nächsten Schritte. Zu Beginn des Meetings tauschten die Teilnehmer den aktuellen Stand des Projekts aus. Jeder brachte die neuesten Entwicklungen und Fortschritte in seinem Verantwortungsbereich ein, wodurch ein umfassender Überblick über den Projektstatus entstand.
 
-**Teilnehmer**: 
-* Kirill Kuhn
-* Angelo Mavridis 
-* Marlon Cadell
-* Luca Eberhardt
-* Lucas Modesto
+Ein zentrales Ergebnis des Meetings war die Erstellung einer To-Do-Liste mit den nächsten notwendigen Aufgaben. Erstens muss das bestehende ER-Diagramm aktualisiert werden, da weitere Tabellen und Attribute hinzugefügt werden müssen. Diese Erweiterung ist notwendig, um die neuen Anforderungen und Datenstrukturen abzubilden und sicherzustellen, dass das Datenmodell vollständig und aktuell ist. Zweitens muss die Datenbank in Übereinstimmung mit dem erweiterten ER-Diagramm entsprechend erweitert werden. Diese Aufgabe umfasst die Erstellung neuer Tabellen und das Hinzufügen neuer Attribute zu bestehenden Tabellen, um die Datenbankstruktur an die aktualisierten Anforderungen anzupassen.
 
-# Was wurde besprochen:
-* Projektstand wurde ausgetauscht
-* TODO:
-  * ER-Diagramm muss erweitert werden, weil weitere Tabellen und Attribute hinzugefügt werden müssen
-  * Datenbank muss relativ zur Datenbank erweitert werden
-  * es muss für den Server ein Host gefunden werden
-  * die Ausarbeitung muss im Markdown festgehalten werden 
+Drittens muss ein geeigneter Host für den Server gefunden werden. Diese Aufgabe ist entscheidend für die Bereitstellung und den Betrieb der Anwendung, da der Server das zentrale Element ist, das die Backend-Funktionalitäten bereitstellt. Viertens müssen alle erarbeiteten und besprochenen Punkte sowie die detaillierte Ausarbeitung der Aufgaben im Markdown-Format dokumentiert werden. Diese Dokumentation dient als Referenz und Arbeitsgrundlage für das Team und stellt sicher, dass alle Informationen klar und nachvollziehbar festgehalten sind.
+
+Das Meeting am 19.05.2024 war kurz, aber produktiv und konzentrierte sich auf den Austausch des Projektstands sowie die Planung der nächsten Schritte. Durch die Erstellung einer klaren To-Do-Liste wurden die nächsten Aufgaben definiert und priorisiert, um den Projektfortschritt zu gewährleisten. Die Erweiterung des ER-Diagramms und der Datenbank, die Suche nach einem geeigneten Server-Host und die Dokumentation im Markdown-Format sind die wesentlichen nächsten Schritte, um das Projekt voranzutreiben.
