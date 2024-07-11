@@ -2,39 +2,39 @@
 
 -- PASSWÖRTER 30
 insert into password (hash) values
-    (' $2b$12$oL2xAuLlhIEwkSwUuaT8KOHmZ6BQIQKU2vw0mYzIEH0iswmI1a9we '),
-    (' $2b$12$hsfShzvp8.rd8/7uXs444OiY9mMTn9pEuJUWbew1PUuqEXYXo8PS2 '),
-    (' $2b$12$j7vizFLzJYPHo.X0zMRXPuirZ6VhIVwSoNcQqizoW/RB1iidxyNmm '),
-    (' $2b$12$wjAbV.YzEb2taBZpemZkd.mnXSUVqO24SNf/ZfzUnwPvxM44z8IKS '),
-    (' $2b$12$gRDf2vR3R8WhO3MZviKGfeCvLi9a3NZd18UqG84dls69fY0dNdvxG '),
-    (' $2b$12$KTsCyMaI2Lbzuczs4DAqAuCEkUw7YiBvhgjxKpG2r8WO3/8tG7.ca '),
-    (' $2b$12$VXGDdu4y8pj5C7oRNku/TuBGJZ02IiN3D/sdOsEg1nsjCg4rz3TVq '),
-    (' $2b$12$raErVIpR4pth2Xl9ibvsNOCLOMqWo1Ja4mX18nyOV2ABBbc/3px0S '),
-    (' $2b$12$AGlwFUUj3.ZTUNS9Fx5V9eM2TtoTlVDJelVHezETDwoLqGqFDl4uW '),
-    (' $2b$12$9s9kranrN348z3mIQNwqPurFC1ie1.cWdNhYpskTUYMtug2oYB/yW '),
-    (' $2b$12$M7ddkKOr.QqcpYtvigcTm.rlEOJkHADmKAsQ6JsNpXm2qYmDgcdQ2 '),
-    (' $2b$12$wfotnocy/nga9jXBDN.8seoJHO8EZ4NzDgHUedk9yEzFx7cMj6Yry '),
-    (' $2b$12$HoCvV5BRXxccPK9H0XU/FOuL3X5ptTJuGzJijlFjaVlNmOL0TLGU2 '),
-    (' $2b$12$yt60Hub6VsMEidw1PTTlA.dHgxoufRbDFejORd95t0xaatKC1cQXm '),
-    (' $2b$12$OyAebFw21/wh8KFiBpsSjerArcgLv5rprhP2lZNnFNdyJE6CPCGf. '),
-    (' $2b$12$b7WdHuC0eH/9XycdKRume.cmSGVZrnWjth5rMDkufFMvrlfOY0Hrm '),
-    (' $2b$12$1BewTk520BYCEXRPu9aEgOv5zpXZjQ3dF1s4U6Qw/O2AOcdLgikVe '),
-    (' $2b$12$hheS6yN1hXC7LZhZkcpMqOZZvUHxfgnkDtDiXBGVZfyXHQEJAWVAC '),
-    (' $2b$12$qkTZIvBGeWBOnaCBoGFKL.eYGzt309Fv6rxL8fekHZiRYVOLCI3Jq '),
-    (' $2b$12$jeEoPoO2AjUoNe26ItKh.uL/1kZn8fPzjb2xePTRYRqWtzJgY7QDm '),
-    (' $2b$12$r3Y1Hf9taNMattRbLrnkBulPZY/W2tJ5hwWLYQlsX1sFS.R2SwaqK '),
-    (' $2b$12$YoeP/68HLwMfK7vdHSvJGOC1pmgToyT0yh9WEc2RQxKBXXUFHdKae '),
-    (' $2b$12$WcUhN3JiqHwXQb5MzoXu2uJdnKotBWEjTnWAf.ofeVG3Gz5OL1Y6y '),
-    (' $2b$12$cuw/E9Oh55Uk2yyOjfN4Getv1RB3EDTXVAHRPJwChpRQt6SvUjcF6 '),
-    (' $2b$12$.m2qZuBhRGaRMz731nMaB.pqTj/MP2qtrFujVb0skwNOmNQv9K/9W '),
-    (' $2b$12$ES4u3aj2F7Bp.jOnXcqeVuyiyiT5nJHfstZSfvCnOvgOxEPy9OUOK '),
-    (' $2b$12$3Y74JjOX4NFMllwMV8sN.epn8k6mz0kzDDmwpfURDHZVn9gcb2k.q '),
-    (' $2b$12$OHE/G32uHSy60Z23z5.lnulNOI6LUjlfH7tdUQOr.IJkF5BPVfPzq '),
-    (' $2b$12$A0MSArQBY7eiGlMlTqwSGebJsdmrhkAhfeOS03rvAjczYefj0Hkwu '),
-    (' $2b$12$NaNakz30plak3dk3EMxu3eC.rFi1tAbMWwEw74IcaB8tZ6K4GW0AC ');
+    ('$2b$12$oL2xAuLlhIEwkSwUuaT8KOHmZ6BQIQKU2vw0mYzIEH0iswmI1a9we'),
+    ('$2b$12$hsfShzvp8.rd8/7uXs444OiY9mMTn9pEuJUWbew1PUuqEXYXo8PS2'),
+    ('$2b$12$j7vizFLzJYPHo.X0zMRXPuirZ6VhIVwSoNcQqizoW/RB1iidxyNmm'),
+    ('$2b$12$wjAbV.YzEb2taBZpemZkd.mnXSUVqO24SNf/ZfzUnwPvxM44z8IKS'),
+    ('$2b$12$gRDf2vR3R8WhO3MZviKGfeCvLi9a3NZd18UqG84dls69fY0dNdvxG'),
+    ('$2b$12$KTsCyMaI2Lbzuczs4DAqAuCEkUw7YiBvhgjxKpG2r8WO3/8tG7.ca'),
+    ('$2b$12$VXGDdu4y8pj5C7oRNku/TuBGJZ02IiN3D/sdOsEg1nsjCg4rz3TVq'),
+    ('$2b$12$raErVIpR4pth2Xl9ibvsNOCLOMqWo1Ja4mX18nyOV2ABBbc/3px0S'),
+    ('$2b$12$AGlwFUUj3.ZTUNS9Fx5V9eM2TtoTlVDJelVHezETDwoLqGqFDl4uW'),
+    ('$2b$12$9s9kranrN348z3mIQNwqPurFC1ie1.cWdNhYpskTUYMtug2oYB/yW'),
+    ('$2b$12$M7ddkKOr.QqcpYtvigcTm.rlEOJkHADmKAsQ6JsNpXm2qYmDgcdQ2'),
+    ('$2b$12$wfotnocy/nga9jXBDN.8seoJHO8EZ4NzDgHUedk9yEzFx7cMj6Yry'),
+    ('$2b$12$HoCvV5BRXxccPK9H0XU/FOuL3X5ptTJuGzJijlFjaVlNmOL0TLGU2'),
+    ('$2b$12$yt60Hub6VsMEidw1PTTlA.dHgxoufRbDFejORd95t0xaatKC1cQXm'),
+    ('$2b$12$OyAebFw21/wh8KFiBpsSjerArcgLv5rprhP2lZNnFNdyJE6CPCGf.'),
+    ('$2b$12$b7WdHuC0eH/9XycdKRume.cmSGVZrnWjth5rMDkufFMvrlfOY0Hrm'),
+    ('$2b$12$1BewTk520BYCEXRPu9aEgOv5zpXZjQ3dF1s4U6Qw/O2AOcdLgikVe'),
+    ('$2b$12$hheS6yN1hXC7LZhZkcpMqOZZvUHxfgnkDtDiXBGVZfyXHQEJAWVAC'),
+    ('$2b$12$qkTZIvBGeWBOnaCBoGFKL.eYGzt309Fv6rxL8fekHZiRYVOLCI3Jq'),
+    ('$2b$12$jeEoPoO2AjUoNe26ItKh.uL/1kZn8fPzjb2xePTRYRqWtzJgY7QDm'),
+    ('$2b$12$r3Y1Hf9taNMattRbLrnkBulPZY/W2tJ5hwWLYQlsX1sFS.R2SwaqK'),
+    ('$2b$12$YoeP/68HLwMfK7vdHSvJGOC1pmgToyT0yh9WEc2RQxKBXXUFHdKae'),
+    ('$2b$12$WcUhN3JiqHwXQb5MzoXu2uJdnKotBWEjTnWAf.ofeVG3Gz5OL1Y6y'),
+    ('$2b$12$cuw/E9Oh55Uk2yyOjfN4Getv1RB3EDTXVAHRPJwChpRQt6SvUjcF6'),
+    ('$2b$12$.m2qZuBhRGaRMz731nMaB.pqTj/MP2qtrFujVb0skwNOmNQv9K/9W'),
+    ('$2b$12$ES4u3aj2F7Bp.jOnXcqeVuyiyiT5nJHfstZSfvCnOvgOxEPy9OUOK'),
+    ('$2b$12$3Y74JjOX4NFMllwMV8sN.epn8k6mz0kzDDmwpfURDHZVn9gcb2k.q'),
+    ('$2b$12$OHE/G32uHSy60Z23z5.lnulNOI6LUjlfH7tdUQOr.IJkF5BPVfPzq'),
+    ('$2b$12$A0MSArQBY7eiGlMlTqwSGebJsdmrhkAhfeOS03rvAjczYefj0Hkwu'),
+    ('$2b$12$NaNakz30plak3dk3EMxu3eC.rFi1tAbMWwEw74IcaB8tZ6K4GW0AC');
 
 
--- BILDER 65
+-- BILDER
 insert into bild (data) values
 -- profilbilder 30
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGqSURBVDjLlZM7S0JhGMfVox+gqYZuQkMETYZNQmi2+QGKligiCBoalFragoqGzDM41NRQQy4VKDhUSyC0NLR1EeKIt7wePV7/vc/BI97NF36cA+f9/97neQ6vCoCKrVGGgWHswyRDQxkFVU1gkCQpWSqVKuVyGZ1g3+Fyuc5aJYrASOFsNgtRFOukUikkEgmEw2FZEgqFwPN8k4SWmgS0IZ/Po1AoyE8ik8kgmUwiEonIglwuBzrE7XbLkjYBhRVIQIF0Oo1oNNrWUm0m6iYBa6O+gd6pb6WVWCwmVyIIQndBK40SqoTmEY/H/y9olFA7NBMSDSQgisWiPBeSEAMLqIrvWyde1mbgt+jwtDIBfl7D9xRQSCHoOceb3YT8wymq716I17sIbM9WfGbtTl8Blf+8OoUcC8NpAxxDwKEe0eMF+Ba5z75/gaCyq68eNK7EwQj8Zm21UVDtNoPH5XFkL9YBFpLsKvwyglscfFbuR7kLc2zKItvc8TJ93ZwgsDkNwaFHZE+Hjw01/DZtxWvl9hXBGEl6XeXLpWH+zsIJVPa9hQtfmbgjyv4BPlWugike25IAAAAASUVORK5CYII='),
@@ -89,17 +89,13 @@ insert into bild (data) values
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ7SURBVDjLpZNNbxJRFIb7A/wF/A5YunRDovEjalEXJm5M2Ji4aFoTI6kxjcVaCGOJYtq0NlBJ0AS0tcbWSkeQhhQopQwfAhYotAwIAwPDUI5zLh9SdedN3kzmznmfc86dc4cAYGhQZ2ZAJkkhSSlJ1ZWyuyf7M37QeEqSfOxNWW37uk+5fVF6Z3ePDQRD7KY3TL/eSFAj1qIaYzD2BKBrPm1xZjWBvTiTK5SB45sgHreJKjUBMvkiuLxBZnY1rsHYHqQHkKM5GP7O1Rsi4OKFFhS5JrCSqo0W2eN4ATY9fs60HEGInACwLywbM/fMR2UB9gt1yJUEomypAYk834esrruYO4s5bEeGAIWN/kFh2YNmldZ7wjw8uUX2cYUTB2Cwuin0IkDp2o7Q2DOWmjqqw6WHTgLIFBsQz/Fw7p6DAPBbuSbCYYmHuSUHjV4EqPw7uyweVv6nABfHP0vaIAbMfHbMLskBVx97yDtWIYjHsGheYtFLAL5AkAAKlSZcm/LDhQefCACBlx/RcP7+B7gy4SbVdKpowtz8qz5A+WUrRJe4BlR4EdKs1P8Tn9TCNiQPOwaEDU96IXZQI38mmi6BwWTut6Awr8WoVKYA7TYQA5Z5YzpAMqKw9OtP/RDJ1KDZasP6txBojO/7hyi7azlSrzk9DFvunDKaMDtmjGZrxIhPTBCTsuufLzC3jNHOb+wNkuFtQGP/6ORyxSoJLFVFUg2CcJgwczRdBJ3Jwo0aln8P0uAoa80ezYLVzrj9MUjlyuRMsOdQkoUVZwC0hllmRP/u71EevEy3XybV4y9WqKmZedrwzMhO6yl2QmeiR3U26iYV/vdl+p/r/AvMhAk86cw6LgAAAABJRU5ErkJggg=='),
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKdSURBVDjLjZP9S1NRGMdH9GckFFT6Q5ZhWVGZEGhFSFmaoiCB72VJxYwowSAhKUqY0gZplOR+MQqCwtQSC19wXcXFfjF1zXa3u817d+927t2Lfjv3xF6Eoi58fjrn+dzn+XIeAwCDDv22UHIpef9gK2VTsi5NkKtpmhSLxdbi8Tj+BD2HyWTqSpcYbGdLnbMFeTFX+aF1ofkIxKYs+K8fhRLwIRwOIxgMQhRFeL1eJuF5Ht3d3UmJYTJzO5bqjk+bKvONisMGiRuH0n4YwR8LUFUViqJAkiQIgsAEhBCEQiGYzebfkm/HsrBy/1ydPp9+IRKJgAych+xeRscbB1oH7ajumUSblaMjRDeMxDLxlGdj4VZ+WUIQi6iIDJZC8brQ/HwO3KIfjmUvLlmmsLjsZp243e6UQLqYhaU7Jw8mBDqipREabbP91TyUsMrCu/bsKwT/KssjEAikBL7GvevEeCBOHhbFyJNiyL0tUEY6ockSjNZ5GF/acLWfQ1PvHERJZpnIspwSKN8tm93jhZmXq3eUaSEX4lGCqOpjF0JklYYmg6gifNISwqrCQtRJCjThcY06tQ2e8WLinSiBMFUFYaISGi3sG6uBebQKlk9V6BktxQ3rCRayPlJK4DTXyJ+zYe6ob0tksMo1IEo7eTJ6AW+5e6CPCxP292i2FLLiDQKy2Fcf+JiNm42nGxKCsL0YROFhGi6BdeY2gqEARmYHUPuggIqjjKRgZaar2vthN770V9idti74HI9AJneByDz6xzrR8qIIrU/P4IrpFGrvFrFudJIC7nX7Ts/QfoF/lwNhKAf+4T0QpytoBgr7k8fvBu/7CRfvREDypz+kNSZIW6Z9NKCwfvC3ZUovpncVtr1pggxd8h/rnEBf/Yxfiwq9OE8N8XAAAAAASUVORK5CYII='),
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIkSURBVDjLpVNNiFJRFP7eU1E0KSLTMpAwYSxyaidDtChm0WYQ3NSutv2s2kwwm2igNgMtooUQEQhhA9GqhSDTQsZZFDbNDBgVg5bSw9J8rzFF33udc+HGg0ladOHj3nPe+b7zc99VbNvG/yy30yiVSl4SnCNcsixrivYEgY7WJu0faX9EKGUyGVNyFFkBkY/T+WkoFEpFIhEEAgH4/X7w916vB8Mw0Gg00G63y+S7mM1mm4LIAYxisbhSr9c5nT1pjUYju1qt2oVC4YnkqbIUMk6Ew+F/9hyNRkFJLuyaATmFoqZp8Pl88Hq98Hg8wtfv99HpdNBsNhGPx0XsRAG3241ut4vBYCDs8XgMXdcxHA7FN/b9VUD25HK5RAUczKC+hYgcNpNN05xcAQdLkqIoIlj6VFWdXIEUkAQGV8M2k2vaG3z6sYGfVR39XzsHlm/dX3h5d31xlwAHM5goBd5+LuO75z3OnU3jyP4EVrZeKGub2p309cP7VKcAQ2Znoiz3deMVTk1Nw1RNTB+ahamMkD45w7RrfwSYwFdFf6K4Quf6pmvwKHswl7wh7Jvnc4gfTPHR52zhcqVSeZZMJgOxWEyI8BC5CmOnh63WKtZbZczPPsa94hX4XCLJQHG+xnw+f5SEFghZmvhefgvcTqn2HN3gBmZSZ5CInMaHr1Wsvivjy3ZvSZn0nHO5XJDIxwgWDbW2vL10m9xXCUGCQXi49qA1/xvyq6BCh7yZeQAAAABJRU5ErkJggg=='),
--- event bilder 10
+-- event bilder 6
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJ2SURBVBgZBcFLiJVlGADg5/3+b87cbLyFNBJ4oexGQYqIi6hFQambgohoE0aLUqGCaBcuonWLUFe1CIJolWCLaiK1C0FUREpRBgmWNpqi4XjOnP97e57ITI+8fuLZ6bnJZ0rYhikECGSQzbi1M1cu5UJcvfzqycN7RgCRmXa9+dXJ9w5su6uUWJV0EoBMSIv/LXv/uyvOnx1eP/3zL2u+PLxnCBVKF3cMarfq1D+6EkGQjT6b8TgtLfceuv0mO7ZU37bFmWx3Xn5w/7HVx9/ePSwQESsysxt0xUShBl2hCyIoAs383MCe7fM23jY5Xedm34UCSUBBCUqEEqFEKBFKF/7+d8mGFcvuXhOe37lWN9E9CRUgk9oRQkZofVJC7Rhk8fulNGpjrY08sHlS1DKGCpkkahQpJaKEQDayKwwoLbTWSYUooEKiIYIQEolsTHSAKKIPWVJDJlChjcmkIZCZoBS0ULskgySFvtE3oEJrKTNJUgKQQAj950eMFg5ZPvebU+vW2zH9WGWnCn2jT7LRACRoyY2FI6ZOfeC+p54zuekeSz99YubkQv304YkDFdo4tUwHfxgJqQWZQSMjPX30Lbv3vmDqzBeceMPMylU2b9jg+1/z5Qrjca/vmZ+bsHVd0ZI+6YOWrL7yp6lbNrHrFQD14LyuxcYK42Fr49Zy1ItvzvVapBSgJetXzrv+4zGzR180XDrvOq5d7fSdvyos3+gvzA66m1+7dzSbmUXSACunq4vn9zt9/B23rp5WuwnXFsf+uNBJ/aHITNv3fbZvvJyPR8T9KWcAJImUHh0eq1sXP+zWDi/G1cHc8Oxgy8cvffT1E/8D2iAtJW5RUGAAAAAASUVORK5CYII='),
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJpSURBVDjLpVNLbxJRFO4P8BfwO2Dp0g07q42iGxM3JmxMXDR15aRWjdYqZMYSxbRpbaCSoEnVNjW2Ip2CNE2BUsrwELBAoTCMMDAwQDnOucCIj52TfJnk5nyPc+65IwAwMoxzs6BRoFOgV2DoQ98/0/xZP0w8o0B7+03F6Nw+Yrz+GLt/cMgHQ2F+azfCvnYlmXFH2Yg1WPubQJ981u7OUcHDBJcvVUCUWtA+7RJU6zJkC2Xw7Ia4ufUEhbUDkYGAFsmhyDex0WwDfpLcgbLYAl5BrdkhZ6Ikw5YvIFpXoyiiJQLYF8ZG5wG5WJGh8EOGo1IDStUW5IQmZMtNVWR908PdXMpjOxoU0DnZ7wzGHiZHs3W4/GgHLtx1qWII/CLJY6AdXga5KKD37EVZ7Bmj5gUZkgWJEEcnXTB236v8P5PzdLEBlXobTgQJ5pffschFAUNg/4DHYWFcLLw4xRIyEhFj97ZhlNogbWAKuX0KS7ZlHrlEwB8MEQGMj0UZvqFGRldMlMj30EvRgvmFV6qA/stOmBXEJlSlNiERZ8URcf7OJ4JLD30QP66Tm4llBKCtNrUFnW0jzqSzJeh2gThcmfHD1ScBMDzeU/94hoNtdbqw+TUMlOWDOkTNLXvRuOH2cXylN+VBXHSM5eqEGMnWiEFccTc/X+SuW2K9axwsEv02SK18dIv5cq9QqLVJmtSJRJYJnWOZMpisdnGCXv21SMOrPG3zUYuOFc4biEM6XyEzwZ7DKR7W3EGYpue4cfP7v1d5+DHdeJkyTr5YY2ZmF1j6mYV/amb4ByYrO2FyMteYyL8f0/8855/NvQk/FX0nyAAAAABJRU5ErkJggg=='),
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAImSURBVDjLjZLda9JRGMf3b3TTdTcFXXXRTbeDIijo5W7GmtWqCysIF1JM9DfffvMN+fk284UpKqRIMCfIDCO7kNSRooJvOBUvgkFEKPv2O8+WsWmtB77n4TznPJ/z5eHMAZiTyWQat9vdCQaDCIfDiEQiiEajlNme1f1+PxwOx1ChUJhYz2/RYrPZCmL+htPjpyAIe1MAr9c7EvPBNdkm/iUWolNMAZg9FrdW3mFRu4Ml/QdI+Swern/EsukTHls+0xkLj8czDfD5fBOAVGx+cKL5qfUPYMPzdjZgPB6jWq2iXC6jWCwin88jl8shm80ik8kgnU7/3cFRkSZvMBhQqVQQCASg0WgI1H/+DLU7NzAajWbPwOWiIjqdDlqtFur1Omq1GrkplUqkQqFAd5yuGQDBbqfDWCwGo9GIdrtNbnieJ1goFIJerycHgmCfBlitVgL0+330ej10u11yw0DNZhONRgObW068ECRYMlzHXeWV/fmXF15NAEajiQCJRAIWi4Ug8XgcZrOZQLqN13gTliCxa8WXvST47Ue4zZ/HpeUzOgJodToCDIdD0mAwmLhhkmjmESutI/b18CFd6j74lJQBfhBApVKNdjKZg1QqBabtE7q6chHvd53H/nS8aGWAw0HI5fLS6qryu0qlhlotiuPAra2B45g4XH5yFtrkPaiTC9Ss3lo47uA0iReVN3XnoE8u0ssss/1kBv8J4UTtM9tHmWP1X8ma/9q6R1ZmAAAAAElFTkSuQmCC'),
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJlSURBVDjLhZPfa5JhFMcH3dX/Meiuv8CBoRdjIvOieRUYmjkzmBaowXCbU9E5U5KhtmX7QbrpyF3UuhDRVFoXgnrhmJO2CSFELaIYw7FvzznU+uGqA+d9znuecz7v9zkPbx+APrPZ7F1YWGgnEgmsra0hlUohnU7zSu+UX15eRiwWez8+Ph6inh/Oj7m5uapYD/F/O45EIu96AIuLi12xnirMT/EvJxNK0QMgeWTX7j+D1pfHTf8r6AMlGB6UYQy9xu2Hb3iPLB6P9wKWlpbOAHrRfOuP5jvhn4DH8SfnA05OTrCzs4NGo4FarYZKpYKtrS2USiUUCgXkcrm/K/ie5MnPzs5ie3sbKysr8Hq9DOrctaCpVqHb7Z4/g/l5TqLdbmN/fx+7u7toNpuspl6vs1erVa55NH8OIBKN8mYmk0EwGMTBwQGrCQQCDEsmk/D7/awgEon2AsLhMAM6nQ729va42efzsVyPx4NyucwKCEK56enpj6Ojo/ckEsklBgSDoTMFJpOJVRCs1Wohn8/D7XbD4XDwkClXLBa5ZmhoyMsA38wMAzY2NmC321ERZ56YmIBCoYBOp0MoFILNZuNYNEGtVj8niMVi+cQAl8vVzRcKp2NjY3A6nQx4sbkJmUyGbDbLN0FXSUeTSqVQKpUXCTA5OXnEAPHV+tSU86tGcwMGg4EBGo2Gi+VyOYaHh9kpFrlTlUr1kgB6vf6w79eJXhYmZDfEsA5XV1c/rK+vQ/xoIGVWq5VjytEe1VDtb4D+/v4LAwMDVwYHB99qtdovRqPxSPjxyMjIdeFXRfyZcrRHNVT7DWZq3D+QvMywAAAAAElFTkSuQmCC'),
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAF7SURBVDjL1VM9a8JQFD3PiEGSCO1ih1gnB0EkdCkKzp0E/0IHIRQc3bJ0LTh28me00CJ06SSddGmQGKpYHbQGVEz8wte8QIqQoYND6YXHvXC5h3POvY9QSnFMhHBk/D1A2C80TbtzU9X3hGX/bbdb1Go1UqlU6Gq1Qr1eJwEGu92uWiwWkU6nkUgk0Gq1cKtmoF29Qdd1qKpKJUmCKIoolUpGgIEgCGi321AUBbFYDPl8Hi/vQzSbBZTLCpbLJQaDAXieZ/V5AIChZ7NZPPRP8dxjxCIonMm4SKXQaDSQy+XQ6XQgyzKTFAlIYMjRaBRPZgizPY8ZeLx+CeA4DvP5HEy74zhYr9dMbnALtm1jsVi4pu1BmUUcAQ0RjMdjr/crwHQ6hWmauDyxIBEHIrGRCfdhGIY35A+zjRxe748Hk8kElmW5G/jEtWsiY9PTe/gYDhGPx71eMpn02DCQAMBoNLp3ad50u13i736z2XiZuX94F248+nPk/3+mb7TL1kbVXJ5aAAAAAElFTkSuQmCC'),
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG/SURBVDjLjZK9T8JQFMVZTUyc3IyJg4mDi87+GyYu6qB/gcZdFxkkJM66qJMGSNRBxDzigJMRQ1jQ4EcQ+SgVKB+FtuL13EdJxNDq8Ev7Xu85797T51nwhqeAH5w6cAxWwDgReX7jwYfdaCIraroptB7NLlVQrOoiGEsL1G06GZyxuILicsMUH3VTlOqGKNUMUdTacj+j1Nng0NGAT2WxYosK1bbIVVoiW27J9V8G57WWKVSczMV5iK+Tudv1vVh5yXdlLQN+os4AFZss2Ob82CCgQmhYHSnmkzf2b6rIhTAaaT2aXZALIRdCLgRtkA1WfYG4iKcVYX52JIs7EYvFmJ8wGiEXQi6EXAhdyn2MxQaPcg68zIETTvzyLsPzWnwqixVbhFwI3RFykes+A9vkIBKX4jCoIxdCLrI4/0OcUXXK4/1dbbDBS088xGGCCzAJCsiF2lanT8xdKNhHXvRarLFBqmcwCrbAhL32+kP3lHguETKRsNlbqUFPeY2OoikW62DNM+jf2ibzQNN0g5ALC75AGiT59oIReQ+cDGyTB+TC4jaYGXiRXMTD3AFogVmnOjeDMRAC025duo7wH74BwZ8JlHrTPLcAAAAASUVORK5CYII='),
-    ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHfSURBVDjLpZO9a5NhFMV/bxowYvNRjf1IoCDo0KFJBVHEVbeCi5N/gM6KruLi6KiDKA6KIC6CQwdtBxfRrUGHFlTQIlikjTFpkua55zo8r7aDipALd3keOOdwzrmJuzPMZF/cOPFXBMmRHJMTTJiJYCIEESy+ZQGqczPIDNxxd/AMDriBu+MSCkJmSA4CJ8Pym+UIIAs0177S3Wz9F3O+WGCiMrmjwM3pbrZ4fvo17kR237XAtcolRvdOA+L+9TscHB/HTGQAlLqwuHWbxa1b9JMVTBDSHRi82qijbgPXNsGEpx5kouYo+2jpI/3kCUudiwzUJBgMAoQAjf4ZFtZP0mq/x0xIYPJUQQoQLHAsX8fMeNk7y4DVCGKw0q7ytHmByx/u/lYgOVnJUbBomAa8azWYr5b50unRGZln48ccYzrH5/VTtHuTKIxQk8dUdgMEE/XyN2YPTFHJHaZWFPIan/KriEccqT5ExJi15FiwWCSTo+CYiYk9h5CL4NvIhSOmctOxCwgh3J3vauAWnc8GEzInt2+U3s1nuEWwmPlOByzthuSUSyV+XUDWTOAJxbEyhcJ+pPgxc/4KnbUFQOTKx3n74B5uQhI4JEkMMHl8ddZ3d/tfzH+aZNhrzDDk/ARfG6G/LNZPQgAAAABJRU5ErkJggg=='),
-    ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFFSURBVCjPhZG/K8RxHMZfdy5OnEEMhhuMJCMldVl0JcOV7Bb2K/+CRakbTOdOsSjWK2WRZMDiR1eK7sJEuYsv98P3/XkM93Uj72d51+vp6aknJP6+yO+z3U/azTGsDt2rQGb5NQBCiHxqz3tUU5LUUFm73uZCi7Rw4lQ1OdVVVUUfaupLa5pJChESud5YcT4e4RPD4TDEDfs8lNz4iRcG0pPxKB7WVp4VYgwMaxXC4JJD1PHb2ibLN7f0oSSEQROdfGL4GEaOLN84rojiJiACAgwfhyPPFsIwhCFaCed1ujB8cmTbSSN4cA5hsMNnuvHJs4UFPYxRqthhK2Hj7KlBkWyADJ9FKryUtA4hAZnE23GZHq65I0KcMTxe8WYvjgIDTKe0M9gboxOjwTsvnpYuD6BtgKl+pZmzUdUoUVDmMhgr9N/cP2kRvjgCZVaBAAAAAElFTkSuQmCC'),
-    ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKySURBVDjLbZNdSFNhGMf/Z9txO8t9iBuHvvzIaszcXKlBV5qUehFWLmkVQWAhGEQjom4isIugyIuBRHUTpRdBSFYIdllQoRlq2ccWbpCGms7PTXc+e0Yqw+3Ajxfe9/3/znPO876M3+//qihKPjEVCASKkOHxer3fRFEskiRptKenx5m6pqPgTlmWnxLnfT6fmklA4SRtRN3GNR0F9UQD2UV7U5tk0OghSCoEBbhgb8f2bODs5Q86ClcSxRsFGgoOE/eJYB/7kItx85zGaONUzsaF4eYs3AQnCMIv4jExlFYBBc1EJSFZ2EG8i31CufYeNLIDvdHjGJpzQRDOSfT2k4Qlk0AkwrTo4vVARW425oQWLMXdiM7XILhoT36/QiT38GkCmhRWBXtq+SJkMUZIKETM8hfY0gGFERHxbLI2HrZX+++MLGUSmImjPM+X9l4dT+uAntWgqTYnb5enkTlRPbmYSbBAdIfDYclxs7uMoy6IMiBQQ5tsD2CLRWAwljDmzXtR5bEYv3cdq3A2vOhf7wL92SyikNB+TNzGgjwKRU72Hhib1SM+HoLJZoW88BKF+5u1ckK48aWjjk0VsKsC5n8XLmFO/AlJpLMwEUWu4xSw8hl9TzqRbV2GtCIcIerXBVT+PPGMYJNdqKeTY7S1YJuuGfvMUZhy4lASYUBVIC/1o7DqCiMlErf6AgdMaxWUEqeJgoO2fNXJFagVJo96aOY3rHkeKPFhyi6jzOuAIvyBwRAE7/I5pYTgXxOIxCOWZY1vrk8yr69FmKn2EJPH18BomoYqzQCMFgNdQdquQFkJwr47H3JCvPi2taSYcbvdP6j8HcRwKBQqT1qpvDHXmc6tWk2EBLM0k3rHNNByDkyODCL4qvU5o6rpF/D93bJpVVaMqqJS+UoK6vqI5KiqA/8ArTiuh9VnDK4AAAAASUVORK5CYII='),
-    ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIdSURBVDjLpdNfSFNxFAfwX+GbSGjhg+JDED2YBYVGSPiQJigYRRZGUBD0UuBDT2rkIjOV/LsH5/5oIlE9yHSbFsy5TV3zH3soZcQWtD+CmjPXcru62f127q9YM8gH93D4wf1xPuece89lAFgy8d+LrtOyLGO2WudOe+t1pQ55LJnq0ea7+b1NVTmgMFCU7wmEmE1EmRewh4E3G0DeZwQz5hETNjD29CxHOCDPlR2MsnHtFjNFBTYOgVkQYVag7SuwIAD+GDBL51QY1pF++EzP8PLBKQm4wwHlsYZUkb2fQs86oPkG9FCMhgAbVTbQ6RB+P5cHoKguwNJEBzpuH5WALA5os9uPI+XDRw5c8gEVFPWrlERtWwmZoFDR3a3l7cHaAriHqqVkxF/idJrmMtKdPqioyhU/ULkEyFaAgSC1HgFGqAvFOjxNzqC19QK+vHu0G/AzbSOer31HHVW9QcBNAp7Q/K8JcEcB4w9AH8Jwiw7OgeuYlpdKwGIcCLMxPVXY4a2X0luvJegVJZs2AWXgJ0q8EZR4YjPX9BwYri+UgIa/e3DANovOANBPM7+gMbTU8kkXfQm76M2fdKB5rWqrzNV3JicTi31Xobp3QgKK4oDliFK9ygzhTWYWQ8wkrjDjtvmwxp64E5RQrLmfxztInH/PRfoHaNE9Pp8U8GlOUZEUwJPNrRfjK7wvYPDhOQmo2Q/Q/ecvlM5DiXe/ADHD2LkNLqYxAAAAAElFTkSuQmCC'),
 -- partybilder 5
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKtSURBVDjLfZNNaFRnFIaf785PpqMzE8JEbYgaFZOggoLWaHFRrCIUi1qEdudGaGnpqqWLUi1ZKeKuaF0UKgiCdlNairRuXNiFCyUG/xLzVycmk2Scycyd3Hu/O/f7jovRWoXOgcOBA+c573nhKBGhVXx3+oeO4tPCTN11F7ds2/HFo3tDlyfHRob+vvHXAIDTavj4l9/kEonkiZ4NfW2FqfHE8J1blOaLyXff29+/fdeewY39W5ItAV2re7IPhu8cL83NIcRy3T2957RxIJ7KZtvzJ+v1ar4l4NqvVz7zvaXl6/o3s2rNuljdb6zMZjPkO1eRTi9DB+HnqpUHHx/7tOLEYu2L5WdMT41NzD4tXOzqXvtVrqMj53s+9+/eHouP/vHOUCq7aZNS/xUjaHe8kMnuTh/88BAT/xT4/ZeLD9uTxetv9279+tDRT5idW+D82cFKXInTv3rPzwmlFEhzGKWIgtL66LdTRMYw8mCYfC72wUeH9+6/dndZUjkOk2OPCLVeGyeSABu26eKPmDAGThalMqS63mfJrfFkeobA95kthSrZeSBZrfzJ6MgIpfkige+1q9GrO2sbDl/PBNOXECtYXcZfmCQoV9AzM//rz8D3U6O1aqUUR0nKRj5Ls/PouXFs6BFry9F98CcUCtvQoIAXZsfSXTw+N0C5NN8HEKfhEH9rBZ27vgUsiCDWJardxAaTIBoxHmKWEOuRWjP4mpI4DRExAdYbRkwVMS42mAKxiA3A+oitI6aOGA/EvgHQiNgI21hAomoTYjVI1Nxum9tt5CLGBaXeAIQiCoNEZSRabKapvoJFLmJqL04IsPoJQPAvQEJbibxn6UY9mcFmHJEE2AxIHjEaCBGnWZVjMEEgElr9ChDoMxMXjuxE2Ici0/K3BVA3Q6xcetl6DtPMgEIgxcFhAAAAAElFTkSuQmCC'),
     ('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIrSURBVDjLjdNPSNRBFMDx764aarTaZqmb9mcXDyaF9IeS/kBCUR6kbt3MU9gxCjp1iujgpQ4eutS9SxAUS1Barm6EYnRYTEPNpaAtbXPd/f2Zea/Doij+wQfDMA/mM2/eMKgqWxk/29p0vXyQLcbL7u518wFVXV6kUim11mKMYWk2xpDJZEgkEkQiEWKxGJ2dnYGlPaUrNd/3iUajAKyEVZX29nZUlXg8vqqCVYAxBoB348WbWQUrICpYC5cOGVzX3RjwPA9V5Wjd/LqNhOqtAcn0TkQFI8UKjAUR5WqrwXGczQGAE/W/15z+OHmd5EyOJu/axoDruqgqA9NhrCpGQGyxF3nf0FDTzIj7lCt9fRUvbk4X1gBZ+xdV5UxjhkfDXaj4eGLwjCESbqK57iQLziKf08ncud5w1fvbc7ll4E6y58C26nIuawcighGPCy1dWBWsWATlR3aWww2nyXmF4Mj3geyR+8HwMiAiB4NlJaSyX9ijERzjYVWY+TOBLwYjPr71+ecu0Np4lpyfD36cGvwTBLiVuBHCBt7uKqvhTfo1IoJjHIw11Ib2URfaT31VlLKSCnbv2MvobIKhb4n5vMfxUgBrbI81ohO58cB2L0Q8/Yq8cXg23IsnHo5xidW0cCp6kU8zg/RP9mttZevY0N3RsSLwvPwhQADIYxlnkggdq57rQ+EJgWAFQ1+HOOZ2BMJztefXfKbNInovsGilpLIgNvrrgU4t5f8DTGqAX1cDO6cAAAAASUVORK5CYII='),
@@ -109,41 +105,41 @@ insert into bild (data) values
 
 
 -- app_user (ENDNUTZER) 18
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --1
 values ('borthmann0', 'Mr. Borthmann', 'borthmann0@toplist.cz', 'I love broth!', 'I got my name from my first blackout. I am a king in drinking lots of alcohol and not puking by drinking lots of broth! Fear me!', 'Gütersloher Str. 84, 33378 Rheda-Wiedenbrück', 1, 0, 1);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --2
 values ('cfogt1', 'Александр', 'cfogt1@gmail.com', 'У моей бабушки есть АК-47!', 'Мы с моим другом Сергеем любим заниматься паркуром в Метро!', 'Paradnyy Proyezd 4a, Russland, 142116', 2, 0, 2);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --3
 values ('jeilhertsen2', 'Jolina', 'jeilhertsen2@jalbum.net', '...', '...', 'Cottbuser Str. 42, 15711 Königs Wusterhausen', 3, 0, 3);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --4
 values ('emanifold3', 'Emma', 'emanifold3@people.com.cn', 'Keep Calm and Party!', 'Ich liebe meine Freunde, slay! 💅 ', 'Cottbuser Str. 42b, 15711 Königs Wusterhausen', 4, 0, 4);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --5
 values ('khick4', 'kboyn4', 'khick4@ycombinator.com', 'I do not like to party', 'As a 19-year-old guy, I hate alcohol for several reasons. First, I have seen how it can ruin lives, from health problems to broken relationships. Watching friends and family struggle with addiction and its consequences has been tough. Second, it is expensive. I would rather spend my money on things that make me happy and productive, like hobbies or saving for future goals. Lastly, I enjoy being in control of my actions and making clear-headed decisions. Alcohol often leads to reckless behavior and regrets, and that is just not something I want in my life.', 'Hallberger Zeile 25, 12437 Berlin', 5, 0, 5);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --6
 values ('bleidl5', 'Bleid', 'bleidl5@dyndns.org', 'Lebe aktiv, feiere ausgelassen!', 'Ich nutze Eventure, weil es mir ermöglicht, die besten Partys und Events in meiner Stadt zu finden und zu planen. Die Webseite bietet eine Vielzahl von Optionen, um herauszufinden, was gerade los ist und wo ich meine Freunde treffen kann, um gemeinsam eine gute Zeit zu haben. Außerdem habe ich hier schon viele neue Leute kennengelernt, die ähnliche Interessen teilen, sei es im Sport oder einfach nur im Feiern. Eventure ist für mich eine tolle Plattform, um mein aktives und soziales Leben weiter auszubauen und neue Freundschaften zu knüpfen.', 'Kol.Marienglück Rosenweg 85, 12101 Berlin', 6, 0, 6);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --7
 values ('lsames6', 'LelalusuSame', 'lsames6@rambler.ru', 'FCB AUF DIE EINS!', 'Habe diese Webseite durch einen Freund, den ich auf einer Party kennengelernt habe, gefunden. Echt geil hier!', 'Nelkenallee 60, 12109 Berlin', 7, 0, 7);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --8
 values ('dwhife7', 'Dwhite07', 'dwhife7@bravesites.com', 'White like snow', 'Ich habe nichts zu sagen', 'Kolonie Sorgenfrei Ostweg 33, 12347 Berlin', 8, 0, 8);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --9
 values ('dchalfant8', 'Elefanture', 'dchalfant8@gov.uk', 'Long life the queen!', 'I come from London, but Berlin is also a nice city', 'Didostraße 2A, 12109 Berlin', 9, 0, 9);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --10
 values ('asauven9', 'Raven09', 'asauven9@nsw.gov.au', 'Ravenblack', '... 🐦‍⬛', 'Rixdorfer Str. 153, 12109 Berlin', 10, 0, 10);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --11
 values ('breboula', 'BabaraRabara', 'breboula@mediafire.com', 'Live, love, life', 'Ich liebe alles was grün ist.', 'Mohriner Allee 112K, 12347 Berlin', 11, 0, 11);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --12
 values ('bmcconwayb', 'BMCC-Black', 'bmcconwayb@umich.edu', 'TEAM BMCC!', 'TEAM BMCC ON TOP OF BERLIN!', 'Petunienweg 5A, 12357 Berlin', 12, 0, 12);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --13
 values ('dbrufordc', 'RubberDuckiDuck', 'dbrufordc@csmonitor.com', 'Quack', 'Ich habe das Glück neben Enten zu leben!', 'Wendenschloßstraße 373, 12557 Berlin', 13, 0, 13);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --14
 values ('rasmodeus01', 'Rasmodeus', 'rasmodeus01@ucsd.edu', 'I LOVE STARDEW', 'Ich heiße nicht Rasmodeus. Mein fav. Game Character heißt Asmodeus. Ich bin einfach originaler!', 'Bohnsdorfer Str. 10, 12527 Berlin', 14, 0, 14);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --15
 values ('hsandse', 'HS und SE', 'hsandse@infoseek.co.jp', 'Wir sind zwei', 'Wir sind siamesische Zwillinge.', 'Staudenweg 2, 12487 Berlin', 15, 0, 15);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --16
 values ('olafW', 'Olaf', 'olafW@fda.gov', 'Rush B', 'Ich bin Schwede und ich spiele gerne CS2!', 'Kottmeierstraße 74, 12459 Berlin', 16, 0, 16);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --17
 values ('hbraggg', 'HammDance', 'hbraggg@360.cn', 'I love hamm and bacon', 'Wenn du keinen Bacon magst, dann verlierst du das beste am Leben!', 'Fennstraße 18, 12439 Berlin', 17, 0, 17);
-insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
+insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid) --18
 values ('wgallyh', 'Wolly', 'wgallyh@fastcompany.com', 'Cuby World', 'I develop games. Check out Cube World ;)', 'Sterndamm 24, 12487 Berlin', 18, 0, 18);
 
 -- ENDNUTZER
@@ -179,7 +175,7 @@ values ('apos', 'DJ Apos', 'apos@is.gd', '#italiano #hiphop', 'Mix von italienis
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
 values ('djClassy', 'DJ Classy', 'djClassy@blogtalkradio.com', '#classic #hiphop', 'Ich bin DJ Classy! Ich bringe euch meinen Mix von klassischen Songs in neuer Form!', 'Forster Str. 5, 10999 Berlin', 23, 0, 23);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('deeJiggy', 'Jiggy Dee', 'deeJiggy@er24.de', 'Rising in the #Charts', 'Mit meiner Musik wirst du dich fühlen wie Biggie Cheese!', 'Köpenicker Ch 33, 10317 Berlin', 24, 0, 24);
+values ('deeJiggy', 'Jiggy Dee', 'deeJiggy@er24.de', 'Rising in the #Charts', 'Mit meiner Musik wirst du dich fühlen wie Biggie Cheese! https://www.youtube.com/watch?v=f80-5MWnfIA', 'Köpenicker Ch 33, 10317 Berlin', 24, 0, 24);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
 values ('rnp', 'RnP', 'rnp@jigsy.com', '#Charts', 'Wir sind Ricky und Phillip. Wir bringen euch die Hits die ihr im Radio hört!', 'Paul-Lincke-Ufer 8E, 10999 Berlin', 25, 0, 25);
 
@@ -205,234 +201,202 @@ insert into lied (ownerid, name, laenge, erscheinung) values (6 , 'Mr Boombastic
 insert into lied (ownerid, name, laenge, erscheinung) values (7 , 'Morgen Grauen'       , 3.48  , '2022-05-10');
 
 
--- app_user (CATERER)
+-- app_user (CATERER) 5
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('dclailz', 'rdumphreysz', 'ddiamondz@livejournal.com', 'Other disorders of penis', 'Burn [any degree] involving less than 10 percent of body surface with third degree burn, less than 10 percent or unspecified', 'PO Box 86780', 26, 0, 26);
+values ('hyatt', 'Hyatt Catering Berlin', 'hyatt@livejournal.com', 'All about Sweets!', 'Wir spezialisieren uns auf alles was mit Gebäck und süße Gerichte zu tun hat!', 'Marlene-Dietrich-Platz 2, 10785 Berlin', 26, 0, 26);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('nandree10', 'eroslen10', 'bbertot10@vk.com', 'Exostosis of right orbit', 'Alveolitis of jaw', 'Apt 360', 27, 0, 27);
+values ('blTRCatering', 'Bleibtreu Catering GmbH', 'blTRCatering@vk.com', 'Fancy dining', 'Wir bieten eine vielseitige Gericht Auswahl an, von asiatisch bis hin zu american style food!', 'Uhlandstraße 195, 10623 Berlin', 27, 0, 27);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('mwaddam11', 'abonafant11', 'jdjekovic11@cyberchimps.com', 'Poisoning by centr-acting/adren-neurn-block agnt, acc, init', 'Cortex (cerebral) laceration without mention of open intracranial wound, with loss of consciousness of unspecified duration', 'Room 653', 28, 0, 28);
+values ('becBrln', 'Bio und Event Catering Berlin', 'becBrln@cyberchimps.com', 'Essen mit Acht auf Konsum', 'Wir bei Bio und Event Catering Berlin legen Wert darauf, dass die Gerichte für alle Konsumenten ist! Von Fleisch und Vegan bis Vegetarisch', 'Auerstraße 28, 10249 Berlin', 28, 0, 28);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('ttohill12', 'mrablan12', 'lkabsch12@printfriendly.com', 'Unspecified physeal fracture of phalanx of right toe, init', 'Pre-operative respiratory examination', 'PO Box 76831', 29, 0, 29);
+values ('spreeküche', 'Spreeküche GmbH', 'spreeküche@printfriendly.com', 'Spreeküche', 'Bei uns könnt ihr uns auch als Lieferdienst anstellen. In unserer Küche haben wir alles was mach braucht, das erleichtert euch beim aussuchen von Locations!', 'Gustav-Holzmann-Straße 10, 10317 Berlin', 29, 0, 29);
 insert into app_user (benutzername, profilname, email, kurzbeschreibung, beschreibung, region, password, sterne, bildid)
-values ('pwharby13', 'mmaldin13', 'astowe13@chronoengine.com', 'Bennett''s fracture, left hand, init encntr for open fracture', 'Air embolism', 'Suite 21', 30, 0, 30);
+values ('culievento', 'CULIVENTO CATERING in Berlin', 'culievento@chronoengine.com', 'Nur Lieferung', 'Wir bieten euch 24/7 Catering Services an! Jedoch können Gerichte nur geliefert oder abgeholt werden!', 'Rudolf-Schwarz-Straße 25, 10407 Berlin', 30, 0, 30);
 
 -- CATERER
-insert into caterer (emailfk, preis, kategorie, erfahrung)
-values ('baudry0@e-recht24.de', '€1490,37', 'Geburtstagsfeiern', 20);
-insert into caterer (emailfk, preis, kategorie, erfahrung)
-values ('imacgillespie1@nbcnews.com', '€1292,37', 'Weihnachtsfeiern', 60);
-insert into caterer (emailfk, preis, kategorie, erfahrung)
-values ('tcorkell2@nasa.gov', '€1602,91', 'Themenpartys', 62);
-insert into caterer (emailfk, preis, kategorie, erfahrung)
-values ('blambal3@bing.com', '€1394,10', 'Picknicks', 95);
-insert into caterer (emailfk, preis, kategorie, erfahrung)
-values ('hsoitoux4@indiegogo.com', '€1929,74', 'Messe-Catering', 74);
+insert into caterer (emailfk, preis, kategorie, erfahrung) values ('hyatt@livejournal.com'          , '€1490,37', 'Geburtstagsfeiern'   , '20 Jahre');
+insert into caterer (emailfk, preis, kategorie, erfahrung) values ('blTRCatering@vk.com'            , '€1292,37', 'Weihnachtsfeiern'    , '60 Jahre');
+insert into caterer (emailfk, preis, kategorie, erfahrung) values ('becBrln@cyberchimps.com'        , '€1602,91', 'Themenpartys'        , '62 Jahre');
+insert into caterer (emailfk, preis, kategorie, erfahrung) values ('spreeküche@printfriendly.com'   , '€1394,10', 'Picknicks'           , '95 Jahre');
+insert into caterer (emailfk, preis, kategorie, erfahrung) values ('culievento@chronoengine.com'    , '€1929,74', 'Messe-Catering'      , '74 Jahre');
 
 -- GERICHTE
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (1, 'Cereopsis novaehollandiae', 'Fetal distress, affecting management of mother, unspecified as to episode of care or not applicable', 1);
+values (1, 'Schwarzwälder Kirschtorte'  , 'Eine klassische deutsche Torte mit Schichten von dunklem Schokoladenbiskuit, Sahne und Kirschen, oft mit Kirschlikör getränkt.'                                                              , 31);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (2, 'Manouria emys', 'Screening examination for venereal disease', 2);
+values (1, 'Éclair'                     , 'Ein französisches Gebäck aus luftigem Brandteig, gefüllt mit einer Creme, oft Schokolade oder Vanille, und glasiert mit Schokolade.'                                                         , 32);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (3, 'Butorides striatus', 'Acquired absence of teeth, unspecified', 3);
+values (1, 'Churros'                    , 'Ursprünglich aus Spanien stammend, sind Churros frittierte Teigstangen, die mit Zucker bestreut und mit Schokoladensoße zum Dippen serviert werden.'                                         , 33);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (4, 'Tetracerus quadricornis', 'Acute venous embolism and thrombosis of deep veins of upper extremity', 4);
+values (2, 'Sushi'                      , 'Ein japanisches Gericht, bestehend aus gewürztem Reis und rohem Fisch, oft in Algenblätter gerollt und in Stücke geschnitten serviert.'                                                      , 34);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (5, 'Egretta thula', 'Obstetrical air embolism, delivered, with mention of postpartum complication', 5);
+values (2, 'Pad Thai'                   , 'Ein thailändisches Nudelgericht, das mit gebratenen Reisnudeln, Tofu oder Hühnchen, Erdnüssen, Eiern und einer würzigen Sauce zubereitet wird.'                                              , 35);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (6, 'Eumetopias jubatus', 'Chondrocalcinosis, due to dicalcium phosphate crystals, other specified sites', 6);
+values (2, 'Hamburger'                  , 'Ein klassisches amerikanisches Sandwich, bestehend aus einem gegrillten Rindfleisch-Patty, das in einem Brötchen mit verschiedenen Belägen wie Salat, Tomaten und Käse serviert wird.'       , 36);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (7, 'Felis serval', 'Deep necrosis of underlying tissues [deep third degree] without mention of loss of a body part of scalp [any part]', 7);
+values (3, 'Ratatouille'                , 'Ein provenzalisches Gemüsegericht aus Auberginen, Zucchini, Paprika, Tomaten und Kräutern, geschmort in Olivenöl.'                                                                           , 37);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (8, 'Leprocaulinus vipera', 'Toxic effect of organic lead compounds', 8);
+values (3, 'Falafel'                    , 'Ursprünglich aus dem Nahen Osten, sind Falafel frittierte Bällchen aus Kichererbsen oder Bohnen, oft mit Salat, Hummus und Tahini in Pita-Brot serviert.'                                    , 38);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (9, 'Butorides striatus', 'Malignant neoplasm of lip, unspecified, inner aspect', 9);
+values (3, 'Caprese-Salat'              , 'Ein italienischer Salat aus Tomaten, Mozzarella und Basilikum, gewürzt mit Olivenöl, Salz und Pfeffer, oft als Vorspeise oder Beilage serviert.'                                             , 39);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (10, 'Spizaetus coronatus', 'Other and unspecified cerebral laceration and contusion, without mention of open intracranial wound, with prolonged [more than 24 hours] loss of consciousness and return to pre- existing conscious level', 10);
+values (4, 'Paella'                     , 'Ein spanisches Gericht aus Reis, mit Safran gewürzt und mit Meeresfrüchten, Hühnchen oder Gemüse wie Paprika und Erbsen zubereitet.'                                                         , 40);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (11, 'Phalacrocorax carbo', 'Lipotropic drugs causing adverse effects in therapeutic use', 11);
+values (4, 'Moussaka'                   , 'Ein griechisches Gericht mit geschichteten Auberginen, Hackfleisch (oder Linsen für eine vegetarische Version), Kartoffeln und einer Bechamelsauce, gebacken bis zur Perfektion.'            , 41);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (12, 'Vulpes vulpes', 'Broad ligament laceration syndrome', 12);
+values (4, 'Sauerbraten'                , 'Ein deutsches Gericht, bei dem mariniertes Rindfleisch langsam geschmort und mit einer süß-sauren Sauce serviert wird, oft begleitet von Kartoffelklößen und Rotkohl.'                       , 42);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (13, 'Psittacula krameri', 'Tuberculous abscess of spinal cord, bacteriological or histological examination not done', 13);
+values (5, 'Ceviche'                    , 'Ein lateinamerikanisches Gericht aus rohem Fisch oder Meeresfrüchten, mariniert in Zitronen- oder Limettensaft, oft mit Zwiebeln, Chili und Koriander gewürzt.'                              , 43);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (14, 'Arctogalidia trivirgata', 'Subacute dyskinesia due to drugs', 14);
+values (5, 'Kimchi'                     , 'Ein koreanisches Gericht aus fermentiertem Gemüse, hauptsächlich Kohl und Rettich, gewürzt mit Chili, Knoblauch und Ingwer, als Beilage serviert oder in Hauptgerichten verwendet.'          , 44);
 insert into gericht (ownerid, name, beschreibung, bildid)
-values (15, 'Phoca vitulina', 'Open fracture of shaft of fibula alone', 15);
+values (5, 'Tagine'                     , 'Ein nordafrikanisches Gericht, das in einer traditionellen Tontopf-Tajine zubereitet wird, oft mit Fleisch (wie Lamm oder Huhn), Gemüse, Trockenfrüchten und Gewürzen wie Safran und Zimt.'  , 45);
 
 
 -- LOCATIONS
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
-values ('Crescent Oaks', 'Lemke and Sons', 'Tuberculosis of other male genital organs, bacteriological or histological examination unknown (at present)', 1, false, 'TB male gen NEC-ex unkn', '€217,29', false, 74, 58, 0, 30);
+values ('Königin-Elisabeth-Straße 45, 14059 Berlin', 'Queens 45 BC', 'Ein feines Establishment perfekt für Hochzeiten, mit einer Atmosphere aus den Königlichen Leben.',
+        3, false, 'historischer Ballsaal', '€217,29 pro Stunde', false, '220 m²', 410, 0, 46);
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
-values ('Superior', 'Deckow-Padberg', 'Mild stage glaucoma', 2, false, 'Mild stage glaucoma', '€360,12', true, 15, 123, 0, 30);
+values ('Aroser Allee 80, 13407 Berlin', 'Victor’s Eventlocation', 'Außen altehrwürdiger Industriebau der Jahrhundertwende, innen moderne Veranstaltungsräume mit außergewöhnlicher Atmosphäre, eleganten Cocoon-Lampen und stylishen Designer-Möbeln. Die Kombination aus Alt und Neu schafft einen besonderen Charme, der das denkmalgeschützte Kesselhaus aus dem Jahre 1908 in eine einzigartige Event-Location verwandelt – das ist The Mix.',
+        3, false, 'The Mix Victor’s Eventlocation Berlin', '€360,12 pro Stunde', true, '341 m²', 539, 0, 47);
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
-values ('Mcguire', 'Bernhard, Little and Stroman', 'Hypospadias', 3, false, 'Hypospadias', '€139,63', true, 61, 124, 0, 30);
+values ('Revaler Str. 99, 10245 Berlin', 'TREEHOUSE Berlin', 'HIER, WO... Einheimische und Fabelwesen tanzen, wo Touristen zu Treejanern werden, wo sich Blätter in Konfetti verwandeln und die Baumkrone jedem verliehen wird – im Treehouse wacht unser Stammesälteste über alles und jeden.',
+        10, false, '', '€139,63 pro Stunde', true, '700 m²', 558, 0, 48);
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
-values ('Morrow', 'Keeling, Abshire and Kessler', 'Borderline personality disorder', 4, true, 'Borderline personality', '€77,43', false, 62, 34, 0, 30);
+values ('Mehringdamm 55, 10961 Berlin', 'Schmelzwerk', 'Herzlich willkommen im Schmelzwerk - der Event-Location im Herzen von Berlin-Kreuzberg! Entdecken Sie einen Ort mit Geschichte, denn wo die legendäre Schokoladen-Manufaktur Sarotti vor mehr als 150 Jahren noch ihre bekannten Kakao-Spezialitäten fertigte, befindet sich heute unser Schmelzwerk: eine moderne Eventlocation für bis zu 199 Personen mit historischem Hintergrund und stilvollem Interieur.',
+        11, false, 'Event-Location im Herzen von Berlin-Kreuzberg', '€77,43 pro Stunde', true, '201 m²', 400, 0, 49);
 insert into location (adresse, name, beschreibung, ownerid, privat, kurzbeschreibung, preis, openair, flaeche, kapazitaet, sterne, bildid)
-values ('Oriole', 'Toy-Schneider', 'Poisoning by other sedatives and hypnotics', 5, false, 'Pois-sedative/hypnot NEC', '€310,24', true, 66, 169, 0, 30);
+values ('Am Flutgraben 2, 12435 Berlin', 'Oberhafenkantine Berlin', 'Für all die, die noch auf der Suche nach einem außergewöhnlichen Ort für eine Hochzeitsfeier, einer Agenturparty, einem Sommerfest oder einem Firmenworkshop sind - es gibt noch attraktive, freie Tage! Wir akzeptieren nur private Events!',
+        11, false, 'AHOI PARTY!', '€110,24 pro Stunde', true, '500 m²', 450, 0, 50);
 
 
 -- EVENTS
 insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
-values ('error: Illegal quoting in line 1.', '2025-02-15', 20, 0, 84, '£93.73', 16, true, 'Mycobacterial dis NEC', 'Salter-Harris Type I physeal fracture of lower end of unspecified femur, subsequent encounter for fracture with malunion', 9, 1, 0, 0, '7:26', '18:01', 23.89, true);
+values ('Hochzeit Feier', '2025-02-15', 210, 210, 210, '13.73€', 16, true, 'Glückwunsch!', 'Die Familie Kosemeier und Habenspauer feiern die Hochzeit von unseren Lieben!', 17, 5, 0, 51, '15:00:00', '23:59', '08:59:00', true);
 insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
-values ('error: Illegal quoting in line 1.', '2023-12-12', 119, 0, 102, '£96.88', 19, true, 'Orthoptic training', 'Injury of peripheral nerves of neck, initial encounter', 1, 3, 0, 0, '14:09', '19:55', 13.95, false);
+values ('Abi Party', '2025-05-12', 120, 120, 120, '10.00€', 18, true, 'AK25', 'Wir feiern den ABI Abschluss!', 3, 4, 0, 52, '16:00:00', '23:59', '08:59:00', false);
 insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
-values ('error: Illegal quoting in line 1.', '2024-10-04', 184, 0, 30, '£73.44', 19, true, 'Acc poison-gas/vapor NEC', 'Unspecified fracture of sternum, initial encounter for closed fracture', 12, 1, 0, 0, '0:19', '4:01', 11.68, false);
+values ('Geburtstags Feier', '2024-12-04', 60, 60, 60, '0€', 18, false, '20. Geburtstag', 'Ich feiere meinen 20. Geburtstag! Es werden große DJs da sein!', 1, 3, 0, 53, '14:30:00', '22:00:00', '07:30:00', true);
 insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
-values ('error: Illegal quoting in line 1.', '2024-11-28', 38, 0, 26, '£80.52', 17, false, 'Hmplg mgrn w ntrc w st', 'Other traumatic nondisplaced spondylolisthesis of second cervical vertebra, subsequent encounter for fracture with nonunion', 6, 2, 0, 0, '21:31', '10:45', 1.36, true);
+values ('Fancy Party', '2024-11-28', 200, 200, 200, '80.52€', 20, false, 'Maskierte Ballsaal Feier', 'Eine Feier am Abend in einem Ballsaal in Berlin. Kommt maskiert!', 6, 2, 0, 54, '19:30', '23:45', '04:15:00', true);
 insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
-values ('error: Illegal quoting in line 1.', '2024-06-21', 44, 0, 183, '£144.34', 20, true, 'Bone injury NEC at birth', 'Other soft tissue disorders related to use, overuse and pressure, unspecified ankle and foot', 18, 1, 0, 0, '14:55', '16:24', 0.3, false);
+values ('Charts Eintritt Feier', '2024-11-21', 400, 400, 400, '100.00€', 21, false, 'WIR SIND IN DEN CHARTS', 'Ich halte eine Feier für meinen Eintritt in die Charts!', 20, 2, 0, 55, '15:00:00', '22:00:00', '07:00:00', true);
 insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
-values ('error: Illegal quoting in line 1.', '2024-03-17', 168, 0, 82, '£125.85', 15, true, 'Injury-jump fm residence', 'Military operations involving explosion of guided missile', 10, 1, 0, 0, '22:16', '2:46', 13.76, false);
-insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
-values ('error: Illegal quoting in line 1.', '2024-10-20', 69, 0, 166, '£13.05', 17, true, 'Fem genital fistula NEC', 'Balloon explosion injuring occupant', 1, 5, 0, 0, '1:03', '1:05', 7.69, false);
-insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
-values ('error: Illegal quoting in line 1.', '2024-02-29', 37, 0, 89, '£12.33', 16, true, 'Cyst of prostate', 'Traumatic rupture of other ligament of right wrist, sequela', 16, 2, 0, 0, '11:30', '12:45', 12.83, false);
-insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
-values ('error: Illegal quoting in line 1.', '2023-08-03', 61, 0, 143, '£106.80', 19, false, 'Fall on/from train-empl', 'Infantile idiopathic scoliosis', 18, 1, 0, 0, '14:19', '6:30', 6.97, true);
-insert into event (name, datum, eventgroesse, maxtickets, freietickets, preis, altersfreigabe, privat, kurzbeschreibung, beschreibung, ownerid, locationid, sterne, bildid, startuhrzeit, enduhrzeit, dauer, isvalid)
-values ('error: Illegal quoting in line 1.', '2023-09-07', 37, 0, 22, '£138.24', 20, true, 'Attem abor w metabol dis', 'Displaced osteochondral fracture of left patella, subsequent encounter for open fracture type IIIA, IIIB, or IIIC with routine healing', 11, 3, 0, 0, '9:12', '9:10', 9.65, true);
+values ('Firmenfeier', '2024-07-17', 80, 80, 80, '0€', 18, false, 'Firmenfeier Eventure', 'Wir feiern unseren Erfolg mit der Softwarepräsentation und erfolgreichen Investitionen von mehreren Investoren!', 8, 3, 0, 56, '16:30:00', '20:30', '04:00:00', true);
 
 
 -- REVIEWS
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Extirpation of Matter from Right Thumb Phalanx, Percutaneous Endoscopic Approach', 2, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Excision of Radial Nerve, Percutaneous Approach', 3, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Insertion of Ring External Fixation Device into Left Humeral Shaft, Open Approach', 3, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Drainage of Left Internal Iliac Artery, Percutaneous Approach', 5, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Release Right Pleura, Open Approach', 5, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Excision of Pancreas, Open Approach, Diagnostic', 2, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Beam Radiation of Urethra using Photons >10 MeV', 1, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Extirpation of Matter from Left Humeral Head, Percutaneous Approach', 3, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Removal of Synthetic Substitute from Left Toe Phalangeal Joint, Percutaneous Endoscopic Approach', 5, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Reposition Left Metatarsal-Phalangeal Joint, Open Approach', 5, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Revision of Stimulator Lead in Bladder, Percutaneous Approach', 4, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Revision of Intraluminal Device in Lower Artery, Percutaneous Endoscopic Approach', 1, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Excision of Para-aortic Body, Percutaneous Approach, Diagnostic', 4, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Removal of Infusion Device from Spleen, Open Approach', 3, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Introduction of Monoclonal Antibody into Peritoneal Cavity, Via Natural or Artificial Opening', 1, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Reposition Right Finger Phalangeal Joint with External Fixation Device, Percutaneous Endoscopic Approach', 5, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Imaging, Upper Arteries, Computerized Tomography (CT Scan)', 3, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Occlusion of Right Subclavian Vein, Percutaneous Endoscopic Approach', 2, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Extirpation of Matter from Left Frontal Sinus, Percutaneous Endoscopic Approach', 2, 0, 0, 0, 0);
-insert into review (inhalt, sterne, ownerid, eventid, userid, locationid)
-values ('Supplement Left Shoulder Tendon with Nonautologous Tissue Substitute, Percutaneous Endoscopic Approach', 5, 0, 0, 0, 0);
+insert into review (inhalt, sterne, ownerid, userid)
+values ('Die haben echt leckere Gerichte im Sortiment!', 5, 1, 26);
+insert into review (inhalt, sterne, ownerid, locationid)
+values ('I have never seen such a beautiful ball hall! Really nice Service!', 5, 9, 1);
+insert into review (inhalt, sterne, ownerid, userid)
+values ('Das Essen kam bei uns mal kalt an ...', 3, 10, 30);
+insert into review (inhalt, sterne, ownerid, userid)
+values ('Die Musik ist echt gut! Er hat es wirklich verdient in den Charts zu kommen!', 4, 4, 20);
+insert into review (inhalt, sterne, ownerid, locationid)
+values ('Die Location war echt gut! Nur die Toiletten waren etwas schlecht ausgestattet.', 3, 18, 4);
+insert into review (inhalt, sterne, ownerid, locationid)
+values ('Die Atmosphere hier ist echt schön und interessant!', 4, 16, 3);
+insert into review (inhalt, sterne, ownerid, locationid)
+values ('Echt zu teuer. Es gibt einen Ballsaal das viel schöner ist und es ist sogar günstiger!', 1, 13, 2);
+insert into review (inhalt, sterne, ownerid, userid)
+values ('Große Vielfalt!', 5, 12, 27);
+insert into review (inhalt, sterne, ownerid, userid)
+values ('BERLIN LIEBT DICH!!!', 5, 12, 24);
+insert into review (inhalt, sterne, ownerid, userid)
+values ('Musik gut!', 4, 2, 25);
 
 
 -- tickets
-insert into tickets (userid, eventid, data) values (8, 9, 'z3Y7P1v0Q4rN8mK5x9W');
-insert into tickets (userid, eventid, data) values (15, 5, 'M1c7X0jP9l2V4wR6z8Y');
-insert into tickets (userid, eventid, data) values (3, 9, 'a8e9B0lK5N3zQ4rP2V7x');
-insert into tickets (userid, eventid, data) values (16, 1, 'N4l7X3jB0w2V9r8T5Q1');
-insert into tickets (userid, eventid, data) values (16, 8, 'k4J9w2T1nB8X6Q5r0mL');
+insert into tickets (userid, eventid, data) values (4, 1, 'z3Y7P1v0Q4rN8mK5x9W');
+insert into tickets (userid, eventid, data) values (6, 1, 'M1c7X0jP9l2V4wR6z8Y');
+insert into tickets (userid, eventid, data) values (3, 3, 'a8e9B0lK5N3zQ4rP2V7x');
+insert into tickets (userid, eventid, data) values (18, 1, 'N4l7X3jB0w2V9r8T5Q1');
+insert into tickets (userid, eventid, data) values (16, 5, 'k4J9w2T1nB8X6Q5r0mL');
 
 
 -- serviceartist
-insert into serviceartist (eventid, artistid, accepted) values (6, 4, false);
-insert into serviceartist (eventid, artistid, accepted) values (4, 4, false);
-insert into serviceartist (eventid, artistid, accepted) values (6, 1, true);
-insert into serviceartist (eventid, artistid, accepted) values (10, 2, true);
-insert into serviceartist (eventid, artistid, accepted) values (9, 3, true);
+insert into serviceartist (eventid, artistid, accepted) values (2, 4, true);
 
 
 -- servicecaterer
-insert into servicecaterer (eventid, catererid, accepted) values (6, 3, true);
-insert into servicecaterer (eventid, catererid, accepted) values (2, 2, false);
-insert into servicecaterer (eventid, catererid, accepted) values (6, 1, true);
-insert into servicecaterer (eventid, catererid, accepted) values (9, 3, false);
-insert into servicecaterer (eventid, catererid, accepted) values (7, 2, true);
+insert into servicecaterer (eventid, catererid, accepted) values (1, 2, true);
+insert into servicecaterer (eventid, catererid, accepted) values (2, 5, true);
 
 
 -- favorit_location
 insert into favorit_location (userid, locationid) values (14, 1);
-insert into favorit_location (userid, locationid) values (13, 3);
-insert into favorit_location (userid, locationid) values (10, 3);
-insert into favorit_location (userid, locationid) values (5, 1);
-insert into favorit_location (userid, locationid) values (2, 1);
 
 
 -- favorit_user
-insert into favorit_user (userid, enduserid, artistid, catereid) values (8, null, null, 5);
-insert into favorit_user (userid, enduserid, artistid, catereid) values (10, 11, 4, 2);
-insert into favorit_user (userid, enduserid, artistid, catereid) values (1, 15, null, 3);
-insert into favorit_user (userid, enduserid, artistid, catereid) values (13, 15, 3, 2);
-insert into favorit_user (userid, enduserid, artistid, catereid) values (14, 4, null, 3);
+insert into favorit_user (userid, catereid) values (1, 1);
+insert into favorit_user (userid, artistid) values (4, 2);
+insert into favorit_user (userid, enduserid) values (10, 12);
 
 
 -- favorit_event
-insert into favorit_event (userid, eventid) values (9, 9);
-insert into favorit_event (userid, eventid) values (18, 5);
-insert into favorit_event (userid, eventid) values (14, 3);
-insert into favorit_event (userid, eventid) values (8, 2);
-insert into favorit_event (userid, eventid) values (11, 6);
+insert into favorit_event (userid, eventid) values (18, 6);
 
 
 -- mail
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (8, 27, null, null, false, 'ticket', null);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (6, 15, true, null, null, 'freundschaft', 4);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (5, 11, null, null, null, 'info', null);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (10, 8, null, null, false, 'info', 1);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (16, 26, true, null, null, 'service', null);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (5, 8, null, null, false, 'freundschaft', 5);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (6, 15, null, null, true, 'freundschaft', null);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (9, 4, true, null, null, 'info', null);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (13, 4, null, null, true, 'freundschaft', null);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (14, 16, true, 5, true, 'ticket', null);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (18, 30, null, 5, null, 'info', 3);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (6, 12, null, 10, false, 'ticket', 3);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (16, 22, null, 8, null, 'location', null);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (16, 24, true, null, true, 'service', null);
-insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage, ticketid)
-values (12, 2, null, null, true, 'info', 3);
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage)
+values (17, 11, true, 1, true, 'location');
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage)
+values (17, 27, true, 1, true, 'service');
+
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage)
+values (3, 11, true, 2, false, 'location');
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage)
+values (3, 30, true, 2, true, 'service');
+
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage)
+values (1, 10, true, 3, true, 'location');
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage)
+values (1, 20, true, 3, true, 'service');
+
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage)
+values (6, 3, true, 4, true, 'location');
+
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage)
+values (20, 3, true, 5, true, 'location');
+
+insert into mail (sender, empfaenger, gelesen, eventid, angenommen, anfrage)
+values (8, 10, true, 6, true, 'location');
+
+insert into mail (sender, empfaenger, gelesen, eventid, anfrage, ticketid)
+values (17, 4, true, 1, 'ticket', 1);
+insert into mail (sender, empfaenger, gelesen, eventid, anfrage, ticketid)
+values (17, 6, true, 1, 'ticket', 2);
+insert into mail (sender, empfaenger, gelesen, eventid, anfrage, ticketid)
+values (1, 3, true, 3, 'ticket', 3);
+insert into mail (sender, empfaenger, gelesen, eventid, anfrage, ticketid)
+values (17, 18, true, 1, 'ticket', 4);
+insert into mail (sender, empfaenger, gelesen, eventid, anfrage, ticketid)
+values (20, 16, true, 5, 'ticket', 5);
+
+insert into mail (sender, empfaenger, gelesen, angenommen, anfrage)
+values (1, 2, true, true, 'freundschaft');
+insert into mail (sender, empfaenger, gelesen, angenommen, anfrage)
+values (10, 12, true, true, 'freundschaft');
+insert into mail (sender, empfaenger, gelesen, angenommen, anfrage)
+values (1, 5, true, false, 'freundschaft');
+insert into mail (sender, empfaenger, gelesen, angenommen, anfrage)
+values (4, 7, false, false, 'freundschaft');
 
 
 -- partybilder
-insert into partybilder (userid, bildid) values (9, 62);
-insert into partybilder (userid, bildid) values (15, 61);
-insert into partybilder (userid, bildid) values (1, 60);
-insert into partybilder (userid, bildid) values (5, 62);
-insert into partybilder (userid, bildid) values (3, 62);
+insert into partybilder (userid, bildid) values (1, 57);
+insert into partybilder (userid, bildid) values (1, 58);
+insert into partybilder (userid, bildid) values (4, 59);
+insert into partybilder (userid, bildid) values (6, 60);
+insert into partybilder (userid, bildid) values (7, 61);
 
 
 -- friend
-insert into friend (user1, user2) values (16, 25);
-insert into friend (user1, user2) values (30, 13);
-insert into friend (user1, user2) values (17, 2);
-insert into friend (user1, user2) values (12, 26);
-insert into friend (user1, user2) values (24, 23);
+insert into friend (user1, user2) values (1, 2);
+insert into friend (user1, user2) values (2, 1);
+
+insert into friend (user1, user2) values (10, 12);
+insert into friend (user1, user2) values (12, 10);

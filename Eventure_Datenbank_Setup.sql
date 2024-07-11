@@ -7,8 +7,6 @@ create table password
     hash text not null
 );
 
-alter table password
-    owner to eventuredb_user;
 
 create table bild
 (
@@ -16,9 +14,6 @@ create table bild
         primary key,
     data text
 );
-
-alter table bild
-    owner to eventuredb_user;
 
 create table app_user
 (
@@ -44,9 +39,6 @@ create table app_user
             references bild
 );
 
-alter table app_user
-    owner to eventuredb_user;
-
 create table location
 (
     id               integer generated always as identity
@@ -70,9 +62,6 @@ create table location
             references bild
 );
 
-alter table location
-    owner to eventuredb_user;
-
 create table endnutzer
 (
     emailfk text    not null
@@ -88,8 +77,6 @@ create table endnutzer
         primary key
 );
 
-alter table endnutzer
-    owner to eventuredb_user;
 
 create table artist
 (
@@ -105,8 +92,6 @@ create table artist
         primary key
 );
 
-alter table artist
-    owner to eventuredb_user;
 
 create table lied
 (
@@ -125,8 +110,6 @@ comment on column lied.laenge is 'Length in Seconds';
 
 comment on column lied.erscheinung is 'YYYY-MM-DD';
 
-alter table lied
-    owner to eventuredb_user;
 
 create table caterer
 (
@@ -142,9 +125,6 @@ create table caterer
         primary key
 );
 
-alter table caterer
-    owner to eventuredb_user;
-
 create table gericht
 (
     id           integer generated always as identity
@@ -159,9 +139,6 @@ create table gericht
         constraint bildfk
             references bild
 );
-
-alter table gericht
-    owner to eventuredb_user;
 
 create table event
 (
@@ -195,8 +172,6 @@ create table event
     isvalid          boolean default false
 );
 
-alter table event
-    owner to eventuredb_user;
 
 create table review
 (
@@ -222,9 +197,6 @@ create table review
                ((eventid IS NULL) AND (userid IS NULL) AND (locationid IS NOT NULL)))
 );
 
-alter table review
-    owner to eventuredb_user;
-
 
 
 create table tickets
@@ -242,8 +214,6 @@ create table tickets
 
 comment on table tickets is 'Zeigt welcher User an welchem Event teilnimmt.';
 
-alter table tickets
-    owner to eventuredb_user;
 
 create table serviceartist
 (
@@ -258,9 +228,6 @@ create table serviceartist
     accepted boolean default false
 );
 
-alter table serviceartist
-    owner to eventuredb_user;
-
 create table servicecaterer
 (
     id        integer generated always as identity
@@ -274,9 +241,6 @@ create table servicecaterer
     accepted  boolean default false
 );
 
-alter table servicecaterer
-    owner to eventuredb_user;
-
 create table favorit_location
 (
     id         integer generated always as identity
@@ -288,9 +252,6 @@ create table favorit_location
         constraint locationidfk
             references location
 );
-
-alter table favorit_location
-    owner to eventuredb_user;
 
 create table favorit_user
 (
@@ -313,9 +274,6 @@ create table favorit_user
                ((artistid IS NULL) AND (catereid IS NULL) AND (enduserid IS NOT NULL)))
 );
 
-alter table favorit_user
-    owner to eventuredb_user;
-
 create table favorit_event
 (
     id      integer generated always as identity
@@ -327,9 +285,6 @@ create table favorit_event
         constraint eventid
             references event
 );
-
-alter table favorit_event
-    owner to eventuredb_user;
 
 create table mail
 (
@@ -357,9 +312,6 @@ comment on column mail.eventid is 'Die Mail wird an Caterer/Artists/Locationinha
 
 comment on column mail.angenommen is 'Anfangs null, dann true or false wenn angenommen oder nicht';
 
-alter table mail
-    owner to eventuredb_user;
-
 create table partybilder
 (
     id     integer generated always as identity
@@ -371,9 +323,6 @@ create table partybilder
         constraint bildid
             references bild
 );
-
-alter table partybilder
-    owner to eventuredb_user;
 
 create table friend
 (
@@ -389,55 +338,169 @@ create table friend
         check (user1 <> user2)
 );
 
-alter table friend
-    owner to eventuredb_user;
 
 -- //////////////////// ERSTELLEN VON TRIGGER FUNCTIONS ////////////////////
 
-create trigger "InsertTicket"
-    after insert or update
-    on tickets
-    for each row
-execute procedure "InsertTicket"();
+CREATE OR REPLACE FUNCTION public."CreateDauer"()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+    UPDATE event
+    SET dauer = enduhrzeit - startuhrzeit
+    WHERE id = NEW.id;
+    RETURN NEW;
+END;
+$BODY$;
 
-create trigger "DeleteTicket"
-    after update or delete
-    on tickets
-    for each row
-execute procedure "DeleteTicket"();
+CREATE OR REPLACE FUNCTION public."DeleteTicket"()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+	UPDATE event
+	    SET freietickets = event.maxtickets - (
+	        SELECT COUNT(id)
+	        FROM tickets
+	        WHERE eventid = OLD.eventid
+	    ) 
+	    WHERE event.id = OLD.eventid;
+	RETURN NEW;
+END;
+$BODY$;
 
-create trigger "updateuser_AVG"
-    after insert or update or delete
-    on review
-    for each row
-execute procedure "updateUser_AVG"();
+CREATE OR REPLACE FUNCTION public."InsertTicket"()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+	UPDATE event
+	    SET freietickets = event.maxtickets - (
+	        SELECT COUNT(id)
+	        FROM tickets
+	        WHERE eventid = NEW.eventid
+	    ) 
+	    WHERE event.id = NEW.eventid;
+	RETURN NEW;
+END;
+$BODY$;
 
-create trigger "updateevent_AVG"
-    after insert or update
-    on review
-    for each row
-execute procedure "updateEvent_AVG"();
+CREATE OR REPLACE FUNCTION public."deletLocation_AVG"()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+    UPDATE location
+    SET sterne = (
+        SELECT AVG(sterne)
+        FROM review
+        WHERE locationid = OLD.locationid
+    )
+    WHERE location.id = OLD.locationid;
 
-create trigger updatelocation_avg
-    after insert or update
-    on review
-    for each row
-execute procedure "updateLocation_AVG"();
+    RETURN NEW;
+END;
+$BODY$;
 
-create trigger "deleteUser_AVG"
-    after delete
-    on review
-    for each row
-execute procedure "deleteUser_AVG"();
+CREATE OR REPLACE FUNCTION public."deleteEvent_AVG"()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+    UPDATE event
+    SET sterne = (
+        SELECT AVG(sterne)
+        FROM review
+        WHERE eventid = OLD.eventid
+    )
+    WHERE event.id = OLD.eventid;
 
-create trigger "deleteLocation_AVG"
-    after delete
-    on review
-    for each row
-execute procedure "deletLocation_AVG"();
+    RETURN NEW;
+END;
+$BODY$;
 
-create trigger "deleteEvent_AVG"
-    after delete
-    on review
-    for each row
-execute procedure "deleteEvent_AVG"();
+CREATE OR REPLACE FUNCTION public."deleteUser_AVG"()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+    UPDATE app_user
+    SET sterne = (
+        SELECT AVG(sterne)
+        FROM review
+        WHERE userid = OLD.userid
+    )
+    WHERE app_user.id = OLD.userid;
+
+    RETURN NEW;
+END;
+$BODY$;
+
+CREATE OR REPLACE FUNCTION public."updateEvent_AVG"()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+    UPDATE event
+    SET sterne = (
+        SELECT AVG(sterne)
+        FROM review
+        WHERE eventid = null
+    )
+    WHERE id = null;
+
+    RETURN NEW;
+END;
+$BODY$;
+
+CREATE OR REPLACE FUNCTION public."updateLocation_AVG"()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+    UPDATE location
+    SET sterne = (
+        SELECT AVG(sterne)
+        FROM review
+        WHERE locationid = NEW.locationid
+    )
+    WHERE id = NEW.locationid;
+
+    RETURN NEW;
+END;
+$BODY$;
+
+CREATE OR REPLACE FUNCTION public."updateUser_AVG"()
+    RETURNS trigger
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE NOT LEAKPROOF
+AS $BODY$
+BEGIN
+    UPDATE app_user
+    SET sterne = (
+        SELECT AVG(sterne)
+        FROM review
+        WHERE userid = NEW.userid
+    )
+    WHERE app_user.id = NEW.userid;
+
+    RETURN NEW;
+END;
+$BODY$;
